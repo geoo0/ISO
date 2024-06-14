@@ -1,0 +1,2 @@
+Coincidencia encontrada: ERROR in app: 2024-06-10 07:18:31 | Intento de acceso sin permiso a la pagina Form_Formato_Informatica    Por el Usuario: rrhh    Desde la IP: 190.190.0.168
+Coincidencia encontrada: ERROR in app: 2024-06-10 10:01:53 | Intento de acceso sin permiso a la pagina Form_Informatica           Por el Usuario: prueba    Desde la IP: 190.190.0.207

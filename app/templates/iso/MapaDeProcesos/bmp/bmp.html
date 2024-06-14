@@ -1,0 +1,242 @@
+<div class="proInformatica">
+  <h1>Bodega Materia Prima</h1>
+  <div class="hrth"><hr></div>
+  <div class="busqueda">
+    <input type="text" id="busqueda" placeholder="Buscar" oninput="buscarEnlaces()">
+    <div class="btn-lupa">
+      <img id="lupa" src="../../../static/img/pag2/lupa.png">
+    </div>
+  </div>
+  <div class="centrar-3">
+    <div class="left-3">
+      <nav>
+        <ul class="menu" id="menu">
+          <li class="menu__item">
+            <a href="{{ url_for('static', filename='doc/pdf/web/viewer.html')}}?file=Bonin_ISO/2_Map_Procesos_Procedimiento/BMP/FP-BMPI-001 Ficha proceso bmpi.pdf"
+              id="pdfLink" class="menu_contenido menu_item menu_busqueda">Ficha de proceso</a>
+          </li>
+          <li class="menu__item container-submenu">
+            <a href="" class="menu_link submenu-btn">Procedimientos ▼</a>
+            <ul class="submenu">
+              <li class="menu_item">
+              </li>
+              <li class="menu_item">
+                <a href="{{ url_for('static', filename='doc/pdf/web/viewer.html')}}?file=Bonin_ISO/2_Map_Procesos_Procedimiento/BMP/Procedimientos/PEO-BMPI-001 Ingreso bmpi.pdf"
+                  class="menu_contenido menu_busqueda">PEO-BMPI-001 Ingreso bmpi</a>
+              </li>
+              <li class="menu_item">
+                <a href="{{ url_for('static', filename='doc/pdf/web/viewer.html')}}?file=Bonin_ISO/2_Map_Procesos_Procedimiento/BMP/Procedimientos/PEO-BMPI-002 Limpieza area de pesadas de materia prima hallazgo.pdf"
+                  class="menu_contenido menu_busqueda">PEO-BMPI-002 Limpieza área de pesadas de materia prima hallazgo #19 200117</a>
+              </li>
+              <li class="menu_item">
+                <a href="{{ url_for('static', filename='doc/pdf/web/viewer.html')}}?file=Bonin_ISO/2_Map_Procesos_Procedimiento/BMP/Procedimientos/PEO-BMPI-003 Pesadas de materia prima.pdf"
+                  class="menu_contenido menu_busqueda">PEO-BMPI-003 Pesadas de materia prima</a>
+              </li>
+              <li class="menu_item">
+                <a href="{{ url_for('static', filename='doc/pdf/web/viewer.html')}}?file=Bonin_ISO/2_Map_Procesos_Procedimiento/BMP/Procedimientos/PEO-BMPI-004 Limpieza areas bmpi 1.pdf"
+                  class="menu_contenido menu_busqueda">PEO-BMPI-004 Limpieza áreas bmpi 1</a>
+              </li>
+              <li class="menu_item">
+                <a href="{{ url_for('static', filename='doc/pdf/web/viewer.html')}}?file=Bonin_ISO/2_Map_Procesos_Procedimiento/BMP/Procedimientos/PEO-BMPI-005 Preparacion de materiales (2) 291021.pdf"
+                  class="menu_contenido menu_busqueda">PEO-BMPI-005 Preparación de materiales</a>
+              </li>
+              <li class="menu_item">
+                <a href="{{ url_for('static', filename='doc/pdf/web/viewer.html')}}?file=Bonin_ISO/2_Map_Procesos_Procedimiento/BMP/Procedimientos/PEO-BMPI-007 Temperatura y humedad bmpi.pdf"
+                  class="menu_contenido menu_busqueda">PEO-BMPI-007 Temperatura y humedad bmpi</a>
+              </li>
+              <li class="menu_item">
+                <a href="{{ url_for('static', filename='doc/pdf/web/viewer.html')}}?file=Bonin_ISO/2_Map_Procesos_Procedimiento/BMP/Procedimientos/PEO-BMPI-008 Verificacion de balanzas y basculas.pdf"
+                  class="menu_contenido menu_busqueda">PEO-BMPI-008 Verificación de balanzas y basculas</a>
+              </li>
+            </ul>
+          </li>
+          <li class="menu__item container-submenu">
+            <a href="" class="menu_link submenu-btn">Formatos ▼</a>
+            <ul class="submenu">
+              <li class="menu_item">
+                <a href="../../../static/doc/pdf/web/Bonin_ISO/2_Map_Procesos_Procedimiento/BMP/Formatos/FO-BMPI-001 Requisicion de materias primas 2015.xls"
+                  class="menu_contenidoo menu_busqueda">FO-BMPI-001 Requisición de materias primas 2015</a>
+              </li>
+              <li class="menu_item">
+                <a href="../../../static/doc/pdf/web/Bonin_ISO/2_Map_Procesos_Procedimiento/BMP/Formatos/FO-BMPI-002 Requisicion de materiales-cajas y etiquetas.xls"
+                  class="menu_contenidoo menu_busqueda">FO-BMPI-002 Requisición de materiales-cajas y etiquetas</a>
+              </li>
+              <li class="menu_item">
+                <a href="../../../static/doc/pdf/web/Bonin_ISO/2_Map_Procesos_Procedimiento/BMP/Formatos/FO-BMPI-003 Listado suplencias de personal.docx"
+                  class="menu_contenidoo menu_busqueda">FO-BMPI-003 Listado suplencias de personal</a>
+              </li>
+              <li class="menu_item">
+                <a href="../../../static/doc/pdf/web/Bonin_ISO/2_Map_Procesos_Procedimiento/BMP/Formatos/FO-BMPI-004 Hoja de revision de la bodega mp.xls"
+                  class="menu_contenidoo menu_busqueda">FO-BMPI-004 Hoja de revisión de la bodega mp</a>
+              </li>
+              <li class="menu_item">
+                <a href="../../../static/doc/pdf/web/Bonin_ISO/2_Map_Procesos_Procedimiento/BMP/Formatos/FO-BMPI-005 Formato limpieza.xls"
+                  class="menu_contenidoo menu_busqueda">FO-BMPI-005 Formato limpieza</a>
+              </li>
+              <li class="menu_item">
+                <a href="../../../static/doc/pdf/web/Bonin_ISO/2_Map_Procesos_Procedimiento/BMP/Formatos/FO-BMPI-006 Lista de verificacion de ingresos.xls"
+                  class="menu_contenidoo menu_busqueda">FO-BMPI-006 Lista de verificación de ingresos</a>
+              </li>
+              <li class="menu_item">
+                <a href="../../../static/doc/pdf/web/Bonin_ISO/2_Map_Procesos_Procedimiento/BMP/Formatos/FO-BMPI-007 Producto en proceso materia prima.docx"
+                  class="menu_contenidoo menu_busqueda">FO-BMPI-007 Producto en proceso materia prima</a>
+              </li>
+              <li class="menu_item">
+                <a href="../../../static/doc/pdf/web/Bonin_ISO/2_Map_Procesos_Procedimiento/BMP/Formatos/FO-BMPI-008 Ingreso de almacen local materia prima materiales y otros.docx"
+                  class="menu_contenidoo menu_busqueda">FO-BMPI-008 Ingreso de almacen local materia prima materiales y otros</a>
+              </li>
+              <li class="menu_item">
+                <a href="../../../static/doc/pdf/web/Bonin_ISO/2_Map_Procesos_Procedimiento/BMP/Formatos/FO-BMPI-009  verificaciones de balanzas y basculas bmp.xls"
+                  class="menu_contenidoo menu_busqueda">FO-BMPI-009 Verificaciones de balanzas y basculas bmp</a>
+              </li>
+              <li class="menu_item">
+                <a href="../../../static/doc/pdf/web/Bonin_ISO/2_Map_Procesos_Procedimiento/BMP/Formatos/FO-BMPI-010 Egresos suministros.docx"
+                  class="menu_contenidoo menu_busqueda">FO-BMPI-010 Egresos suministros</a>
+              </li>
+              <li class="menu_item">
+                <a href="../../../static/doc/pdf/web/Bonin_ISO/2_Map_Procesos_Procedimiento/BMP/Formatos/FO-BMPI-011 Control de limpieza y sanitizacion pesadas.docx"
+                  class="menu_contenidoo menu_busqueda">FO-BMPI-011 Control de limpieza y sanitización pesadas</a>
+              </li>
+              <li class="menu_item">
+                <a href="../../../static/doc/pdf/web/Bonin_ISO/2_Map_Procesos_Procedimiento/BMP/Formatos/FO-BMPI-014 Requisicion de papeleria y suministros.xls"
+                  class="menu_contenidoo menu_busqueda">FO-BMPI-014 Requisición de papelería y suministros</a>
+              </li>
+              <li class="menu_item">
+                <a href="../../../static/doc/pdf/web/Bonin_ISO/2_Map_Procesos_Procedimiento/BMP/Formatos/FO-BMPI-015 Temperatura humedad y presion diferencial pesaje.xls"
+                  class="menu_contenidoo menu_busqueda">FO-BMPI-015 Temperatura humedad y presión diferencial pesaje</a>
+              </li>
+              <li class="menu_item">
+                <a href="../../../static/doc/pdf/web/Bonin_ISO/2_Map_Procesos_Procedimiento/BMP/Formatos/FO-BMPI-016 Control limpieza diaria de utensilios.docx"
+                  class="menu_contenidoo menu_busqueda">FO-BMPI-016 Control limpieza diaria de utensilios</a>
+              </li>
+              <li class="menu_item">
+                <a href="../../../static/doc/pdf/web/Bonin_ISO/2_Map_Procesos_Procedimiento/BMP/Formatos/FO-BMPI-017 Control de presion diferencial vestidor.xls"
+                  class="menu_contenidoo menu_busqueda">FO-BMPI-017 Control de presión diferencial vestidor</a>
+              </li>
+              <li class="menu_item">
+                <a href="../../../static/doc/pdf/web/Bonin_ISO/2_Map_Procesos_Procedimiento/BMP/Formatos/FO-BMPI-018 Temperatura humedad materiales.xls"
+                  class="menu_contenidoo menu_busqueda">FO-BMPI-018 Temperatur materiales</a>
+              </li>
+              <li class="menu_item">
+                <a href="../../../static/doc/pdf/web/Bonin_ISO/2_Map_Procesos_Procedimiento/BMP/Formatos/FO-BMPI-019 Temperatura y humedad temperatura controlada.xls"
+                  class="menu_contenidoo menu_busqueda">FO-BMPI-019 Temperatura y humedad temperatura controlada</a>
+              </li>
+              <li class="menu_item">
+                <a href="../../../static/doc/pdf/web/Bonin_ISO/2_Map_Procesos_Procedimiento/BMP/Formatos/FO-BMPI-020 Temperatura bodega inflamables.xls"
+                  class="menu_contenidoo menu_busqueda">FO-BMPI-020 Temperatura bodega inflamables</a>
+              </li>
+              <li class="menu_item">
+                <a href="../../../static/doc/pdf/web/Bonin_ISO/2_Map_Procesos_Procedimiento/BMP/Formatos/FO-BMPI-021 Area limpia.xls"
+                  class="menu_contenidoo menu_busqueda">FO-BMPI-021 Área limpia</a>
+              </li>
+              <li class="menu_item">
+                <a href="../../../static/doc/pdf/web/Bonin_ISO/2_Map_Procesos_Procedimiento/BMP/Formatos/FO-BMPI-022 Egreso bodega materia prima.docx"
+                  class="menu_contenidoo menu_busqueda">FO-BMPI-022 Egreso bodega materia prima</a>
+              </li>
+              <li class="menu_item">
+                <a href="../../../static/doc/pdf/web/Bonin_ISO/2_Map_Procesos_Procedimiento/BMP/Formatos/FO-BMPI-023 Control de limpieza y sanitizacion pesadas 1.docx"
+                  class="menu_contenidoo menu_busqueda">FO-BMPI-023 Control de limpieza y sanitización pesadas 1</a>
+              </li>
+              <li class="menu_item">
+                <a href="../../../static/doc/pdf/web/Bonin_ISO/2_Map_Procesos_Procedimiento/BMP/Formatos/FO-BMPI-024 Verificaciones de balanzas y basculas bmp15.xls"
+                  class="menu_contenidoo menu_busqueda">FO-BMPI-024 Verificaciones de balanzas y basculas bmp15</a>
+              </li>
+              <li class="menu_item">
+                <a href="../../../static/doc/pdf/web/Bonin_ISO/2_Map_Procesos_Procedimiento/BMP/Formatos/FO-BMPI-025 Verificaciones de balanzas y basculas bmp16.xls"
+                  class="menu_contenidoo menu_busqueda">FO-BMPI-025 Verificaciones de balanzas y basculas bmp16</a>
+              </li>
+              <li class="menu_item">
+                <a href="../../../static/doc/pdf/web/Bonin_ISO/2_Map_Procesos_Procedimiento/BMP/Formatos/FO-BMPI-026 Verificaciones de balanzas y basculas bmp22.xls"
+                  class="menu_contenidoo menu_busqueda">FO-BMPI-026 Verificaciones de balanzas y basculas bmp22</a>
+              </li>
+              <li class="menu_item">
+                <a href="../../../static/doc/pdf/web/Bonin_ISO/2_Map_Procesos_Procedimiento/BMP/Formatos/FO-BMPI-027 Verificaciones de balanzas y basculas bmp23.xls"
+                  class="menu_contenidoo menu_busqueda">FO-BMPI-027 Verificaciones de balanzas y basculas bmp23</a>
+              </li>
+              <li class="menu_item">
+                <a href="../../../static/doc/pdf/web/Bonin_ISO/2_Map_Procesos_Procedimiento/BMP/Formatos/FO-BMPI-028 Conciliacion firmas personal bmpi.docx"
+                  class="menu_contenidoo menu_busqueda">FO-BMPI-028 Conciliación firmas personal bmpi</a>
+              </li>
+              <li class="menu_item">
+                <a href="../../../static/doc/pdf/web/Bonin_ISO/2_Map_Procesos_Procedimiento/BMP/Formatos/FO-BMPI-029 Verificaciones de balanzas y basculas bmpi.xls"
+                  class="menu_contenidoo menu_busqueda">FO-BMPI-029 Verificaciones de balanzas y basculas bmpi</a>
+              </li>
+              <li class="menu_item">
+                <a href="../../../static/doc/pdf/web/Bonin_ISO/2_Map_Procesos_Procedimiento/BMP/Formatos/FO-BMPI-030 Re-ingresos a bodega materia prima.docx"
+                  class="menu_contenidoo menu_busqueda">FO-BMPI-030 Re-ingresos a bodega materia prima</a>
+              </li>
+              <li class="menu_item">
+                <a href="../../../static/doc/pdf/web/Bonin_ISO/2_Map_Procesos_Procedimiento/BMP/Formatos/FO-BMPI-031 Egreso solicitado por produccion.docx"
+                  class="menu_contenidoo menu_busqueda">FO-BMPI-031 Egreso solicitado por producción</a>
+              </li>
+              <li class="menu_item">
+                <a href="../../../static/doc/pdf/web/Bonin_ISO/2_Map_Procesos_Procedimiento/BMP/Formatos/FO-BMPI-032 Boleta por consumo diresctos por lote.docx"
+                  class="menu_contenidoo menu_busqueda">FO-BMPI-032 Boleta por consumo diresctos por lote</a>
+              </li>
+              <li class="menu_item">
+                <a href="../../../static/doc/pdf/web/Bonin_ISO/2_Map_Procesos_Procedimiento/BMP/Formatos/FO-BMPI-033 Re-ingresos a bodega materia prima.docx"
+                  class="menu_contenidoo menu_busqueda">FO-BMPI-033 Re-ingresos a bodega materia prima</a>
+              </li>
+              <li class="menu_item">
+                <a href="../../../static/doc/pdf/web/Bonin_ISO/2_Map_Procesos_Procedimiento/BMP/Formatos/R03-BMPI-01-01 Etiqueta pesado.docx"
+                  class="menu_contenidoo menu_busqueda">R03-BMPI-01-01 Etiqueta pesado</a>
+              </li>
+            </ul>
+          </li>
+          <li class="menu__item container-submenu">
+            <a href="" class="menu_link submenu-btn">Manuales ▼</a>
+            <ul class="submenu">
+              <li class="menu_item">
+              </li>
+              <li class="menu_item">
+                <a href="{{ url_for('static', filename='doc/pdf/web/viewer.html')}}?file=Bonin_ISO/2_Map_Procesos_Procedimiento/BMP/Manuales/MA-BMPI-001 Seguridad industrial.pdf"
+                  class="menu_contenido menu_busqueda">MA-BMPI-001 Seguridad industrial</a>
+              </li>
+            </ul>
+          </li>
+          <li class="menu__item container-submenu">
+            <a href="" class="menu_link submenu-btn">Anexos ▼</a>
+            <ul class="submenu">
+              <li class="menu_item">
+                <a href="{{ url_for('static', filename='doc/pdf/web/viewer.html')}}?file=Bonin_ISO/2_Map_Procesos_Procedimiento/BMP/Anexos/A01-BMPI-01 Matriz de preservacion del producto.pdf"
+                  class="menu_contenido menu_busqueda">A01-BMPI-01 Matriz de preservación del producto</a>
+              </li>
+              <li class="menu_item">
+                <a href="{{ url_for('static', filename='doc/pdf/web/viewer.html')}}?file=Bonin_ISO/2_Map_Procesos_Procedimiento/BMP/Anexos/A02-BMPI-01 Filosofia ubicacion higrotermometros.pdf"
+                  class="menu_contenido menu_busqueda">A02-BMPI-01 Filosofía ubicación higrotermometros</a>
+              </li>
+              <li class="menu_item">
+                <a href="{{ url_for('static', filename='doc/pdf/web/viewer.html')}}?file=Bonin_ISO/2_Map_Procesos_Procedimiento/BMP/Anexos/A03-BMPI-01 Definicion codigo de materia prima y otros.pdf"
+                  class="menu_contenido menu_busqueda">A03-BMPI-01 Definición código de materia prima y otros</a>
+              </li>
+              <li class="menu_item">
+                <a href="{{ url_for('static', filename='doc/pdf/web/viewer.html')}}?file=Bonin_ISO/2_Map_Procesos_Procedimiento/BMP/Anexos/A04-BMPI-001 Mapa ubicaciones.pdf"
+                  class="menu_contenido menu_busqueda">A04-BMPI-001 Mapa ubicaciones</a>
+              </li>
+            </ul>
+          </li>
+          <li class="menu__item container-submenu">
+            <a href="" class="menu_link submenu-btn">Diagrama de Flujo ▼</a>
+            <ul class="submenu">
+              <li class="menu_item">
+                <a href="{{ url_for('static', filename='doc/pdf/web/viewer.html')}}?file=Bonin_ISO/2_Map_Procesos_Procedimiento/BMP/Diagrama_de_flujo/DF-BMPI-001 Diagrama de flujo proceso bodega materia prima.pdf"
+                  class="menu_contenido menu_busqueda">DF-BMPI-001 Diagrama de flujo proceso bodega materia prima</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="right-3">
+      <img src="../../../static/img/pag2/bmp.png">
+    </div>
+  </div>
+</div>
+<!--------------------MODAL-------------------->
+<button id="open-modal" style="display: none;"></button> <!-- Botón oculto para activar el modal -->
+<div id="modal" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <div id="pdf-container"></div>
+  </div>
+</div>

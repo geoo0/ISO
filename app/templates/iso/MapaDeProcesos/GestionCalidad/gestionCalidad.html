@@ -1,0 +1,115 @@
+<div class="proInformatica">
+  <h1>Gestion de Calidad</h1>
+  <div class="hrth"><hr></div>
+  <div class="busqueda">
+    <input type="text" id="busqueda" placeholder="Buscar" oninput="buscarEnlaces()">
+    <div class="btn-lupa">
+      <img id="lupa" src="../../../static/img/pag2/lupa.png">
+    </div>
+  </div>
+  <div class="centrar-3">
+    <div class="left-3">
+      <nav>
+        <ul class="menu" id="menu">
+          <li class="menu__item">
+            <a href="{{ url_for('static', filename='doc/pdf/web/viewer.html')}}?file=Bonin_ISO/2_Map_Procesos_Procedimiento/Gestion_de_calidad/FP-SGC-001 Ficha de proceso de gestion de calidad.pdf"
+              id="pdfLink" class="menu_contenido menu_item menu_busqueda">Ficha de proceso</a>
+          </li>
+          <li class="menu__item container-submenu">
+            <a href="" class="menu_link submenu-btn">Procedimientos ▼</a>
+            <ul class="submenu">
+              <li class="menu_item">
+              </li>
+              <li class="menu_item">
+                <a href="{{ url_for('static', filename='doc/pdf/web/viewer.html')}}?file=Bonin_ISO/2_Map_Procesos_Procedimiento/Gestion_de_calidad/Procedimientos/PEO-SGC-001 Elaboracion y control de documentos.pdf"
+                  class="menu_contenido menu_busqueda">PEO-SGC-001 Elaboracion y control de documentos</a>
+              </li>
+              <li class="menu_item">
+                <a href="{{ url_for('static', filename='doc/pdf/web/viewer.html')}}?file=Bonin_ISO/2_Map_Procesos_Procedimiento/Gestion_de_calidad/Procedimientos/PEO-SGC-002 Control de registros.pdf"
+                  class="menu_contenido menu_busqueda">PEO-SGC-002 Control de registros</a>
+              </li>
+              <li class="menu_item">
+                <a href="{{ url_for('static', filename='doc/pdf/web/viewer.html')}}?file=Bonin_ISO/2_Map_Procesos_Procedimiento/Gestion_de_calidad/Procedimientos/PEO-SGC-003 Politica de calidad.pdf"
+                  class="menu_contenido menu_busqueda">PEO-SGC-003 Politica de calidad</a>
+              </li>
+              <li class="menu_item">
+                <a href="{{ url_for('static', filename='doc/pdf/web/viewer.html')}}?file=Bonin_ISO/2_Map_Procesos_Procedimiento/Gestion_de_calidad/Procedimientos/PEO-SGC-004  Gestion de la mejora.pdf"
+                  class="menu_contenido menu_busqueda">PEO-SGC-004  Gestion de la mejora</a>
+              </li>
+              <li class="menu_item">
+                <a href="{{ url_for('static', filename='doc/pdf/web/viewer.html')}}?file=Bonin_ISO/2_Map_Procesos_Procedimiento/Gestion_de_calidad/Procedimientos/PEO-SGC-005 Gestion de auditorias.pdf"
+                  class="menu_contenido menu_busqueda">PEO-SGC-005 Gestion de auditorias</a>
+              </li>
+              <li class="menu_item">
+                <a href="{{ url_for('static', filename='doc/pdf/web/viewer.html')}}?file=Bonin_ISO/2_Map_Procesos_Procedimiento/Gestion_de_calidad/Procedimientos/PEO-SGC-006 Seleccion y evaluacion de ai.pdf"
+                  class="menu_contenido menu_busqueda">PEO-SGC-006 Seleccion y evaluacion de ai</a>
+              </li>
+            </ul>
+          </li>
+          <li class="menu__item container-submenu">
+            <a href="" class="menu_link submenu-btn">Formatos ▼</a>
+            <ul class="submenu">
+              <li class="menu_item">
+                <a href="../../../static/doc/pdf/web/Bonin_ISO/2_Map_Procesos_Procedimiento/Gestion_de_calidad/Formatos/FO-SGC-01 Plan de auditoria.doc"
+                  class="menu_contenidoo menu_busqueda">FO-SGC-01 Plan de auditoria</a>
+              </li>
+              <li class="menu_item">
+                <a href="../../../static/doc/pdf/web/Bonin_ISO/2_Map_Procesos_Procedimiento/Gestion_de_calidad/Formatos/FO-SGC-02 Lista de verificacion.xls"
+                  class="menu_contenidoo menu_busqueda">FO-SGC-02 Lista de verificacion</a>
+              </li>
+              <li class="menu_item">
+                <a href="../../../static/doc/pdf/web/Bonin_ISO/2_Map_Procesos_Procedimiento/Gestion_de_calidad/Formatos/FO-SGC-03 Hallazgo auditoria interna.xlsx"
+                  class="menu_contenidoo menu_busqueda">FO-SGC-03 Hallazgo auditoria interna</a>
+              </li>
+              <li class="menu_item">
+                <a href="../../../static/doc/pdf/web/Bonin_ISO/2_Map_Procesos_Procedimiento/Gestion_de_calidad/Formatos/FO-SGC-04 Informe de auditoria interna.doc"
+                  class="menu_contenidoo menu_busqueda">FO-SGC-04 Informe de auditoria interna</a>
+              </li>
+              <li class="menu_item">
+                <a href="../../../static/doc/pdf/web/Bonin_ISO/2_Map_Procesos_Procedimiento/Gestion_de_calidad/Formatos/FO-SGC-005  Evaluacion auditor interno.doc"
+                  class="menu_contenidoo menu_busqueda">FO-SGC-005  Evaluacion auditor interno</a>
+              </li>
+              <li class="menu_item">
+                <a href="../../../static/doc/pdf/web/Bonin_ISO/2_Map_Procesos_Procedimiento/Gestion_de_calidad/Formatos/FO-SGC-06 Plan de accion.xls"
+                  class="menu_contenidoo menu_busqueda">FO-SGC-06 Plan de accion</a>
+              </li>
+              <li class="menu_item">
+                <a href="../../../static/doc/pdf/web/Bonin_ISO/2_Map_Procesos_Procedimiento/Gestion_de_calidad/Formatos/FO-SGC-009 Control revision registros.xlsx"
+                  class="menu_contenidoo menu_busqueda">FO-SGC-009 Control revision registros</a>
+              </li>
+              <li class="menu_item">
+                <a href="../../../static/doc/pdf/web/Bonin_ISO/2_Map_Procesos_Procedimiento/Gestion_de_calidad/Formatos/FO-SGC-010  Gestion de riesgos 1.xlsx"
+                  class="menu_contenidoo menu_busqueda">FO-SGC-010  Gestion de riesgos 1</a>
+              </li>
+              <li class="menu_item">
+                <a href="../../../static/doc/pdf/web/Bonin_ISO/2_Map_Procesos_Procedimiento/Gestion_de_calidad/Formatos/FO-SGC-011 Identificacion foda.xls"
+                  class="menu_contenidoo menu_busqueda">FO-SGC-011 Identificacion foda</a>
+              </li>
+              <li class="menu_item">
+                <a href="../../../static/doc/pdf/web/Bonin_ISO/2_Map_Procesos_Procedimiento/Gestion_de_calidad/Formatos/FO-SGC-012 Requisitos auditores internos.xlsx"
+                  class="menu_contenidoo menu_busqueda">FO-SGC-012 Requisitos auditores internos</a>
+              </li>
+              <li class="menu_item">
+                <a href="../../../static/doc/pdf/web/Bonin_ISO/2_Map_Procesos_Procedimiento/Gestion_de_calidad/Formatos/FO-SGC-013 Competencia auditores internos.xlsx"
+                  class="menu_contenidoo menu_busqueda">FO-SGC-013 Competencia auditores internos</a>
+              </li>
+              
+              
+            </ul>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="right-3">
+      <img src="../../../static/img/pag2/gestion.png">
+    </div>
+  </div>
+</div>
+<!--------------------MODAL-------------------->
+<button id="open-modal" style="display: none;"></button> <!-- Botón oculto para activar el modal -->
+<div id="modal" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <div id="pdf-container"></div>
+  </div>
+</div>

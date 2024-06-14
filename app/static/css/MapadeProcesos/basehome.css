@@ -1,0 +1,28 @@
+.alert {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10000000;
+  padding: 2rem; /* Aumentar el espacio alrededor del texto */
+  margin: 0 auto;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+}
+
+.alert-error {
+  color: #721c24;
+  background-color: #f8d7da;
+  border-color: #f5c6cb;
+}
+
+.alert-close {
+  position: absolute;
+  top: 0.2rem; /* Ajustar posición vertical */
+  right: 0.2rem; /* Ajustar posición horizontal */
+  padding: 0.25rem 0.5rem; /* Reducir el tamaño del área de clic */
+  color: inherit;
+  background-color: transparent;
+  border: 0;
+  cursor: pointer;
+}

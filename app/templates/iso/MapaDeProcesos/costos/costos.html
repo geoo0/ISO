@@ -1,0 +1,105 @@
+<div class="proInformatica">
+  <h1>Costos</h1>
+  <div class="hrth"><hr></div>
+  <div class="busqueda">
+    <input type="text" id="busqueda" placeholder="Buscar" oninput="buscarEnlaces()">
+    <div class="btn-lupa">
+      <img id="lupa" src="../../../static/img/pag2/lupa.png">
+    </div>
+  </div>
+  <div class="centrar-3">
+    <div class="left-3">
+      <nav>
+        <ul class="menu" id="menu">
+          <li class="menu__item">
+            <a href="{{ url_for('static', filename='doc/pdf/web/viewer.html')}}?file=Bonin_ISO/2_Map_Procesos_Procedimiento/Costos/Ficha_proceso/FP-COS-001 Costos.pdf"
+              id="pdfLink" class="menu_contenido menu_item menu_busqueda">Ficha de proceso</a>
+          </li>
+          <li class="menu__item container-submenu">
+            <a href="" class="menu_link submenu-btn">Procedimientos ▼</a>
+            <ul class="submenu">
+              <li class="menu_item">
+              </li>
+              <li class="menu_item">
+                <a href="{{ url_for('static', filename='doc/pdf/web/viewer.html')}}?file=Bonin_ISO/2_Map_Procesos_Procedimiento/Costos/Procedimientos/PEO-COS-001 Operacion actividades costos.pdf"
+                  class="menu_contenido menu_busqueda">PEO-COS-001 Operación actividades de costos</a>
+              </li>
+              <li class="menu_item">
+                <a href="{{ url_for('static', filename='doc/pdf/web/viewer.html')}}?file=Bonin_ISO/2_Map_Procesos_Procedimiento/Costos/Procedimientos/PEO-COS-002 Cierre de hojas tecnicas de produccion.pdf"
+                  class="menu_contenido menu_busqueda">PEO-COS-002 Cierre de hojas técnicas de producción</a>
+              </li>
+              <li class="menu_item">
+                <a href="{{ url_for('static', filename='doc/pdf/web/viewer.html')}}?file=Bonin_ISO/2_Map_Procesos_Procedimiento/Costos/Procedimientos/PEO-COS-003 Operacion de boleta de cambio producto vencido.pdf"
+                  class="menu_contenido menu_busqueda">PEO-COS-003 Operación de boleta de cambio producto vencido y producto en mal estado</a>
+              </li>
+              <li class="menu_item">
+                <a href="{{ url_for('static', filename='doc/pdf/web/viewer.html')}}?file=Bonin_ISO/2_Map_Procesos_Procedimiento/Costos/Procedimientos/PEO-COS-004 Registro de gastos de importacion de materias primas e insumos.pdf"
+                  class="menu_contenido menu_busqueda">PEO-COS-004 Registro de gastos de importación de materias primas e insumos</a>
+              </li>
+              <li class="menu_item">
+                <a href="{{ url_for('static', filename='doc/pdf/web/viewer.html')}}?file=Bonin_ISO/2_Map_Procesos_Procedimiento/Costos/Procedimientos/PEO-COS-005 Notas de credito.pdf"
+                  class="menu_contenido menu_busqueda">PEO-COS-005 Notas de crédito</a>
+              </li>
+              
+            </ul>
+          </li>
+          <li class="menu__item container-submenu">
+            <a href="" class="menu_link submenu-btn">Instructivos ▼</a>
+            <ul class="submenu">
+              <li class="menu_item">
+                <a href="{{ url_for('static', filename='doc/pdf/web/viewer.html')}}?file=Bonin_ISO/2_Map_Procesos_Procedimiento/Costos/Instructivo/IN-COS-001 Instructivo para registrar los complementos de produccion.pdf"
+                  class="menu_contenido menu_busqueda">IN-COS-001 Instructivo para registrar los complementos de producción</a>
+              </li>
+            </ul>
+          </li>
+          <li class="menu__item container-submenu">
+            <a href="" class="menu_link submenu-btn">Políticas ▼</a>
+            <ul class="submenu">
+              <li class="menu_item">
+                <a href="{{ url_for('static', filename='doc/pdf/web/viewer.html')}}?file=Bonin_ISO/2_Map_Procesos_Procedimiento/Costos/Politica/PT-COS-001 Politica de despacho de materias primas.pdf"
+                  class="menu_contenido menu_busqueda">PT-COS-001 Política de despacho de materias primas, materiales, cajas y etiquetas</a>
+              </li>
+            </ul>
+          </li>
+          <li class="menu__item container-submenu">
+            <a href="" class="menu_link submenu-btn">Formatos ▼</a>
+            <ul class="submenu">
+              <li class="menu_item">
+                <a href="../../../static/doc/pdf/web/Bonin_ISO/2_Map_Procesos_Procedimiento/Costos/Formatos/FO-COS-001 Salida de mercancias.doc"
+                  class="menu_contenidoo menu_busqueda">FO-COS-001 Salida de mercancías</a>
+              </li>
+              <li class="menu_item">
+                <a href="../../../static/doc/pdf/web/Bonin_ISO/2_Map_Procesos_Procedimiento/Costos/Formatos/FO-COS-002 Prorrateo de importacion.xlsx"
+                  class="menu_contenidoo menu_busqueda">FO-COS-002 Prorrateo de importación</a>
+              </li>
+              <li class="menu_item">
+                <a href="../../../static/doc/pdf/web/Bonin_ISO/2_Map_Procesos_Procedimiento/Costos/Formatos/FO-COS-003 Listado suplencias personal administrativo.docx"
+                  class="menu_contenidoo menu_busqueda">FO-COS-003 Listado suplencias personal administrativo</a>
+              </li>
+              <li class="menu_item">
+                <a href="../../../static/doc/pdf/web/Bonin_ISO/2_Map_Procesos_Procedimiento/Costos/Formatos/FO-COS-004 Conciliacion firmas personal costos.docx"
+                  class="menu_contenidoo menu_busqueda">FO-COS-004 Conciliación firmas personal costos</a>
+              </li>
+              <li class="menu_item">
+                <a href="../../../static/doc/pdf/web/Bonin_ISO/2_Map_Procesos_Procedimiento/Costos/Formatos/FO-COS-005 Notas de credito.xlsx"
+                  class="menu_contenidoo menu_busqueda">FO-COS-005 Notas de crédito</a>
+              </li>
+              
+            </ul>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="right-3">
+      <img src="../../../static/img/pag2/costos.png">
+    </div>
+  </div>
+</div>
+<!--------------------MODAL-------------------->
+<button id="open-modal" style="display: none;"></button> <!-- Botón oculto para activar el modal -->
+<div id="modal" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <div id="pdf-container"></div>
+  </div>
+</div>

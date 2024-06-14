@@ -1,0 +1,142 @@
+<div class="proInformatica">
+  <h1>Contabilidad</h1>
+  <div class="hrth"><hr></div>
+  <div class="busqueda">
+    <input type="text" id="busqueda" placeholder="Buscar" oninput="buscarEnlaces()">
+    <div class="btn-lupa">
+      <img id="lupa" src="../../../static/img/pag2/lupa.png">
+    </div>
+  </div>
+  <div class="centrar-3">
+    <div class="left-3">
+      <nav>
+        <ul class="menu" id="menu">
+          <li class="menu__item">
+            <a href="{{ url_for('static', filename='doc/pdf/web/viewer.html')}}?file=Bonin_ISO/2_Map_Procesos_Procedimiento/Contabilidad/Ficha_procesos/Ficha proceso contabilidad.pdf"
+              id="pdfLink" class="menu_contenido menu_item menu_busqueda">Ficha de proceso</a>
+          </li>
+          <li class="menu__item container-submenu">
+            <a href="" class="menu_link submenu-btn">Procedimientos ▼</a>
+            <ul class="submenu">
+              <li class="menu_item">
+              </li>
+              <li class="menu_item">
+                <a href="{{ url_for('static', filename='doc/pdf/web/viewer.html')}}?file=Bonin_ISO/2_Map_Procesos_Procedimiento/Contabilidad/Procedimientos/PEO-CON-001 Recepcion facturas y emision cheques.pdf"
+                  class="menu_contenido menu_busqueda">PEO-CON-001 Recepción facturas y emisión cheques</a>
+              </li>
+              <li class="menu_item">
+                <a href="{{ url_for('static', filename='doc/pdf/web/viewer.html')}}?file=Bonin_ISO/2_Map_Procesos_Procedimiento/Contabilidad/Procedimientos/PEO-CON-002 Solicitud y creaccion codigo activo fijo y oc.pdf"
+                  class="menu_contenido menu_busqueda">PEO-CON-002 Solicitud y creacción código activo fijo y oc</a>
+              </li>
+            </ul>
+          </li>
+          <li class="menu__item container-submenu">
+            <a href="" class="menu_link submenu-btn">Formatos ▼</a>
+            <ul class="submenu">
+              <li class="menu_item">
+                <a href="../../../static/doc/pdf/web/Bonin_ISO/2_Map_Procesos_Procedimiento/Contabilidad/Formatos/FO-CON-001 Solicitud de cheque bonin.xlsx"
+                  class="menu_contenidoo menu_busqueda">FO-CON-001 Solicitud de cheque Bonin</a>
+              </li>
+              <li class="menu_item">
+                <a href="../../../static/doc/pdf/web/Bonin_ISO/2_Map_Procesos_Procedimiento/Contabilidad/Formatos/FO-CON-002 Solicitud de cheque gb pharma.xlsx"
+                  class="menu_contenidoo menu_busqueda">FO-CON-002 Solicitud de cheque GB Pharma</a>
+              </li>
+              <li class="menu_item">
+                <a href="../../../static/doc/pdf/web/Bonin_ISO/2_Map_Procesos_Procedimiento/Contabilidad/Formatos/FO-CON-003 Solicitud de cheque diprofarm.xlsx"
+                  class="menu_contenidoo menu_busqueda">FO-CON-003 Solicitud de cheque Diprofarm</a>
+              </li>
+              <li class="menu_item">
+                <a href="../../../static/doc/pdf/web/Bonin_ISO/2_Map_Procesos_Procedimiento/Contabilidad/Formatos/FO-CON-004 Solicitud de cheque diprofarm hosp.xlsx"
+                  class="menu_contenidoo menu_busqueda">FO-CON-004 Solicitud de cheque Diprofarm hosp</a>
+              </li>
+              <li class="menu_item">
+                <a href="../../../static/doc/pdf/web/Bonin_ISO/2_Map_Procesos_Procedimiento/Contabilidad/Formatos/FO-CON-005 Formato responsabilidad mob y eq.xls"
+                  class="menu_contenidoo menu_busqueda">FO-CON-005 Formato responsabilidad mob y eq</a>
+              </li>
+              <li class="menu_item">
+                <a href="../../../static/doc/pdf/web/Bonin_ISO/2_Map_Procesos_Procedimiento/Contabilidad/Formatos/FO-CON-006 Responsabilidad baja activos mob y eq.XLS"
+                  class="menu_contenidoo menu_busqueda">FO-CON-006 Responsabilidad baja activos mob y eq</a>
+              </li>
+              <li class="menu_item">
+                <a href="../../../static/doc/pdf/web/Bonin_ISO/2_Map_Procesos_Procedimiento/Contabilidad/Formatos/FO-CON-007 Responsabilidad mob y eq - dipro.XLS"
+                  class="menu_contenidoo menu_busqueda">FO-CON-007 Responsabilidad mob y eq - dipro</a>
+              </li>
+              <li class="menu_item">
+                <a href="../../../static/doc/pdf/web/Bonin_ISO/2_Map_Procesos_Procedimiento/Contabilidad/Formatos/FO-CON-008 Responsabilidad baja activos mob y eq - dipro.XLS"
+                  class="menu_contenidoo menu_busqueda">FO-CON-008 Responsabilidad baja activos mob y eq - dipro</a>
+              </li>
+              <li class="menu_item">
+                <a href="../../../static/doc/pdf/web/Bonin_ISO/2_Map_Procesos_Procedimiento/Contabilidad/Formatos/FO-CON-009 Solicitud creacion activos fijos en sap.xls"
+                  class="menu_contenidoo menu_busqueda">FO-CON-009 Solicitud creación activos fijos en sap</a>
+              </li>
+              <li class="menu_item">
+                <a href="../../../static/doc/pdf/web/Bonin_ISO/2_Map_Procesos_Procedimiento/Contabilidad/Formatos/FO-CON-010 Solicitud creaccion activos fijos en sap dipro.xls"
+                  class="menu_contenidoo menu_busqueda">FO-CON-010 Solicitud creacción activos fijos en sap dipro</a>
+              </li>
+              <li class="menu_item">
+                <a href="../../../static/doc/pdf/web/Bonin_ISO/2_Map_Procesos_Procedimiento/Contabilidad/Formatos/FO-CON-011 Solicitud pago electronico bonin.xls"
+                  class="menu_contenidoo menu_busqueda">FO-CON-011 Solicitud pago electrónico bonin</a>
+              </li>
+              <li class="menu_item">
+                <a href="../../../static/doc/pdf/web/Bonin_ISO/2_Map_Procesos_Procedimiento/Contabilidad/Formatos/FO-CON-012 Solicitud pago electronico diprofarm.xls"
+                  class="menu_contenidoo menu_busqueda">FO-CON-012 Solicitud pago electrónico diprofarm</a>
+              </li>
+              <li class="menu_item">
+                <a href="../../../static/doc/pdf/web/Bonin_ISO/2_Map_Procesos_Procedimiento/Contabilidad/Formatos/FO-CON-013 Solicitud pago electronico gb pharma.xls"
+                  class="menu_contenidoo menu_busqueda">FO-CON-013 Solicitud pago electrónico gb pharma</a>
+              </li>
+              <li class="menu_item">
+                <a href="../../../static/doc/pdf/web/Bonin_ISO/2_Map_Procesos_Procedimiento/Contabilidad/Formatos/FO-CON-014 Solicitud pago electronico respaldo.xls"
+                  class="menu_contenidoo menu_busqueda">FO-CON-014 Solicitud pago electrónico respaldo</a>
+              </li>
+              <li class="menu_item">
+                <a href="../../../static/doc/pdf/web/Bonin_ISO/2_Map_Procesos_Procedimiento/Contabilidad/Formatos/FO-CON-015 Solicitud pago electronico comercializadora.xls"
+                  class="menu_contenidoo menu_busqueda">FO-CON-015 Solicitud pago electrónico comercializadora</a>
+              </li>
+              <li class="menu_item">
+                <a href="../../../static/doc/pdf/web/Bonin_ISO/2_Map_Procesos_Procedimiento/Contabilidad/Formatos/FO-CON-016 Liquidacion tarjeta de credito bonin.xlsx"
+                  class="menu_contenidoo menu_busqueda">FO-CON-016 Liquidación tarjeta de crédito bonin</a>
+              </li>
+              <li class="menu_item">
+                <a href="../../../static/doc/pdf/web/Bonin_ISO/2_Map_Procesos_Procedimiento/Contabilidad/Formatos/FO-CON-017 Liquidacion tarjeta de credito diprofarm.xlsx"
+                  class="menu_contenidoo menu_busqueda">FO-CON-017 Liquidación tarjeta de crédito diprofarm</a>
+              </li>
+              <li class="menu_item">
+                <a href="../../../static/doc/pdf/web/Bonin_ISO/2_Map_Procesos_Procedimiento/Contabilidad/Formatos/FO-CON-018 Liquidacion tarjeta de credito diprofarm heel.xlsx"
+                  class="menu_contenidoo menu_busqueda">FO-CON-018 Liquidación tarjeta de crédito diprofarm heel</a>
+              </li>
+              <li class="menu_item">
+                <a href="../../../static/doc/pdf/web/Bonin_ISO/2_Map_Procesos_Procedimiento/Contabilidad/Formatos/FO-CON-019 Conciliacion firmas personal contabilidad.docx"
+                  class="menu_contenidoo menu_busqueda">FO-CON-019 Conciliación firmas personal contabilidad</a>
+              </li>
+              <li class="menu_item">
+                <a href="../../../static/doc/pdf/web/Bonin_ISO/2_Map_Procesos_Procedimiento/Contabilidad/Formatos/FO-CON-020  Reporte informacion archivo conta b.xlsx"
+                  class="menu_contenidoo menu_busqueda">FO-CON-020  Reporte información archivo conta b</a>
+              </li>
+              <li class="menu_item">
+                <a href="../../../static/doc/pdf/web/Bonin_ISO/2_Map_Procesos_Procedimiento/Contabilidad/Formatos/FO-CON-021  Reporte informacion archivo conta d.xlsx"
+                  class="menu_contenidoo menu_busqueda">FO-CON-021  Reporte información archivo conta d</a>
+              </li>
+              <li class="menu_item">
+                <a href="../../../static/doc/pdf/web/Bonin_ISO/2_Map_Procesos_Procedimiento/Contabilidad/Formatos/FO-CON-022 Responsabilidad maquinaria y equipo.xls"
+                  class="menu_contenidoo menu_busqueda">FO-CON-022 Responsabilidad maquinaria y equipo</a>
+              </li>
+
+            </ul>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="right-3">
+      <img src="../../../static/img/pag2/contabilidad.png">
+    </div>
+  </div>
+</div>
+<!--------------------MODAL-------------------->
+<button id="open-modal" style="display: none;"></button> <!-- Botón oculto para activar el modal -->
+<div id="modal" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <div id="pdf-container"></div>
+  </div>
+</div>

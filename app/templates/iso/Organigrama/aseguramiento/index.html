@@ -1,0 +1,29 @@
+{% extends 'baseIso.html'%}
+
+{%block title%}
+Organigrama Aseguramiento
+{%endblock%}
+
+{%block content%}
+<link rel="stylesheet" href="{{url_for('static', filename='css/MapadeProcesos/basehome.css')}}">
+<link rel="stylesheet" href="{{url_for('static', filename='css/Organigrama/org_aseguramiento.css')}}">
+{%include 'iso/Organigrama/aseguramiento/aseguramiento.html'%}
+
+{% with messages = get_flashed_messages(with_categories=true) %}
+{% if messages %}
+{% for category, message in messages %}
+<div class="alert alert-{{ category }} text-center" role="alert" onclick="cerrarMensaje(this);">
+  {{ message }}
+  <span class="alert-close">&times;</span>
+</div>
+{% endfor %}
+{% endif %}
+{% endwith %}
+
+<script>
+  function cerrarMensaje(elemento) {
+    elemento.style.display = 'none';
+  }
+</script>
+<script src="../static/js/MapadeProcesos/mapaProcesos.js"></script>
+{%endblock%}

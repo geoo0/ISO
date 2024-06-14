@@ -1,0 +1,84 @@
+.organigrama_bonin{
+    padding-top: 3vw;
+
+}
+
+
+.organigrama_bonin h1{
+    text-align: center;
+    position: relative;
+    font-size: 3vw;
+}
+
+.organigrama_bonin a{
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(0, 81, 255);
+    font-size: 0.8vw;
+    background-color: #001057;
+    text-align: center;
+    cursor: pointer;
+    position: absolute;
+    align-content: center;
+
+
+    
+}
+.org_general{
+    background-image: url('/static/img/organigrama/org_general.png');
+    background-size: 80vw;
+    background-repeat: no-repeat;
+    background-position: absolute;
+    width: 80%;
+    height: 43vw;
+    margin-left: 10vw;
+}
+
+@media (max-width: 1280px) {
+    .org_general {
+        width: 80%;
+        height: 43vw; 
+    }
+}
+
+.junta_directiva {
+    width: 12vw;
+    height: 3.75vw;
+    left:44.05vw; 
+    margin-top:1.65vw;
+}
+
+.gerente_general{
+    width: 12vw;
+    height: 3.75vw;
+    left:44.05vw; 
+}
+
+.left{
+    margin-left: 46.80vw;
+}
+
+.box {
+    width: 8.2vw;
+    height: 4.25vw;
+}
+
+.box1 {
+    width: 8.2vw;
+    height: 5.1vw;
+}
+
+.jump0 a {margin-top:6.45vw;}
+.jump1 a {margin-top:11.25vw;}
+.jump2 a {margin-top:14.40vw;}
+.jump3 a {margin-top:19.50vw;}
+.jump4 a {margin-top:27.65vw;}
+.jump5 a {margin-top:35.9vw;}
+
+
+.right   {margin-left:25.15vw;}
+.right1  {margin-left:7.2vw;}
+.right2  {margin-left:1.45vw;}
+
+.move1   {margin-left:11.47vw;}
+
+

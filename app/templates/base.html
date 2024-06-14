@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}{% endblock %}</title>
+    <link rel="shortcut icon" href="{{ url_for('static', filename='img/login.png') }}">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/login_bootstrap.css') }}" rel="stylesheet">
+    <!-- Custom CSS -->
+    {% block customCSS %}
+    {% endblock %}
+</head>
+
+<body class="text-center">
+    {% block body %}
+    {% endblock %}
+    <script src="../static/js/login_bootstrap.js"></script>
+</body>
+</html>

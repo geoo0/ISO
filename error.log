@@ -1,0 +1,513 @@
+[Fri May 31 17:57:31.621385 2024] [wsgi:error] [pid 5474:tid 138425053201984] [remote 190.190.1.25:55249] [2024-05-31 17:57:31,621] ERROR in app: 2024-05-31 17:57:31 | Intento de acceso sin permiso a la pagina Form_Formato_Informatica    Por el Usuario: registros    Desde la IP: 190.190.1.25
+[Fri May 31 17:57:32.765287 2024] [wsgi:error] [pid 5474:tid 138425061594688] [remote 190.190.1.25:55249] [2024-05-31 17:57:32,765] ERROR in app: 2024-05-31 17:57:32 | Intento de acceso sin permiso a la pagina Form_Formato_Informatica    Por el Usuario: registros    Desde la IP: 190.190.1.25
+[Sun Jun 02 08:51:25.646828 2024] [wsgi:error] [pid 3677:tid 134067769140800] [remote 190.190.1.25:53285] [2024-06-02 08:51:25,646] ERROR in app: 2024-06-02 08:51:25 | Intento de acceso sin permiso a la pagina Form_InfraestructuraEquipo Por el Usuario: bpt    Desde la IP: 190.190.1.25
+[Mon Jun 03 07:19:22.221144 2024] [wsgi:error] [pid 5197:tid 134067769140800] [remote 190.190.1.25:62043] [2024-06-03 07:19:22,221] ERROR in app: 2024-06-03 07:19:22 | Intento de acceso sin permiso a la pagina Form_Mercadeo              Por el Usuario: bpt    Desde la IP: 190.190.1.25
+[Mon Jun 03 08:22:02.975577 2024] [wsgi:error] [pid 7331:tid 135348151633472] [remote 190.190.1.155:62996] [2024-06-03 08:22:02,975] ERROR in app: 2024-06-03 08:22:02 | Intento de acceso sin permiso a la pagina Form_Informatica           Por el Usuario: iso    Desde la IP: 190.190.1.155
+[Mon Jun 03 08:22:05.919701 2024] [wsgi:error] [pid 7331:tid 135348160026176] [remote 190.190.1.155:62996] [2024-06-03 08:22:05,919] ERROR in app: 2024-06-03 08:22:05 | Intento de acceso sin permiso a la pagina Form_Informatica           Por el Usuario: iso    Desde la IP: 190.190.1.155
+[Mon Jun 03 13:01:12.715590 2024] [wsgi:error] [pid 7331:tid 135348151633472] [remote 190.190.1.16:54960] [2024-06-03 13:01:12,715] ERROR in app: 2024-06-03 13:01:12 | Intento de acceso sin permiso a la pagina Form_GestionCalidad    Por el Usuario: prueba    Desde la IP: 190.190.1.16
+[Mon Jun 03 15:30:08.524455 2024] [wsgi:error] [pid 7331:tid 135348160026176] [remote 190.190.1.155:50986] [2024-06-03 15:30:08,524] ERROR in app: 2024-06-03 15:30:08 | Intento de acceso sin permiso a la pagina Form_Informatica           Por el Usuario: iso    Desde la IP: 190.190.1.155
+[Mon Jun 03 15:30:16.890531 2024] [wsgi:error] [pid 7331:tid 135348151633472] [remote 190.190.1.155:50986] [2024-06-03 15:30:16,890] ERROR in app: 2024-06-03 15:30:16 | Intento de acceso sin permiso a la pagina Form_Informatica           Por el Usuario: iso    Desde la IP: 190.190.1.155
+[Tue Jun 04 08:06:07.157782 2024] [wsgi:error] [pid 11330:tid 136719164855872] [remote 190.190.0.207:53627] mod_wsgi (pid=11330): Failed to exec Python script file '/home/geo/Escritorio/Proyectos/ISO/run.wsgi'.
+[Tue Jun 04 08:06:07.166662 2024] [wsgi:error] [pid 11330:tid 136719164855872] [remote 190.190.0.207:53627] mod_wsgi (pid=11330): Exception occurred processing WSGI script '/home/geo/Escritorio/Proyectos/ISO/run.wsgi'.
+[Tue Jun 04 08:06:07.179957 2024] [wsgi:error] [pid 11330:tid 136719164855872] [remote 190.190.0.207:53627] Traceback (most recent call last):
+[Tue Jun 04 08:06:07.180053 2024] [wsgi:error] [pid 11330:tid 136719164855872] [remote 190.190.0.207:53627]   File "/home/geo/Escritorio/Proyectos/ISO/run.wsgi", line 3, in <module>
+[Tue Jun 04 08:06:07.180087 2024] [wsgi:error] [pid 11330:tid 136719164855872] [remote 190.190.0.207:53627]     from app import app as application
+[Tue Jun 04 08:06:07.180127 2024] [wsgi:error] [pid 11330:tid 136719164855872] [remote 190.190.0.207:53627]   File "/home/geo/Escritorio/Proyectos/ISO/app/app.py", line 476, in <module>
+[Tue Jun 04 08:06:07.180161 2024] [wsgi:error] [pid 11330:tid 136719164855872] [remote 190.190.0.207:53627]     def serve_pdf(filename):
+[Tue Jun 04 08:06:07.180192 2024] [wsgi:error] [pid 11330:tid 136719164855872] [remote 190.190.0.207:53627]   File "/usr/local/lib/python3.10/dist-packages/flask/sansio/scaffold.py", line 366, in decorator
+[Tue Jun 04 08:06:07.180244 2024] [wsgi:error] [pid 11330:tid 136719164855872] [remote 190.190.0.207:53627]     self.add_url_rule(rule, endpoint, f, **options)
+[Tue Jun 04 08:06:07.180295 2024] [wsgi:error] [pid 11330:tid 136719164855872] [remote 190.190.0.207:53627]   File "/usr/local/lib/python3.10/dist-packages/flask/sansio/scaffold.py", line 46, in wrapper_func
+[Tue Jun 04 08:06:07.180331 2024] [wsgi:error] [pid 11330:tid 136719164855872] [remote 190.190.0.207:53627]     return f(self, *args, **kwargs)
+[Tue Jun 04 08:06:07.180367 2024] [wsgi:error] [pid 11330:tid 136719164855872] [remote 190.190.0.207:53627]   File "/usr/local/lib/python3.10/dist-packages/flask/sansio/app.py", line 661, in add_url_rule
+[Tue Jun 04 08:06:07.180401 2024] [wsgi:error] [pid 11330:tid 136719164855872] [remote 190.190.0.207:53627]     raise AssertionError(
+[Tue Jun 04 08:06:07.180445 2024] [wsgi:error] [pid 11330:tid 136719164855872] [remote 190.190.0.207:53627] AssertionError: View function mapping is overwriting an existing endpoint function: no_cache_response
+[Tue Jun 04 08:06:07.324523 2024] [wsgi:error] [pid 11330:tid 136719173248576] [remote 190.190.0.207:53628] mod_wsgi (pid=11330): Failed to exec Python script file '/home/geo/Escritorio/Proyectos/ISO/run.wsgi'.
+[Tue Jun 04 08:06:07.324663 2024] [wsgi:error] [pid 11330:tid 136719173248576] [remote 190.190.0.207:53628] mod_wsgi (pid=11330): Exception occurred processing WSGI script '/home/geo/Escritorio/Proyectos/ISO/run.wsgi'.
+[Tue Jun 04 08:06:07.324797 2024] [wsgi:error] [pid 11330:tid 136719173248576] [remote 190.190.0.207:53628] Traceback (most recent call last):
+[Tue Jun 04 08:06:07.324866 2024] [wsgi:error] [pid 11330:tid 136719173248576] [remote 190.190.0.207:53628]   File "/home/geo/Escritorio/Proyectos/ISO/run.wsgi", line 3, in <module>
+[Tue Jun 04 08:06:07.324906 2024] [wsgi:error] [pid 11330:tid 136719173248576] [remote 190.190.0.207:53628]     from app import app as application
+[Tue Jun 04 08:06:07.324938 2024] [wsgi:error] [pid 11330:tid 136719173248576] [remote 190.190.0.207:53628]   File "/home/geo/Escritorio/Proyectos/ISO/app/app.py", line 476, in <module>
+[Tue Jun 04 08:06:07.324973 2024] [wsgi:error] [pid 11330:tid 136719173248576] [remote 190.190.0.207:53628]     def serve_pdf(filename):
+[Tue Jun 04 08:06:07.325016 2024] [wsgi:error] [pid 11330:tid 136719173248576] [remote 190.190.0.207:53628]   File "/usr/local/lib/python3.10/dist-packages/flask/sansio/scaffold.py", line 366, in decorator
+[Tue Jun 04 08:06:07.325055 2024] [wsgi:error] [pid 11330:tid 136719173248576] [remote 190.190.0.207:53628]     self.add_url_rule(rule, endpoint, f, **options)
+[Tue Jun 04 08:06:07.325092 2024] [wsgi:error] [pid 11330:tid 136719173248576] [remote 190.190.0.207:53628]   File "/usr/local/lib/python3.10/dist-packages/flask/sansio/scaffold.py", line 46, in wrapper_func
+[Tue Jun 04 08:06:07.325127 2024] [wsgi:error] [pid 11330:tid 136719173248576] [remote 190.190.0.207:53628]     return f(self, *args, **kwargs)
+[Tue Jun 04 08:06:07.325163 2024] [wsgi:error] [pid 11330:tid 136719173248576] [remote 190.190.0.207:53628]   File "/usr/local/lib/python3.10/dist-packages/flask/sansio/app.py", line 661, in add_url_rule
+[Tue Jun 04 08:06:07.325198 2024] [wsgi:error] [pid 11330:tid 136719173248576] [remote 190.190.0.207:53628]     raise AssertionError(
+[Tue Jun 04 08:06:07.325261 2024] [wsgi:error] [pid 11330:tid 136719173248576] [remote 190.190.0.207:53628] AssertionError: View function mapping is overwriting an existing endpoint function: no_cache_response
+[Tue Jun 04 08:06:13.138541 2024] [wsgi:error] [pid 11330:tid 136719164855872] [remote 190.190.0.207:53629] mod_wsgi (pid=11330): Failed to exec Python script file '/home/geo/Escritorio/Proyectos/ISO/run.wsgi'.
+[Tue Jun 04 08:06:13.138839 2024] [wsgi:error] [pid 11330:tid 136719164855872] [remote 190.190.0.207:53629] mod_wsgi (pid=11330): Exception occurred processing WSGI script '/home/geo/Escritorio/Proyectos/ISO/run.wsgi'.
+[Tue Jun 04 08:06:13.139036 2024] [wsgi:error] [pid 11330:tid 136719164855872] [remote 190.190.0.207:53629] Traceback (most recent call last):
+[Tue Jun 04 08:06:13.139139 2024] [wsgi:error] [pid 11330:tid 136719164855872] [remote 190.190.0.207:53629]   File "/home/geo/Escritorio/Proyectos/ISO/run.wsgi", line 3, in <module>
+[Tue Jun 04 08:06:13.139227 2024] [wsgi:error] [pid 11330:tid 136719164855872] [remote 190.190.0.207:53629]     from app import app as application
+[Tue Jun 04 08:06:13.139300 2024] [wsgi:error] [pid 11330:tid 136719164855872] [remote 190.190.0.207:53629]   File "/home/geo/Escritorio/Proyectos/ISO/app/app.py", line 476, in <module>
+[Tue Jun 04 08:06:13.139368 2024] [wsgi:error] [pid 11330:tid 136719164855872] [remote 190.190.0.207:53629]     def serve_pdf(filename):
+[Tue Jun 04 08:06:13.139441 2024] [wsgi:error] [pid 11330:tid 136719164855872] [remote 190.190.0.207:53629]   File "/usr/local/lib/python3.10/dist-packages/flask/sansio/scaffold.py", line 366, in decorator
+[Tue Jun 04 08:06:13.139511 2024] [wsgi:error] [pid 11330:tid 136719164855872] [remote 190.190.0.207:53629]     self.add_url_rule(rule, endpoint, f, **options)
+[Tue Jun 04 08:06:13.139591 2024] [wsgi:error] [pid 11330:tid 136719164855872] [remote 190.190.0.207:53629]   File "/usr/local/lib/python3.10/dist-packages/flask/sansio/scaffold.py", line 46, in wrapper_func
+[Tue Jun 04 08:06:13.139659 2024] [wsgi:error] [pid 11330:tid 136719164855872] [remote 190.190.0.207:53629]     return f(self, *args, **kwargs)
+[Tue Jun 04 08:06:13.139731 2024] [wsgi:error] [pid 11330:tid 136719164855872] [remote 190.190.0.207:53629]   File "/usr/local/lib/python3.10/dist-packages/flask/sansio/app.py", line 661, in add_url_rule
+[Tue Jun 04 08:06:13.139804 2024] [wsgi:error] [pid 11330:tid 136719164855872] [remote 190.190.0.207:53629]     raise AssertionError(
+[Tue Jun 04 08:06:13.139900 2024] [wsgi:error] [pid 11330:tid 136719164855872] [remote 190.190.0.207:53629] AssertionError: View function mapping is overwriting an existing endpoint function: no_cache_response
+[Tue Jun 04 08:06:13.226911 2024] [wsgi:error] [pid 11330:tid 136719173248576] [remote 190.190.0.207:53631] mod_wsgi (pid=11330): Failed to exec Python script file '/home/geo/Escritorio/Proyectos/ISO/run.wsgi'.
+[Tue Jun 04 08:06:13.227021 2024] [wsgi:error] [pid 11330:tid 136719173248576] [remote 190.190.0.207:53631] mod_wsgi (pid=11330): Exception occurred processing WSGI script '/home/geo/Escritorio/Proyectos/ISO/run.wsgi'.
+[Tue Jun 04 08:06:13.227155 2024] [wsgi:error] [pid 11330:tid 136719173248576] [remote 190.190.0.207:53631] Traceback (most recent call last):
+[Tue Jun 04 08:06:13.227225 2024] [wsgi:error] [pid 11330:tid 136719173248576] [remote 190.190.0.207:53631]   File "/home/geo/Escritorio/Proyectos/ISO/run.wsgi", line 3, in <module>
+[Tue Jun 04 08:06:13.227263 2024] [wsgi:error] [pid 11330:tid 136719173248576] [remote 190.190.0.207:53631]     from app import app as application
+[Tue Jun 04 08:06:13.227295 2024] [wsgi:error] [pid 11330:tid 136719173248576] [remote 190.190.0.207:53631]   File "/home/geo/Escritorio/Proyectos/ISO/app/app.py", line 476, in <module>
+[Tue Jun 04 08:06:13.227331 2024] [wsgi:error] [pid 11330:tid 136719173248576] [remote 190.190.0.207:53631]     def serve_pdf(filename):
+[Tue Jun 04 08:06:13.227361 2024] [wsgi:error] [pid 11330:tid 136719173248576] [remote 190.190.0.207:53631]   File "/usr/local/lib/python3.10/dist-packages/flask/sansio/scaffold.py", line 366, in decorator
+[Tue Jun 04 08:06:13.227396 2024] [wsgi:error] [pid 11330:tid 136719173248576] [remote 190.190.0.207:53631]     self.add_url_rule(rule, endpoint, f, **options)
+[Tue Jun 04 08:06:13.227427 2024] [wsgi:error] [pid 11330:tid 136719173248576] [remote 190.190.0.207:53631]   File "/usr/local/lib/python3.10/dist-packages/flask/sansio/scaffold.py", line 46, in wrapper_func
+[Tue Jun 04 08:06:13.227461 2024] [wsgi:error] [pid 11330:tid 136719173248576] [remote 190.190.0.207:53631]     return f(self, *args, **kwargs)
+[Tue Jun 04 08:06:13.227491 2024] [wsgi:error] [pid 11330:tid 136719173248576] [remote 190.190.0.207:53631]   File "/usr/local/lib/python3.10/dist-packages/flask/sansio/app.py", line 661, in add_url_rule
+[Tue Jun 04 08:06:13.227525 2024] [wsgi:error] [pid 11330:tid 136719173248576] [remote 190.190.0.207:53631]     raise AssertionError(
+[Tue Jun 04 08:06:13.227580 2024] [wsgi:error] [pid 11330:tid 136719173248576] [remote 190.190.0.207:53631] AssertionError: View function mapping is overwriting an existing endpoint function: no_cache_response
+[Tue Jun 04 08:06:18.867746 2024] [wsgi:error] [pid 11330:tid 136719164855872] [remote 190.190.0.207:53632] mod_wsgi (pid=11330): Failed to exec Python script file '/home/geo/Escritorio/Proyectos/ISO/run.wsgi'.
+[Tue Jun 04 08:06:18.868080 2024] [wsgi:error] [pid 11330:tid 136719164855872] [remote 190.190.0.207:53632] mod_wsgi (pid=11330): Exception occurred processing WSGI script '/home/geo/Escritorio/Proyectos/ISO/run.wsgi'.
+[Tue Jun 04 08:06:18.868254 2024] [wsgi:error] [pid 11330:tid 136719164855872] [remote 190.190.0.207:53632] Traceback (most recent call last):
+[Tue Jun 04 08:06:18.868360 2024] [wsgi:error] [pid 11330:tid 136719164855872] [remote 190.190.0.207:53632]   File "/home/geo/Escritorio/Proyectos/ISO/run.wsgi", line 3, in <module>
+[Tue Jun 04 08:06:18.868455 2024] [wsgi:error] [pid 11330:tid 136719164855872] [remote 190.190.0.207:53632]     from app import app as application
+[Tue Jun 04 08:06:18.868528 2024] [wsgi:error] [pid 11330:tid 136719164855872] [remote 190.190.0.207:53632]   File "/home/geo/Escritorio/Proyectos/ISO/app/app.py", line 476, in <module>
+[Tue Jun 04 08:06:18.868598 2024] [wsgi:error] [pid 11330:tid 136719164855872] [remote 190.190.0.207:53632]     def serve_pdf(filename):
+[Tue Jun 04 08:06:18.868670 2024] [wsgi:error] [pid 11330:tid 136719164855872] [remote 190.190.0.207:53632]   File "/usr/local/lib/python3.10/dist-packages/flask/sansio/scaffold.py", line 366, in decorator
+[Tue Jun 04 08:06:18.868893 2024] [wsgi:error] [pid 11330:tid 136719164855872] [remote 190.190.0.207:53632]     self.add_url_rule(rule, endpoint, f, **options)
+[Tue Jun 04 08:06:18.869223 2024] [wsgi:error] [pid 11330:tid 136719164855872] [remote 190.190.0.207:53632]   File "/usr/local/lib/python3.10/dist-packages/flask/sansio/scaffold.py", line 46, in wrapper_func
+[Tue Jun 04 08:06:18.869301 2024] [wsgi:error] [pid 11330:tid 136719164855872] [remote 190.190.0.207:53632]     return f(self, *args, **kwargs)
+[Tue Jun 04 08:06:18.869369 2024] [wsgi:error] [pid 11330:tid 136719164855872] [remote 190.190.0.207:53632]   File "/usr/local/lib/python3.10/dist-packages/flask/sansio/app.py", line 661, in add_url_rule
+[Tue Jun 04 08:06:18.869443 2024] [wsgi:error] [pid 11330:tid 136719164855872] [remote 190.190.0.207:53632]     raise AssertionError(
+[Tue Jun 04 08:06:18.869519 2024] [wsgi:error] [pid 11330:tid 136719164855872] [remote 190.190.0.207:53632] AssertionError: View function mapping is overwriting an existing endpoint function: no_cache_response
+[Tue Jun 04 08:06:19.012874 2024] [wsgi:error] [pid 11330:tid 136719173248576] [remote 190.190.0.207:53650] mod_wsgi (pid=11330): Failed to exec Python script file '/home/geo/Escritorio/Proyectos/ISO/run.wsgi'.
+[Tue Jun 04 08:06:19.013022 2024] [wsgi:error] [pid 11330:tid 136719173248576] [remote 190.190.0.207:53650] mod_wsgi (pid=11330): Exception occurred processing WSGI script '/home/geo/Escritorio/Proyectos/ISO/run.wsgi'.
+[Tue Jun 04 08:06:19.013155 2024] [wsgi:error] [pid 11330:tid 136719173248576] [remote 190.190.0.207:53650] Traceback (most recent call last):
+[Tue Jun 04 08:06:19.013220 2024] [wsgi:error] [pid 11330:tid 136719173248576] [remote 190.190.0.207:53650]   File "/home/geo/Escritorio/Proyectos/ISO/run.wsgi", line 3, in <module>
+[Tue Jun 04 08:06:19.013259 2024] [wsgi:error] [pid 11330:tid 136719173248576] [remote 190.190.0.207:53650]     from app import app as application
+[Tue Jun 04 08:06:19.013298 2024] [wsgi:error] [pid 11330:tid 136719173248576] [remote 190.190.0.207:53650]   File "/home/geo/Escritorio/Proyectos/ISO/app/app.py", line 476, in <module>
+[Tue Jun 04 08:06:19.013332 2024] [wsgi:error] [pid 11330:tid 136719173248576] [remote 190.190.0.207:53650]     def serve_pdf(filename):
+[Tue Jun 04 08:06:19.013388 2024] [wsgi:error] [pid 11330:tid 136719173248576] [remote 190.190.0.207:53650]   File "/usr/local/lib/python3.10/dist-packages/flask/sansio/scaffold.py", line 366, in decorator
+[Tue Jun 04 08:06:19.013435 2024] [wsgi:error] [pid 11330:tid 136719173248576] [remote 190.190.0.207:53650]     self.add_url_rule(rule, endpoint, f, **options)
+[Tue Jun 04 08:06:19.013472 2024] [wsgi:error] [pid 11330:tid 136719173248576] [remote 190.190.0.207:53650]   File "/usr/local/lib/python3.10/dist-packages/flask/sansio/scaffold.py", line 46, in wrapper_func
+[Tue Jun 04 08:06:19.013506 2024] [wsgi:error] [pid 11330:tid 136719173248576] [remote 190.190.0.207:53650]     return f(self, *args, **kwargs)
+[Tue Jun 04 08:06:19.013542 2024] [wsgi:error] [pid 11330:tid 136719173248576] [remote 190.190.0.207:53650]   File "/usr/local/lib/python3.10/dist-packages/flask/sansio/app.py", line 661, in add_url_rule
+[Tue Jun 04 08:06:19.013618 2024] [wsgi:error] [pid 11330:tid 136719173248576] [remote 190.190.0.207:53650]     raise AssertionError(
+[Tue Jun 04 08:06:19.013668 2024] [wsgi:error] [pid 11330:tid 136719173248576] [remote 190.190.0.207:53650] AssertionError: View function mapping is overwriting an existing endpoint function: no_cache_response
+[Tue Jun 04 08:11:43.926362 2024] [wsgi:error] [pid 11424:tid 138292947306048] [remote 190.190.0.207:53684] mod_wsgi (pid=11424): Failed to exec Python script file '/home/geo/Escritorio/Proyectos/ISO/run.wsgi'.
+[Tue Jun 04 08:11:43.926425 2024] [wsgi:error] [pid 11424:tid 138292947306048] [remote 190.190.0.207:53684] mod_wsgi (pid=11424): Exception occurred processing WSGI script '/home/geo/Escritorio/Proyectos/ISO/run.wsgi'.
+[Tue Jun 04 08:11:43.926705 2024] [wsgi:error] [pid 11424:tid 138292947306048] [remote 190.190.0.207:53684] Traceback (most recent call last):
+[Tue Jun 04 08:11:43.926735 2024] [wsgi:error] [pid 11424:tid 138292947306048] [remote 190.190.0.207:53684]   File "/home/geo/Escritorio/Proyectos/ISO/run.wsgi", line 3, in <module>
+[Tue Jun 04 08:11:43.926740 2024] [wsgi:error] [pid 11424:tid 138292947306048] [remote 190.190.0.207:53684]     from app import app as application
+[Tue Jun 04 08:11:43.926745 2024] [wsgi:error] [pid 11424:tid 138292947306048] [remote 190.190.0.207:53684]   File "/home/geo/Escritorio/Proyectos/ISO/app/app.py", line 475, in <module>
+[Tue Jun 04 08:11:43.926749 2024] [wsgi:error] [pid 11424:tid 138292947306048] [remote 190.190.0.207:53684]     @nocache
+[Tue Jun 04 08:11:43.926764 2024] [wsgi:error] [pid 11424:tid 138292947306048] [remote 190.190.0.207:53684] NameError: name 'nocache' is not defined
+[Tue Jun 04 08:11:44.006132 2024] [wsgi:error] [pid 11424:tid 138292955698752] [remote 190.190.0.207:53685] mod_wsgi (pid=11424): Failed to exec Python script file '/home/geo/Escritorio/Proyectos/ISO/run.wsgi'.
+[Tue Jun 04 08:11:44.006432 2024] [wsgi:error] [pid 11424:tid 138292955698752] [remote 190.190.0.207:53685] mod_wsgi (pid=11424): Exception occurred processing WSGI script '/home/geo/Escritorio/Proyectos/ISO/run.wsgi'.
+[Tue Jun 04 08:11:44.006621 2024] [wsgi:error] [pid 11424:tid 138292955698752] [remote 190.190.0.207:53685] Traceback (most recent call last):
+[Tue Jun 04 08:11:44.006739 2024] [wsgi:error] [pid 11424:tid 138292955698752] [remote 190.190.0.207:53685]   File "/home/geo/Escritorio/Proyectos/ISO/run.wsgi", line 3, in <module>
+[Tue Jun 04 08:11:44.006843 2024] [wsgi:error] [pid 11424:tid 138292955698752] [remote 190.190.0.207:53685]     from app import app as application
+[Tue Jun 04 08:11:44.006943 2024] [wsgi:error] [pid 11424:tid 138292955698752] [remote 190.190.0.207:53685]   File "/home/geo/Escritorio/Proyectos/ISO/app/app.py", line 475, in <module>
+[Tue Jun 04 08:11:44.007036 2024] [wsgi:error] [pid 11424:tid 138292955698752] [remote 190.190.0.207:53685]     @nocache
+[Tue Jun 04 08:11:44.007142 2024] [wsgi:error] [pid 11424:tid 138292955698752] [remote 190.190.0.207:53685] NameError: name 'nocache' is not defined
+[Tue Jun 04 08:11:48.540114 2024] [wsgi:error] [pid 11424:tid 138292947306048] [remote 190.190.0.207:53687] mod_wsgi (pid=11424): Failed to exec Python script file '/home/geo/Escritorio/Proyectos/ISO/run.wsgi'.
+[Tue Jun 04 08:11:48.540222 2024] [wsgi:error] [pid 11424:tid 138292947306048] [remote 190.190.0.207:53687] mod_wsgi (pid=11424): Exception occurred processing WSGI script '/home/geo/Escritorio/Proyectos/ISO/run.wsgi'.
+[Tue Jun 04 08:11:48.540324 2024] [wsgi:error] [pid 11424:tid 138292947306048] [remote 190.190.0.207:53687] Traceback (most recent call last):
+[Tue Jun 04 08:11:48.540382 2024] [wsgi:error] [pid 11424:tid 138292947306048] [remote 190.190.0.207:53687]   File "/home/geo/Escritorio/Proyectos/ISO/run.wsgi", line 3, in <module>
+[Tue Jun 04 08:11:48.540410 2024] [wsgi:error] [pid 11424:tid 138292947306048] [remote 190.190.0.207:53687]     from app import app as application
+[Tue Jun 04 08:11:48.540435 2024] [wsgi:error] [pid 11424:tid 138292947306048] [remote 190.190.0.207:53687]   File "/home/geo/Escritorio/Proyectos/ISO/app/app.py", line 475, in <module>
+[Tue Jun 04 08:11:48.540458 2024] [wsgi:error] [pid 11424:tid 138292947306048] [remote 190.190.0.207:53687]     @nocache
+[Tue Jun 04 08:11:48.540489 2024] [wsgi:error] [pid 11424:tid 138292947306048] [remote 190.190.0.207:53687] NameError: name 'nocache' is not defined
+[Tue Jun 04 08:11:48.717082 2024] [wsgi:error] [pid 11424:tid 138292955698752] [remote 190.190.0.207:53686] mod_wsgi (pid=11424): Failed to exec Python script file '/home/geo/Escritorio/Proyectos/ISO/run.wsgi'.
+[Tue Jun 04 08:11:48.717281 2024] [wsgi:error] [pid 11424:tid 138292955698752] [remote 190.190.0.207:53686] mod_wsgi (pid=11424): Exception occurred processing WSGI script '/home/geo/Escritorio/Proyectos/ISO/run.wsgi'.
+[Tue Jun 04 08:11:48.717441 2024] [wsgi:error] [pid 11424:tid 138292955698752] [remote 190.190.0.207:53686] Traceback (most recent call last):
+[Tue Jun 04 08:11:48.717539 2024] [wsgi:error] [pid 11424:tid 138292955698752] [remote 190.190.0.207:53686]   File "/home/geo/Escritorio/Proyectos/ISO/run.wsgi", line 3, in <module>
+[Tue Jun 04 08:11:48.717671 2024] [wsgi:error] [pid 11424:tid 138292955698752] [remote 190.190.0.207:53686]     from app import app as application
+[Tue Jun 04 08:11:48.717768 2024] [wsgi:error] [pid 11424:tid 138292955698752] [remote 190.190.0.207:53686]   File "/home/geo/Escritorio/Proyectos/ISO/app/app.py", line 475, in <module>
+[Tue Jun 04 08:11:48.717835 2024] [wsgi:error] [pid 11424:tid 138292955698752] [remote 190.190.0.207:53686]     @nocache
+[Tue Jun 04 08:11:48.717919 2024] [wsgi:error] [pid 11424:tid 138292955698752] [remote 190.190.0.207:53686] NameError: name 'nocache' is not defined
+[Tue Jun 04 08:13:15.970010 2024] [wsgi:error] [pid 11502:tid 134818754975296] [remote 190.190.0.207:53715] mod_wsgi (pid=11502): Failed to exec Python script file '/home/geo/Escritorio/Proyectos/ISO/run.wsgi'.
+[Tue Jun 04 08:13:15.970075 2024] [wsgi:error] [pid 11502:tid 134818754975296] [remote 190.190.0.207:53715] mod_wsgi (pid=11502): Exception occurred processing WSGI script '/home/geo/Escritorio/Proyectos/ISO/run.wsgi'.
+[Tue Jun 04 08:13:15.970683 2024] [wsgi:error] [pid 11502:tid 134818754975296] [remote 190.190.0.207:53715] Traceback (most recent call last):
+[Tue Jun 04 08:13:15.970721 2024] [wsgi:error] [pid 11502:tid 134818754975296] [remote 190.190.0.207:53715]   File "/home/geo/Escritorio/Proyectos/ISO/run.wsgi", line 3, in <module>
+[Tue Jun 04 08:13:15.970726 2024] [wsgi:error] [pid 11502:tid 134818754975296] [remote 190.190.0.207:53715]     from app import app as application
+[Tue Jun 04 08:13:15.970731 2024] [wsgi:error] [pid 11502:tid 134818754975296] [remote 190.190.0.207:53715]   File "/home/geo/Escritorio/Proyectos/ISO/app/app.py", line 476, in <module>
+[Tue Jun 04 08:13:15.970735 2024] [wsgi:error] [pid 11502:tid 134818754975296] [remote 190.190.0.207:53715]     def serve_pdf(filename):
+[Tue Jun 04 08:13:15.970739 2024] [wsgi:error] [pid 11502:tid 134818754975296] [remote 190.190.0.207:53715]   File "/usr/local/lib/python3.10/dist-packages/flask/sansio/scaffold.py", line 366, in decorator
+[Tue Jun 04 08:13:15.970743 2024] [wsgi:error] [pid 11502:tid 134818754975296] [remote 190.190.0.207:53715]     self.add_url_rule(rule, endpoint, f, **options)
+[Tue Jun 04 08:13:15.970747 2024] [wsgi:error] [pid 11502:tid 134818754975296] [remote 190.190.0.207:53715]   File "/usr/local/lib/python3.10/dist-packages/flask/sansio/scaffold.py", line 46, in wrapper_func
+[Tue Jun 04 08:13:15.970759 2024] [wsgi:error] [pid 11502:tid 134818754975296] [remote 190.190.0.207:53715]     return f(self, *args, **kwargs)
+[Tue Jun 04 08:13:15.970764 2024] [wsgi:error] [pid 11502:tid 134818754975296] [remote 190.190.0.207:53715]   File "/usr/local/lib/python3.10/dist-packages/flask/sansio/app.py", line 661, in add_url_rule
+[Tue Jun 04 08:13:15.970767 2024] [wsgi:error] [pid 11502:tid 134818754975296] [remote 190.190.0.207:53715]     raise AssertionError(
+[Tue Jun 04 08:13:15.970781 2024] [wsgi:error] [pid 11502:tid 134818754975296] [remote 190.190.0.207:53715] AssertionError: View function mapping is overwriting an existing endpoint function: no_cache_response
+[Tue Jun 04 08:13:16.088129 2024] [wsgi:error] [pid 11502:tid 134818746582592] [remote 190.190.0.207:53716] mod_wsgi (pid=11502): Failed to exec Python script file '/home/geo/Escritorio/Proyectos/ISO/run.wsgi'.
+[Tue Jun 04 08:13:16.088293 2024] [wsgi:error] [pid 11502:tid 134818746582592] [remote 190.190.0.207:53716] mod_wsgi (pid=11502): Exception occurred processing WSGI script '/home/geo/Escritorio/Proyectos/ISO/run.wsgi'.
+[Tue Jun 04 08:13:16.088455 2024] [wsgi:error] [pid 11502:tid 134818746582592] [remote 190.190.0.207:53716] Traceback (most recent call last):
+[Tue Jun 04 08:13:16.088557 2024] [wsgi:error] [pid 11502:tid 134818746582592] [remote 190.190.0.207:53716]   File "/home/geo/Escritorio/Proyectos/ISO/run.wsgi", line 3, in <module>
+[Tue Jun 04 08:13:16.088624 2024] [wsgi:error] [pid 11502:tid 134818746582592] [remote 190.190.0.207:53716]     from app import app as application
+[Tue Jun 04 08:13:16.088696 2024] [wsgi:error] [pid 11502:tid 134818746582592] [remote 190.190.0.207:53716]   File "/home/geo/Escritorio/Proyectos/ISO/app/app.py", line 476, in <module>
+[Tue Jun 04 08:13:16.088761 2024] [wsgi:error] [pid 11502:tid 134818746582592] [remote 190.190.0.207:53716]     def serve_pdf(filename):
+[Tue Jun 04 08:13:16.088833 2024] [wsgi:error] [pid 11502:tid 134818746582592] [remote 190.190.0.207:53716]   File "/usr/local/lib/python3.10/dist-packages/flask/sansio/scaffold.py", line 366, in decorator
+[Tue Jun 04 08:13:16.088902 2024] [wsgi:error] [pid 11502:tid 134818746582592] [remote 190.190.0.207:53716]     self.add_url_rule(rule, endpoint, f, **options)
+[Tue Jun 04 08:13:16.088990 2024] [wsgi:error] [pid 11502:tid 134818746582592] [remote 190.190.0.207:53716]   File "/usr/local/lib/python3.10/dist-packages/flask/sansio/scaffold.py", line 46, in wrapper_func
+[Tue Jun 04 08:13:16.089074 2024] [wsgi:error] [pid 11502:tid 134818746582592] [remote 190.190.0.207:53716]     return f(self, *args, **kwargs)
+[Tue Jun 04 08:13:16.089146 2024] [wsgi:error] [pid 11502:tid 134818746582592] [remote 190.190.0.207:53716]   File "/usr/local/lib/python3.10/dist-packages/flask/sansio/app.py", line 661, in add_url_rule
+[Tue Jun 04 08:13:16.089211 2024] [wsgi:error] [pid 11502:tid 134818746582592] [remote 190.190.0.207:53716]     raise AssertionError(
+[Tue Jun 04 08:13:16.089290 2024] [wsgi:error] [pid 11502:tid 134818746582592] [remote 190.190.0.207:53716] AssertionError: View function mapping is overwriting an existing endpoint function: no_cache_response
+[Tue Jun 04 08:14:47.593263 2024] [wsgi:error] [pid 11580:tid 139691342775872] [remote 190.190.1.25:58517] mod_wsgi (pid=11580): Exception occurred processing WSGI script '/home/geo/Escritorio/Proyectos/ISO/run.wsgi'.
+[Tue Jun 04 08:14:47.633212 2024] [wsgi:error] [pid 11580:tid 139691342775872] [remote 190.190.1.25:58517] Traceback (most recent call last):
+[Tue Jun 04 08:14:47.633380 2024] [wsgi:error] [pid 11580:tid 139691342775872] [remote 190.190.1.25:58517]   File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1488, in __call__
+[Tue Jun 04 08:14:47.633447 2024] [wsgi:error] [pid 11580:tid 139691342775872] [remote 190.190.1.25:58517]     return self.wsgi_app(environ, start_response)
+[Tue Jun 04 08:14:47.633489 2024] [wsgi:error] [pid 11580:tid 139691342775872] [remote 190.190.1.25:58517]   File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1466, in wsgi_app
+[Tue Jun 04 08:14:47.633551 2024] [wsgi:error] [pid 11580:tid 139691342775872] [remote 190.190.1.25:58517]     response = self.handle_exception(e)
+[Tue Jun 04 08:14:47.633965 2024] [wsgi:error] [pid 11580:tid 139691342775872] [remote 190.190.1.25:58517]   File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1463, in wsgi_app
+[Tue Jun 04 08:14:47.634011 2024] [wsgi:error] [pid 11580:tid 139691342775872] [remote 190.190.1.25:58517]     response = self.full_dispatch_request()
+[Tue Jun 04 08:14:47.634044 2024] [wsgi:error] [pid 11580:tid 139691342775872] [remote 190.190.1.25:58517]   File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 872, in full_dispatch_request
+[Tue Jun 04 08:14:47.634073 2024] [wsgi:error] [pid 11580:tid 139691342775872] [remote 190.190.1.25:58517]     rv = self.handle_user_exception(e)
+[Tue Jun 04 08:14:47.634110 2024] [wsgi:error] [pid 11580:tid 139691342775872] [remote 190.190.1.25:58517]   File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 870, in full_dispatch_request
+[Tue Jun 04 08:14:47.634145 2024] [wsgi:error] [pid 11580:tid 139691342775872] [remote 190.190.1.25:58517]     rv = self.dispatch_request()
+[Tue Jun 04 08:14:47.634182 2024] [wsgi:error] [pid 11580:tid 139691342775872] [remote 190.190.1.25:58517]   File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 855, in dispatch_request
+[Tue Jun 04 08:14:47.634217 2024] [wsgi:error] [pid 11580:tid 139691342775872] [remote 190.190.1.25:58517]     return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+[Tue Jun 04 08:14:47.634254 2024] [wsgi:error] [pid 11580:tid 139691342775872] [remote 190.190.1.25:58517]   File "/home/geo/.local/lib/python3.10/site-packages/flask_login/utils.py", line 290, in decorated_view
+[Tue Jun 04 08:14:47.634289 2024] [wsgi:error] [pid 11580:tid 139691342775872] [remote 190.190.1.25:58517]     return current_app.ensure_sync(func)(*args, **kwargs)
+[Tue Jun 04 08:14:47.634341 2024] [wsgi:error] [pid 11580:tid 139691342775872] [remote 190.190.1.25:58517]   File "/home/geo/Escritorio/Proyectos/ISO/app/app.py", line 69, in no_cache_response
+[Tue Jun 04 08:14:47.634372 2024] [wsgi:error] [pid 11580:tid 139691342775872] [remote 190.190.1.25:58517]     response = make_response(view(*args, **kwargs))
+[Tue Jun 04 08:14:47.634409 2024] [wsgi:error] [pid 11580:tid 139691342775872] [remote 190.190.1.25:58517]   File "/home/geo/Escritorio/Proyectos/ISO/app/app.py", line 180, in MapadeProcesos_RRHH
+[Tue Jun 04 08:14:47.634438 2024] [wsgi:error] [pid 11580:tid 139691342775872] [remote 190.190.1.25:58517]     return render_template('iso/MapaDeProcesos/RRHH/index.html')
+[Tue Jun 04 08:14:47.634474 2024] [wsgi:error] [pid 11580:tid 139691342775872] [remote 190.190.1.25:58517]   File "/usr/local/lib/python3.10/dist-packages/flask/templating.py", line 150, in render_template
+[Tue Jun 04 08:14:47.634509 2024] [wsgi:error] [pid 11580:tid 139691342775872] [remote 190.190.1.25:58517]     return _render(app, template, context)
+[Tue Jun 04 08:14:47.634545 2024] [wsgi:error] [pid 11580:tid 139691342775872] [remote 190.190.1.25:58517]   File "/usr/local/lib/python3.10/dist-packages/flask/templating.py", line 131, in _render
+[Tue Jun 04 08:14:47.634574 2024] [wsgi:error] [pid 11580:tid 139691342775872] [remote 190.190.1.25:58517]     rv = template.render(context)
+[Tue Jun 04 08:14:47.634610 2024] [wsgi:error] [pid 11580:tid 139691342775872] [remote 190.190.1.25:58517]   File "/usr/local/lib/python3.10/dist-packages/jinja2/environment.py", line 1301, in render
+[Tue Jun 04 08:14:47.634638 2024] [wsgi:error] [pid 11580:tid 139691342775872] [remote 190.190.1.25:58517]     self.environment.handle_exception()
+[Tue Jun 04 08:14:47.634675 2024] [wsgi:error] [pid 11580:tid 139691342775872] [remote 190.190.1.25:58517]   File "/usr/local/lib/python3.10/dist-packages/jinja2/environment.py", line 936, in handle_exception
+[Tue Jun 04 08:14:47.634712 2024] [wsgi:error] [pid 11580:tid 139691342775872] [remote 190.190.1.25:58517]     raise rewrite_traceback_stack(source=source)
+[Tue Jun 04 08:14:47.634749 2024] [wsgi:error] [pid 11580:tid 139691342775872] [remote 190.190.1.25:58517]   File "/home/geo/Escritorio/Proyectos/ISO/app/templates/iso/MapaDeProcesos/RRHH/index.html", line 1, in top-level template code
+[Tue Jun 04 08:14:47.634784 2024] [wsgi:error] [pid 11580:tid 139691342775872] [remote 190.190.1.25:58517]     {% extends 'baseIso.html'%}
+[Tue Jun 04 08:14:47.634816 2024] [wsgi:error] [pid 11580:tid 139691342775872] [remote 190.190.1.25:58517]   File "/home/geo/Escritorio/Proyectos/ISO/app/templates/baseIso.html", line 64, in top-level template code
+[Tue Jun 04 08:14:47.634850 2024] [wsgi:error] [pid 11580:tid 139691342775872] [remote 190.190.1.25:58517]     <section>{%block content%}{%endblock%}</section>
+[Tue Jun 04 08:14:47.634881 2024] [wsgi:error] [pid 11580:tid 139691342775872] [remote 190.190.1.25:58517]   File "/home/geo/Escritorio/Proyectos/ISO/app/templates/iso/MapaDeProcesos/RRHH/index.html", line 9, in block 'content'
+[Tue Jun 04 08:14:47.634916 2024] [wsgi:error] [pid 11580:tid 139691342775872] [remote 190.190.1.25:58517]     {%include 'iso/MapaDeProcesos/RRHH/rrhh.html'%}
+[Tue Jun 04 08:14:47.634947 2024] [wsgi:error] [pid 11580:tid 139691342775872] [remote 190.190.1.25:58517]   File "/home/geo/Escritorio/Proyectos/ISO/app/templates/iso/MapaDeProcesos/RRHH/rrhh.html", line 14, in top-level template code
+[Tue Jun 04 08:14:47.634982 2024] [wsgi:error] [pid 11580:tid 139691342775872] [remote 190.190.1.25:58517]     <a href="{{ url_for('static', filename='doc/pdf/web/viewer.html')}}?file=Bonin_ISO/2_Map_Procesos_Procedimiento/Recursos_Humanos/FP-RH-001 Ficha de procesode rrhh.pdfpdf&v={{ time|tojson }}&version=1"
+[Tue Jun 04 08:14:47.635014 2024] [wsgi:error] [pid 11580:tid 139691342775872] [remote 190.190.1.25:58517]   File "/usr/local/lib/python3.10/dist-packages/jinja2/filters.py", line 1702, in do_tojson
+[Tue Jun 04 08:14:47.635049 2024] [wsgi:error] [pid 11580:tid 139691342775872] [remote 190.190.1.25:58517]     return htmlsafe_json_dumps(value, dumps=dumps, **kwargs)
+[Tue Jun 04 08:14:47.635085 2024] [wsgi:error] [pid 11580:tid 139691342775872] [remote 190.190.1.25:58517]   File "/usr/local/lib/python3.10/dist-packages/jinja2/utils.py", line 658, in htmlsafe_json_dumps
+[Tue Jun 04 08:14:47.635120 2024] [wsgi:error] [pid 11580:tid 139691342775872] [remote 190.190.1.25:58517]     dumps(obj, **kwargs)
+[Tue Jun 04 08:14:47.635156 2024] [wsgi:error] [pid 11580:tid 139691342775872] [remote 190.190.1.25:58517]   File "/usr/local/lib/python3.10/dist-packages/flask/json/provider.py", line 179, in dumps
+[Tue Jun 04 08:14:47.635185 2024] [wsgi:error] [pid 11580:tid 139691342775872] [remote 190.190.1.25:58517]     return json.dumps(obj, **kwargs)
+[Tue Jun 04 08:14:47.635222 2024] [wsgi:error] [pid 11580:tid 139691342775872] [remote 190.190.1.25:58517]   File "/usr/lib/python3.10/json/__init__.py", line 238, in dumps
+[Tue Jun 04 08:14:47.635256 2024] [wsgi:error] [pid 11580:tid 139691342775872] [remote 190.190.1.25:58517]     **kw).encode(obj)
+[Tue Jun 04 08:14:47.635303 2024] [wsgi:error] [pid 11580:tid 139691342775872] [remote 190.190.1.25:58517]   File "/usr/lib/python3.10/json/encoder.py", line 199, in encode
+[Tue Jun 04 08:14:47.635338 2024] [wsgi:error] [pid 11580:tid 139691342775872] [remote 190.190.1.25:58517]     chunks = self.iterencode(o, _one_shot=True)
+[Tue Jun 04 08:14:47.635376 2024] [wsgi:error] [pid 11580:tid 139691342775872] [remote 190.190.1.25:58517]   File "/usr/lib/python3.10/json/encoder.py", line 257, in iterencode
+[Tue Jun 04 08:14:47.635411 2024] [wsgi:error] [pid 11580:tid 139691342775872] [remote 190.190.1.25:58517]     return _iterencode(o, 0)
+[Tue Jun 04 08:14:47.635448 2024] [wsgi:error] [pid 11580:tid 139691342775872] [remote 190.190.1.25:58517]   File "/usr/local/lib/python3.10/dist-packages/flask/json/provider.py", line 121, in _default
+[Tue Jun 04 08:14:47.635476 2024] [wsgi:error] [pid 11580:tid 139691342775872] [remote 190.190.1.25:58517]     raise TypeError(f"Object of type {type(o).__name__} is not JSON serializable")
+[Tue Jun 04 08:14:47.635532 2024] [wsgi:error] [pid 11580:tid 139691342775872] [remote 190.190.1.25:58517] TypeError: Object of type Undefined is not JSON serializable
+[Tue Jun 04 08:18:03.237059 2024] [wsgi:error] [pid 11580:tid 139691342775872] [remote 190.190.1.25:58561] mod_wsgi (pid=11580): Exception occurred processing WSGI script '/home/geo/Escritorio/Proyectos/ISO/run.wsgi'.
+[Tue Jun 04 08:18:03.237732 2024] [wsgi:error] [pid 11580:tid 139691342775872] [remote 190.190.1.25:58561] Traceback (most recent call last):
+[Tue Jun 04 08:18:03.237897 2024] [wsgi:error] [pid 11580:tid 139691342775872] [remote 190.190.1.25:58561]   File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1488, in __call__
+[Tue Jun 04 08:18:03.237974 2024] [wsgi:error] [pid 11580:tid 139691342775872] [remote 190.190.1.25:58561]     return self.wsgi_app(environ, start_response)
+[Tue Jun 04 08:18:03.238047 2024] [wsgi:error] [pid 11580:tid 139691342775872] [remote 190.190.1.25:58561]   File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1466, in wsgi_app
+[Tue Jun 04 08:18:03.238115 2024] [wsgi:error] [pid 11580:tid 139691342775872] [remote 190.190.1.25:58561]     response = self.handle_exception(e)
+[Tue Jun 04 08:18:03.238490 2024] [wsgi:error] [pid 11580:tid 139691342775872] [remote 190.190.1.25:58561]   File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1463, in wsgi_app
+[Tue Jun 04 08:18:03.238596 2024] [wsgi:error] [pid 11580:tid 139691342775872] [remote 190.190.1.25:58561]     response = self.full_dispatch_request()
+[Tue Jun 04 08:18:03.238671 2024] [wsgi:error] [pid 11580:tid 139691342775872] [remote 190.190.1.25:58561]   File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 872, in full_dispatch_request
+[Tue Jun 04 08:18:03.238760 2024] [wsgi:error] [pid 11580:tid 139691342775872] [remote 190.190.1.25:58561]     rv = self.handle_user_exception(e)
+[Tue Jun 04 08:18:03.238832 2024] [wsgi:error] [pid 11580:tid 139691342775872] [remote 190.190.1.25:58561]   File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 870, in full_dispatch_request
+[Tue Jun 04 08:18:03.238904 2024] [wsgi:error] [pid 11580:tid 139691342775872] [remote 190.190.1.25:58561]     rv = self.dispatch_request()
+[Tue Jun 04 08:18:03.238977 2024] [wsgi:error] [pid 11580:tid 139691342775872] [remote 190.190.1.25:58561]   File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 855, in dispatch_request
+[Tue Jun 04 08:18:03.239041 2024] [wsgi:error] [pid 11580:tid 139691342775872] [remote 190.190.1.25:58561]     return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+[Tue Jun 04 08:18:03.239113 2024] [wsgi:error] [pid 11580:tid 139691342775872] [remote 190.190.1.25:58561]   File "/home/geo/.local/lib/python3.10/site-packages/flask_login/utils.py", line 290, in decorated_view
+[Tue Jun 04 08:18:03.239177 2024] [wsgi:error] [pid 11580:tid 139691342775872] [remote 190.190.1.25:58561]     return current_app.ensure_sync(func)(*args, **kwargs)
+[Tue Jun 04 08:18:03.239250 2024] [wsgi:error] [pid 11580:tid 139691342775872] [remote 190.190.1.25:58561]   File "/home/geo/Escritorio/Proyectos/ISO/app/app.py", line 69, in no_cache_response
+[Tue Jun 04 08:18:03.239314 2024] [wsgi:error] [pid 11580:tid 139691342775872] [remote 190.190.1.25:58561]     response = make_response(view(*args, **kwargs))
+[Tue Jun 04 08:18:03.239387 2024] [wsgi:error] [pid 11580:tid 139691342775872] [remote 190.190.1.25:58561]   File "/home/geo/Escritorio/Proyectos/ISO/app/app.py", line 180, in MapadeProcesos_RRHH
+[Tue Jun 04 08:18:03.239453 2024] [wsgi:error] [pid 11580:tid 139691342775872] [remote 190.190.1.25:58561]     return render_template('iso/MapaDeProcesos/RRHH/index.html')
+[Tue Jun 04 08:18:03.239523 2024] [wsgi:error] [pid 11580:tid 139691342775872] [remote 190.190.1.25:58561]   File "/usr/local/lib/python3.10/dist-packages/flask/templating.py", line 150, in render_template
+[Tue Jun 04 08:18:03.239604 2024] [wsgi:error] [pid 11580:tid 139691342775872] [remote 190.190.1.25:58561]     return _render(app, template, context)
+[Tue Jun 04 08:18:03.239692 2024] [wsgi:error] [pid 11580:tid 139691342775872] [remote 190.190.1.25:58561]   File "/usr/local/lib/python3.10/dist-packages/flask/templating.py", line 131, in _render
+[Tue Jun 04 08:18:03.239767 2024] [wsgi:error] [pid 11580:tid 139691342775872] [remote 190.190.1.25:58561]     rv = template.render(context)
+[Tue Jun 04 08:18:03.239837 2024] [wsgi:error] [pid 11580:tid 139691342775872] [remote 190.190.1.25:58561]   File "/usr/local/lib/python3.10/dist-packages/jinja2/environment.py", line 1301, in render
+[Tue Jun 04 08:18:03.239908 2024] [wsgi:error] [pid 11580:tid 139691342775872] [remote 190.190.1.25:58561]     self.environment.handle_exception()
+[Tue Jun 04 08:18:03.239981 2024] [wsgi:error] [pid 11580:tid 139691342775872] [remote 190.190.1.25:58561]   File "/usr/local/lib/python3.10/dist-packages/jinja2/environment.py", line 936, in handle_exception
+[Tue Jun 04 08:18:03.240048 2024] [wsgi:error] [pid 11580:tid 139691342775872] [remote 190.190.1.25:58561]     raise rewrite_traceback_stack(source=source)
+[Tue Jun 04 08:18:03.240121 2024] [wsgi:error] [pid 11580:tid 139691342775872] [remote 190.190.1.25:58561]   File "/home/geo/Escritorio/Proyectos/ISO/app/templates/iso/MapaDeProcesos/RRHH/index.html", line 1, in top-level template code
+[Tue Jun 04 08:18:03.240188 2024] [wsgi:error] [pid 11580:tid 139691342775872] [remote 190.190.1.25:58561]     {% extends 'baseIso.html'%}
+[Tue Jun 04 08:18:03.240261 2024] [wsgi:error] [pid 11580:tid 139691342775872] [remote 190.190.1.25:58561]   File "/home/geo/Escritorio/Proyectos/ISO/app/templates/baseIso.html", line 64, in top-level template code
+[Tue Jun 04 08:18:03.240329 2024] [wsgi:error] [pid 11580:tid 139691342775872] [remote 190.190.1.25:58561]     <section>{%block content%}{%endblock%}</section>
+[Tue Jun 04 08:18:03.240402 2024] [wsgi:error] [pid 11580:tid 139691342775872] [remote 190.190.1.25:58561]   File "/home/geo/Escritorio/Proyectos/ISO/app/templates/iso/MapaDeProcesos/RRHH/index.html", line 9, in block 'content'
+[Tue Jun 04 08:18:03.240473 2024] [wsgi:error] [pid 11580:tid 139691342775872] [remote 190.190.1.25:58561]     {%include 'iso/MapaDeProcesos/RRHH/rrhh.html'%}
+[Tue Jun 04 08:18:03.240543 2024] [wsgi:error] [pid 11580:tid 139691342775872] [remote 190.190.1.25:58561]   File "/home/geo/Escritorio/Proyectos/ISO/app/templates/iso/MapaDeProcesos/RRHH/rrhh.html", line 14, in top-level template code
+[Tue Jun 04 08:18:03.240614 2024] [wsgi:error] [pid 11580:tid 139691342775872] [remote 190.190.1.25:58561]     <a href="{{ url_for('static', filename='doc/pdf/web/viewer.html', t=datetime.datetime.now().timestamp())}}?file=Bonin_ISO/2_Map_Procesos_Procedimiento/Recursos_Humanos/FP-RH-001 Ficha de procesode rrhh.pdf"
+[Tue Jun 04 08:18:03.240700 2024] [wsgi:error] [pid 11580:tid 139691342775872] [remote 190.190.1.25:58561]   File "/usr/local/lib/python3.10/dist-packages/jinja2/environment.py", line 485, in getattr
+[Tue Jun 04 08:18:03.240771 2024] [wsgi:error] [pid 11580:tid 139691342775872] [remote 190.190.1.25:58561]     return getattr(obj, attribute)
+[Tue Jun 04 08:18:03.240853 2024] [wsgi:error] [pid 11580:tid 139691342775872] [remote 190.190.1.25:58561] jinja2.exceptions.UndefinedError: 'datetime' is undefined
+[Tue Jun 04 08:18:03.438840 2024] [wsgi:error] [pid 11580:tid 139691351168576] [remote 190.190.1.25:58562] mod_wsgi (pid=11580): Exception occurred processing WSGI script '/home/geo/Escritorio/Proyectos/ISO/run.wsgi'.
+[Tue Jun 04 08:18:03.439051 2024] [wsgi:error] [pid 11580:tid 139691351168576] [remote 190.190.1.25:58562] Traceback (most recent call last):
+[Tue Jun 04 08:18:03.439146 2024] [wsgi:error] [pid 11580:tid 139691351168576] [remote 190.190.1.25:58562]   File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1488, in __call__
+[Tue Jun 04 08:18:03.439199 2024] [wsgi:error] [pid 11580:tid 139691351168576] [remote 190.190.1.25:58562]     return self.wsgi_app(environ, start_response)
+[Tue Jun 04 08:18:03.439252 2024] [wsgi:error] [pid 11580:tid 139691351168576] [remote 190.190.1.25:58562]   File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1466, in wsgi_app
+[Tue Jun 04 08:18:03.439289 2024] [wsgi:error] [pid 11580:tid 139691351168576] [remote 190.190.1.25:58562]     response = self.handle_exception(e)
+[Tue Jun 04 08:18:03.439326 2024] [wsgi:error] [pid 11580:tid 139691351168576] [remote 190.190.1.25:58562]   File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1463, in wsgi_app
+[Tue Jun 04 08:18:03.439361 2024] [wsgi:error] [pid 11580:tid 139691351168576] [remote 190.190.1.25:58562]     response = self.full_dispatch_request()
+[Tue Jun 04 08:18:03.439398 2024] [wsgi:error] [pid 11580:tid 139691351168576] [remote 190.190.1.25:58562]   File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 872, in full_dispatch_request
+[Tue Jun 04 08:18:03.439434 2024] [wsgi:error] [pid 11580:tid 139691351168576] [remote 190.190.1.25:58562]     rv = self.handle_user_exception(e)
+[Tue Jun 04 08:18:03.439471 2024] [wsgi:error] [pid 11580:tid 139691351168576] [remote 190.190.1.25:58562]   File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 870, in full_dispatch_request
+[Tue Jun 04 08:18:03.439507 2024] [wsgi:error] [pid 11580:tid 139691351168576] [remote 190.190.1.25:58562]     rv = self.dispatch_request()
+[Tue Jun 04 08:18:03.439544 2024] [wsgi:error] [pid 11580:tid 139691351168576] [remote 190.190.1.25:58562]   File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 855, in dispatch_request
+[Tue Jun 04 08:18:03.439580 2024] [wsgi:error] [pid 11580:tid 139691351168576] [remote 190.190.1.25:58562]     return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+[Tue Jun 04 08:18:03.439617 2024] [wsgi:error] [pid 11580:tid 139691351168576] [remote 190.190.1.25:58562]   File "/home/geo/.local/lib/python3.10/site-packages/flask_login/utils.py", line 290, in decorated_view
+[Tue Jun 04 08:18:03.439653 2024] [wsgi:error] [pid 11580:tid 139691351168576] [remote 190.190.1.25:58562]     return current_app.ensure_sync(func)(*args, **kwargs)
+[Tue Jun 04 08:18:03.439691 2024] [wsgi:error] [pid 11580:tid 139691351168576] [remote 190.190.1.25:58562]   File "/home/geo/Escritorio/Proyectos/ISO/app/app.py", line 69, in no_cache_response
+[Tue Jun 04 08:18:03.439739 2024] [wsgi:error] [pid 11580:tid 139691351168576] [remote 190.190.1.25:58562]     response = make_response(view(*args, **kwargs))
+[Tue Jun 04 08:18:03.439782 2024] [wsgi:error] [pid 11580:tid 139691351168576] [remote 190.190.1.25:58562]   File "/home/geo/Escritorio/Proyectos/ISO/app/app.py", line 180, in MapadeProcesos_RRHH
+[Tue Jun 04 08:18:03.439818 2024] [wsgi:error] [pid 11580:tid 139691351168576] [remote 190.190.1.25:58562]     return render_template('iso/MapaDeProcesos/RRHH/index.html')
+[Tue Jun 04 08:18:03.439855 2024] [wsgi:error] [pid 11580:tid 139691351168576] [remote 190.190.1.25:58562]   File "/usr/local/lib/python3.10/dist-packages/flask/templating.py", line 150, in render_template
+[Tue Jun 04 08:18:03.439890 2024] [wsgi:error] [pid 11580:tid 139691351168576] [remote 190.190.1.25:58562]     return _render(app, template, context)
+[Tue Jun 04 08:18:03.439927 2024] [wsgi:error] [pid 11580:tid 139691351168576] [remote 190.190.1.25:58562]   File "/usr/local/lib/python3.10/dist-packages/flask/templating.py", line 131, in _render
+[Tue Jun 04 08:18:03.439962 2024] [wsgi:error] [pid 11580:tid 139691351168576] [remote 190.190.1.25:58562]     rv = template.render(context)
+[Tue Jun 04 08:18:03.439999 2024] [wsgi:error] [pid 11580:tid 139691351168576] [remote 190.190.1.25:58562]   File "/usr/local/lib/python3.10/dist-packages/jinja2/environment.py", line 1301, in render
+[Tue Jun 04 08:18:03.440035 2024] [wsgi:error] [pid 11580:tid 139691351168576] [remote 190.190.1.25:58562]     self.environment.handle_exception()
+[Tue Jun 04 08:18:03.440068 2024] [wsgi:error] [pid 11580:tid 139691351168576] [remote 190.190.1.25:58562]   File "/usr/local/lib/python3.10/dist-packages/jinja2/environment.py", line 936, in handle_exception
+[Tue Jun 04 08:18:03.440110 2024] [wsgi:error] [pid 11580:tid 139691351168576] [remote 190.190.1.25:58562]     raise rewrite_traceback_stack(source=source)
+[Tue Jun 04 08:18:03.440145 2024] [wsgi:error] [pid 11580:tid 139691351168576] [remote 190.190.1.25:58562]   File "/home/geo/Escritorio/Proyectos/ISO/app/templates/iso/MapaDeProcesos/RRHH/index.html", line 1, in top-level template code
+[Tue Jun 04 08:18:03.440192 2024] [wsgi:error] [pid 11580:tid 139691351168576] [remote 190.190.1.25:58562]     {% extends 'baseIso.html'%}
+[Tue Jun 04 08:18:03.440231 2024] [wsgi:error] [pid 11580:tid 139691351168576] [remote 190.190.1.25:58562]   File "/home/geo/Escritorio/Proyectos/ISO/app/templates/baseIso.html", line 64, in top-level template code
+[Tue Jun 04 08:18:03.440268 2024] [wsgi:error] [pid 11580:tid 139691351168576] [remote 190.190.1.25:58562]     <section>{%block content%}{%endblock%}</section>
+[Tue Jun 04 08:18:03.440305 2024] [wsgi:error] [pid 11580:tid 139691351168576] [remote 190.190.1.25:58562]   File "/home/geo/Escritorio/Proyectos/ISO/app/templates/iso/MapaDeProcesos/RRHH/index.html", line 9, in block 'content'
+[Tue Jun 04 08:18:03.440340 2024] [wsgi:error] [pid 11580:tid 139691351168576] [remote 190.190.1.25:58562]     {%include 'iso/MapaDeProcesos/RRHH/rrhh.html'%}
+[Tue Jun 04 08:18:03.440377 2024] [wsgi:error] [pid 11580:tid 139691351168576] [remote 190.190.1.25:58562]   File "/home/geo/Escritorio/Proyectos/ISO/app/templates/iso/MapaDeProcesos/RRHH/rrhh.html", line 14, in top-level template code
+[Tue Jun 04 08:18:03.440412 2024] [wsgi:error] [pid 11580:tid 139691351168576] [remote 190.190.1.25:58562]     <a href="{{ url_for('static', filename='doc/pdf/web/viewer.html', t=datetime.datetime.now().timestamp())}}?file=Bonin_ISO/2_Map_Procesos_Procedimiento/Recursos_Humanos/FP-RH-001 Ficha de procesode rrhh.pdf"
+[Tue Jun 04 08:18:03.440446 2024] [wsgi:error] [pid 11580:tid 139691351168576] [remote 190.190.1.25:58562]   File "/usr/local/lib/python3.10/dist-packages/jinja2/environment.py", line 485, in getattr
+[Tue Jun 04 08:18:03.440479 2024] [wsgi:error] [pid 11580:tid 139691351168576] [remote 190.190.1.25:58562]     return getattr(obj, attribute)
+[Tue Jun 04 08:18:03.440520 2024] [wsgi:error] [pid 11580:tid 139691351168576] [remote 190.190.1.25:58562] jinja2.exceptions.UndefinedError: 'datetime' is undefined
+[Tue Jun 04 08:18:03.598985 2024] [wsgi:error] [pid 11580:tid 139691342775872] [remote 190.190.1.25:58563] mod_wsgi (pid=11580): Exception occurred processing WSGI script '/home/geo/Escritorio/Proyectos/ISO/run.wsgi'.
+[Tue Jun 04 08:18:03.599210 2024] [wsgi:error] [pid 11580:tid 139691342775872] [remote 190.190.1.25:58563] Traceback (most recent call last):
+[Tue Jun 04 08:18:03.599311 2024] [wsgi:error] [pid 11580:tid 139691342775872] [remote 190.190.1.25:58563]   File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1488, in __call__
+[Tue Jun 04 08:18:03.599350 2024] [wsgi:error] [pid 11580:tid 139691342775872] [remote 190.190.1.25:58563]     return self.wsgi_app(environ, start_response)
+[Tue Jun 04 08:18:03.599385 2024] [wsgi:error] [pid 11580:tid 139691342775872] [remote 190.190.1.25:58563]   File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1466, in wsgi_app
+[Tue Jun 04 08:18:03.599417 2024] [wsgi:error] [pid 11580:tid 139691342775872] [remote 190.190.1.25:58563]     response = self.handle_exception(e)
+[Tue Jun 04 08:18:03.599450 2024] [wsgi:error] [pid 11580:tid 139691342775872] [remote 190.190.1.25:58563]   File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1463, in wsgi_app
+[Tue Jun 04 08:18:03.599481 2024] [wsgi:error] [pid 11580:tid 139691342775872] [remote 190.190.1.25:58563]     response = self.full_dispatch_request()
+[Tue Jun 04 08:18:03.599513 2024] [wsgi:error] [pid 11580:tid 139691342775872] [remote 190.190.1.25:58563]   File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 872, in full_dispatch_request
+[Tue Jun 04 08:18:03.599544 2024] [wsgi:error] [pid 11580:tid 139691342775872] [remote 190.190.1.25:58563]     rv = self.handle_user_exception(e)
+[Tue Jun 04 08:18:03.599592 2024] [wsgi:error] [pid 11580:tid 139691342775872] [remote 190.190.1.25:58563]   File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 870, in full_dispatch_request
+[Tue Jun 04 08:18:03.599625 2024] [wsgi:error] [pid 11580:tid 139691342775872] [remote 190.190.1.25:58563]     rv = self.dispatch_request()
+[Tue Jun 04 08:18:03.599662 2024] [wsgi:error] [pid 11580:tid 139691342775872] [remote 190.190.1.25:58563]   File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 855, in dispatch_request
+[Tue Jun 04 08:18:03.599695 2024] [wsgi:error] [pid 11580:tid 139691342775872] [remote 190.190.1.25:58563]     return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+[Tue Jun 04 08:18:03.599748 2024] [wsgi:error] [pid 11580:tid 139691342775872] [remote 190.190.1.25:58563]   File "/home/geo/.local/lib/python3.10/site-packages/flask_login/utils.py", line 290, in decorated_view
+[Tue Jun 04 08:18:03.599783 2024] [wsgi:error] [pid 11580:tid 139691342775872] [remote 190.190.1.25:58563]     return current_app.ensure_sync(func)(*args, **kwargs)
+[Tue Jun 04 08:18:03.599815 2024] [wsgi:error] [pid 11580:tid 139691342775872] [remote 190.190.1.25:58563]   File "/home/geo/Escritorio/Proyectos/ISO/app/app.py", line 69, in no_cache_response
+[Tue Jun 04 08:18:03.599846 2024] [wsgi:error] [pid 11580:tid 139691342775872] [remote 190.190.1.25:58563]     response = make_response(view(*args, **kwargs))
+[Tue Jun 04 08:18:03.599879 2024] [wsgi:error] [pid 11580:tid 139691342775872] [remote 190.190.1.25:58563]   File "/home/geo/Escritorio/Proyectos/ISO/app/app.py", line 180, in MapadeProcesos_RRHH
+[Tue Jun 04 08:18:03.599910 2024] [wsgi:error] [pid 11580:tid 139691342775872] [remote 190.190.1.25:58563]     return render_template('iso/MapaDeProcesos/RRHH/index.html')
+[Tue Jun 04 08:18:03.599942 2024] [wsgi:error] [pid 11580:tid 139691342775872] [remote 190.190.1.25:58563]   File "/usr/local/lib/python3.10/dist-packages/flask/templating.py", line 150, in render_template
+[Tue Jun 04 08:18:03.599973 2024] [wsgi:error] [pid 11580:tid 139691342775872] [remote 190.190.1.25:58563]     return _render(app, template, context)
+[Tue Jun 04 08:18:03.600005 2024] [wsgi:error] [pid 11580:tid 139691342775872] [remote 190.190.1.25:58563]   File "/usr/local/lib/python3.10/dist-packages/flask/templating.py", line 131, in _render
+[Tue Jun 04 08:18:03.600036 2024] [wsgi:error] [pid 11580:tid 139691342775872] [remote 190.190.1.25:58563]     rv = template.render(context)
+[Tue Jun 04 08:18:03.600068 2024] [wsgi:error] [pid 11580:tid 139691342775872] [remote 190.190.1.25:58563]   File "/usr/local/lib/python3.10/dist-packages/jinja2/environment.py", line 1301, in render
+[Tue Jun 04 08:18:03.600099 2024] [wsgi:error] [pid 11580:tid 139691342775872] [remote 190.190.1.25:58563]     self.environment.handle_exception()
+[Tue Jun 04 08:18:03.600131 2024] [wsgi:error] [pid 11580:tid 139691342775872] [remote 190.190.1.25:58563]   File "/usr/local/lib/python3.10/dist-packages/jinja2/environment.py", line 936, in handle_exception
+[Tue Jun 04 08:18:03.600162 2024] [wsgi:error] [pid 11580:tid 139691342775872] [remote 190.190.1.25:58563]     raise rewrite_traceback_stack(source=source)
+[Tue Jun 04 08:18:03.600194 2024] [wsgi:error] [pid 11580:tid 139691342775872] [remote 190.190.1.25:58563]   File "/home/geo/Escritorio/Proyectos/ISO/app/templates/iso/MapaDeProcesos/RRHH/index.html", line 1, in top-level template code
+[Tue Jun 04 08:18:03.600226 2024] [wsgi:error] [pid 11580:tid 139691342775872] [remote 190.190.1.25:58563]     {% extends 'baseIso.html'%}
+[Tue Jun 04 08:18:03.600258 2024] [wsgi:error] [pid 11580:tid 139691342775872] [remote 190.190.1.25:58563]   File "/home/geo/Escritorio/Proyectos/ISO/app/templates/baseIso.html", line 64, in top-level template code
+[Tue Jun 04 08:18:03.600289 2024] [wsgi:error] [pid 11580:tid 139691342775872] [remote 190.190.1.25:58563]     <section>{%block content%}{%endblock%}</section>
+[Tue Jun 04 08:18:03.600331 2024] [wsgi:error] [pid 11580:tid 139691342775872] [remote 190.190.1.25:58563]   File "/home/geo/Escritorio/Proyectos/ISO/app/templates/iso/MapaDeProcesos/RRHH/index.html", line 9, in block 'content'
+[Tue Jun 04 08:18:03.600365 2024] [wsgi:error] [pid 11580:tid 139691342775872] [remote 190.190.1.25:58563]     {%include 'iso/MapaDeProcesos/RRHH/rrhh.html'%}
+[Tue Jun 04 08:18:03.600397 2024] [wsgi:error] [pid 11580:tid 139691342775872] [remote 190.190.1.25:58563]   File "/home/geo/Escritorio/Proyectos/ISO/app/templates/iso/MapaDeProcesos/RRHH/rrhh.html", line 14, in top-level template code
+[Tue Jun 04 08:18:03.600429 2024] [wsgi:error] [pid 11580:tid 139691342775872] [remote 190.190.1.25:58563]     <a href="{{ url_for('static', filename='doc/pdf/web/viewer.html', t=datetime.datetime.now().timestamp())}}?file=Bonin_ISO/2_Map_Procesos_Procedimiento/Recursos_Humanos/FP-RH-001 Ficha de procesode rrhh.pdf"
+[Tue Jun 04 08:18:03.600462 2024] [wsgi:error] [pid 11580:tid 139691342775872] [remote 190.190.1.25:58563]   File "/usr/local/lib/python3.10/dist-packages/jinja2/environment.py", line 485, in getattr
+[Tue Jun 04 08:18:03.600494 2024] [wsgi:error] [pid 11580:tid 139691342775872] [remote 190.190.1.25:58563]     return getattr(obj, attribute)
+[Tue Jun 04 08:18:03.600535 2024] [wsgi:error] [pid 11580:tid 139691342775872] [remote 190.190.1.25:58563] jinja2.exceptions.UndefinedError: 'datetime' is undefined
+[Tue Jun 04 08:18:03.758768 2024] [wsgi:error] [pid 11580:tid 139691351168576] [remote 190.190.1.25:58565] mod_wsgi (pid=11580): Exception occurred processing WSGI script '/home/geo/Escritorio/Proyectos/ISO/run.wsgi'.
+[Tue Jun 04 08:18:03.758992 2024] [wsgi:error] [pid 11580:tid 139691351168576] [remote 190.190.1.25:58565] Traceback (most recent call last):
+[Tue Jun 04 08:18:03.759089 2024] [wsgi:error] [pid 11580:tid 139691351168576] [remote 190.190.1.25:58565]   File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1488, in __call__
+[Tue Jun 04 08:18:03.759128 2024] [wsgi:error] [pid 11580:tid 139691351168576] [remote 190.190.1.25:58565]     return self.wsgi_app(environ, start_response)
+[Tue Jun 04 08:18:03.759162 2024] [wsgi:error] [pid 11580:tid 139691351168576] [remote 190.190.1.25:58565]   File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1466, in wsgi_app
+[Tue Jun 04 08:18:03.759194 2024] [wsgi:error] [pid 11580:tid 139691351168576] [remote 190.190.1.25:58565]     response = self.handle_exception(e)
+[Tue Jun 04 08:18:03.759227 2024] [wsgi:error] [pid 11580:tid 139691351168576] [remote 190.190.1.25:58565]   File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1463, in wsgi_app
+[Tue Jun 04 08:18:03.759258 2024] [wsgi:error] [pid 11580:tid 139691351168576] [remote 190.190.1.25:58565]     response = self.full_dispatch_request()
+[Tue Jun 04 08:18:03.759290 2024] [wsgi:error] [pid 11580:tid 139691351168576] [remote 190.190.1.25:58565]   File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 872, in full_dispatch_request
+[Tue Jun 04 08:18:03.759321 2024] [wsgi:error] [pid 11580:tid 139691351168576] [remote 190.190.1.25:58565]     rv = self.handle_user_exception(e)
+[Tue Jun 04 08:18:03.759353 2024] [wsgi:error] [pid 11580:tid 139691351168576] [remote 190.190.1.25:58565]   File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 870, in full_dispatch_request
+[Tue Jun 04 08:18:03.759385 2024] [wsgi:error] [pid 11580:tid 139691351168576] [remote 190.190.1.25:58565]     rv = self.dispatch_request()
+[Tue Jun 04 08:18:03.759417 2024] [wsgi:error] [pid 11580:tid 139691351168576] [remote 190.190.1.25:58565]   File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 855, in dispatch_request
+[Tue Jun 04 08:18:03.759448 2024] [wsgi:error] [pid 11580:tid 139691351168576] [remote 190.190.1.25:58565]     return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+[Tue Jun 04 08:18:03.759480 2024] [wsgi:error] [pid 11580:tid 139691351168576] [remote 190.190.1.25:58565]   File "/home/geo/.local/lib/python3.10/site-packages/flask_login/utils.py", line 290, in decorated_view
+[Tue Jun 04 08:18:03.759522 2024] [wsgi:error] [pid 11580:tid 139691351168576] [remote 190.190.1.25:58565]     return current_app.ensure_sync(func)(*args, **kwargs)
+[Tue Jun 04 08:18:03.759555 2024] [wsgi:error] [pid 11580:tid 139691351168576] [remote 190.190.1.25:58565]   File "/home/geo/Escritorio/Proyectos/ISO/app/app.py", line 69, in no_cache_response
+[Tue Jun 04 08:18:03.759586 2024] [wsgi:error] [pid 11580:tid 139691351168576] [remote 190.190.1.25:58565]     response = make_response(view(*args, **kwargs))
+[Tue Jun 04 08:18:03.759619 2024] [wsgi:error] [pid 11580:tid 139691351168576] [remote 190.190.1.25:58565]   File "/home/geo/Escritorio/Proyectos/ISO/app/app.py", line 180, in MapadeProcesos_RRHH
+[Tue Jun 04 08:18:03.759650 2024] [wsgi:error] [pid 11580:tid 139691351168576] [remote 190.190.1.25:58565]     return render_template('iso/MapaDeProcesos/RRHH/index.html')
+[Tue Jun 04 08:18:03.759682 2024] [wsgi:error] [pid 11580:tid 139691351168576] [remote 190.190.1.25:58565]   File "/usr/local/lib/python3.10/dist-packages/flask/templating.py", line 150, in render_template
+[Tue Jun 04 08:18:03.759713 2024] [wsgi:error] [pid 11580:tid 139691351168576] [remote 190.190.1.25:58565]     return _render(app, template, context)
+[Tue Jun 04 08:18:03.759768 2024] [wsgi:error] [pid 11580:tid 139691351168576] [remote 190.190.1.25:58565]   File "/usr/local/lib/python3.10/dist-packages/flask/templating.py", line 131, in _render
+[Tue Jun 04 08:18:03.759804 2024] [wsgi:error] [pid 11580:tid 139691351168576] [remote 190.190.1.25:58565]     rv = template.render(context)
+[Tue Jun 04 08:18:03.759837 2024] [wsgi:error] [pid 11580:tid 139691351168576] [remote 190.190.1.25:58565]   File "/usr/local/lib/python3.10/dist-packages/jinja2/environment.py", line 1301, in render
+[Tue Jun 04 08:18:03.759869 2024] [wsgi:error] [pid 11580:tid 139691351168576] [remote 190.190.1.25:58565]     self.environment.handle_exception()
+[Tue Jun 04 08:18:03.759901 2024] [wsgi:error] [pid 11580:tid 139691351168576] [remote 190.190.1.25:58565]   File "/usr/local/lib/python3.10/dist-packages/jinja2/environment.py", line 936, in handle_exception
+[Tue Jun 04 08:18:03.759933 2024] [wsgi:error] [pid 11580:tid 139691351168576] [remote 190.190.1.25:58565]     raise rewrite_traceback_stack(source=source)
+[Tue Jun 04 08:18:03.759965 2024] [wsgi:error] [pid 11580:tid 139691351168576] [remote 190.190.1.25:58565]   File "/home/geo/Escritorio/Proyectos/ISO/app/templates/iso/MapaDeProcesos/RRHH/index.html", line 1, in top-level template code
+[Tue Jun 04 08:18:03.759997 2024] [wsgi:error] [pid 11580:tid 139691351168576] [remote 190.190.1.25:58565]     {% extends 'baseIso.html'%}
+[Tue Jun 04 08:18:03.760029 2024] [wsgi:error] [pid 11580:tid 139691351168576] [remote 190.190.1.25:58565]   File "/home/geo/Escritorio/Proyectos/ISO/app/templates/baseIso.html", line 64, in top-level template code
+[Tue Jun 04 08:18:03.760061 2024] [wsgi:error] [pid 11580:tid 139691351168576] [remote 190.190.1.25:58565]     <section>{%block content%}{%endblock%}</section>
+[Tue Jun 04 08:18:03.760101 2024] [wsgi:error] [pid 11580:tid 139691351168576] [remote 190.190.1.25:58565]   File "/home/geo/Escritorio/Proyectos/ISO/app/templates/iso/MapaDeProcesos/RRHH/index.html", line 9, in block 'content'
+[Tue Jun 04 08:18:03.760139 2024] [wsgi:error] [pid 11580:tid 139691351168576] [remote 190.190.1.25:58565]     {%include 'iso/MapaDeProcesos/RRHH/rrhh.html'%}
+[Tue Jun 04 08:18:03.760179 2024] [wsgi:error] [pid 11580:tid 139691351168576] [remote 190.190.1.25:58565]   File "/home/geo/Escritorio/Proyectos/ISO/app/templates/iso/MapaDeProcesos/RRHH/rrhh.html", line 14, in top-level template code
+[Tue Jun 04 08:18:03.760217 2024] [wsgi:error] [pid 11580:tid 139691351168576] [remote 190.190.1.25:58565]     <a href="{{ url_for('static', filename='doc/pdf/web/viewer.html', t=datetime.datetime.now().timestamp())}}?file=Bonin_ISO/2_Map_Procesos_Procedimiento/Recursos_Humanos/FP-RH-001 Ficha de procesode rrhh.pdf"
+[Tue Jun 04 08:18:03.760258 2024] [wsgi:error] [pid 11580:tid 139691351168576] [remote 190.190.1.25:58565]   File "/usr/local/lib/python3.10/dist-packages/jinja2/environment.py", line 485, in getattr
+[Tue Jun 04 08:18:03.760301 2024] [wsgi:error] [pid 11580:tid 139691351168576] [remote 190.190.1.25:58565]     return getattr(obj, attribute)
+[Tue Jun 04 08:18:03.760349 2024] [wsgi:error] [pid 11580:tid 139691351168576] [remote 190.190.1.25:58565] jinja2.exceptions.UndefinedError: 'datetime' is undefined
+[Tue Jun 04 08:18:03.942819 2024] [wsgi:error] [pid 11580:tid 139691342775872] [remote 190.190.1.25:58566] mod_wsgi (pid=11580): Exception occurred processing WSGI script '/home/geo/Escritorio/Proyectos/ISO/run.wsgi'.
+[Tue Jun 04 08:18:03.943087 2024] [wsgi:error] [pid 11580:tid 139691342775872] [remote 190.190.1.25:58566] Traceback (most recent call last):
+[Tue Jun 04 08:18:03.943199 2024] [wsgi:error] [pid 11580:tid 139691342775872] [remote 190.190.1.25:58566]   File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1488, in __call__
+[Tue Jun 04 08:18:03.943241 2024] [wsgi:error] [pid 11580:tid 139691342775872] [remote 190.190.1.25:58566]     return self.wsgi_app(environ, start_response)
+[Tue Jun 04 08:18:03.943273 2024] [wsgi:error] [pid 11580:tid 139691342775872] [remote 190.190.1.25:58566]   File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1466, in wsgi_app
+[Tue Jun 04 08:18:03.943316 2024] [wsgi:error] [pid 11580:tid 139691342775872] [remote 190.190.1.25:58566]     response = self.handle_exception(e)
+[Tue Jun 04 08:18:03.943367 2024] [wsgi:error] [pid 11580:tid 139691342775872] [remote 190.190.1.25:58566]   File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1463, in wsgi_app
+[Tue Jun 04 08:18:03.943413 2024] [wsgi:error] [pid 11580:tid 139691342775872] [remote 190.190.1.25:58566]     response = self.full_dispatch_request()
+[Tue Jun 04 08:18:03.943463 2024] [wsgi:error] [pid 11580:tid 139691342775872] [remote 190.190.1.25:58566]   File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 872, in full_dispatch_request
+[Tue Jun 04 08:18:03.943510 2024] [wsgi:error] [pid 11580:tid 139691342775872] [remote 190.190.1.25:58566]     rv = self.handle_user_exception(e)
+[Tue Jun 04 08:18:03.943559 2024] [wsgi:error] [pid 11580:tid 139691342775872] [remote 190.190.1.25:58566]   File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 870, in full_dispatch_request
+[Tue Jun 04 08:18:03.943606 2024] [wsgi:error] [pid 11580:tid 139691342775872] [remote 190.190.1.25:58566]     rv = self.dispatch_request()
+[Tue Jun 04 08:18:03.943659 2024] [wsgi:error] [pid 11580:tid 139691342775872] [remote 190.190.1.25:58566]   File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 855, in dispatch_request
+[Tue Jun 04 08:18:03.943696 2024] [wsgi:error] [pid 11580:tid 139691342775872] [remote 190.190.1.25:58566]     return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+[Tue Jun 04 08:18:03.943727 2024] [wsgi:error] [pid 11580:tid 139691342775872] [remote 190.190.1.25:58566]   File "/home/geo/.local/lib/python3.10/site-packages/flask_login/utils.py", line 290, in decorated_view
+[Tue Jun 04 08:18:03.943757 2024] [wsgi:error] [pid 11580:tid 139691342775872] [remote 190.190.1.25:58566]     return current_app.ensure_sync(func)(*args, **kwargs)
+[Tue Jun 04 08:18:03.943787 2024] [wsgi:error] [pid 11580:tid 139691342775872] [remote 190.190.1.25:58566]   File "/home/geo/Escritorio/Proyectos/ISO/app/app.py", line 69, in no_cache_response
+[Tue Jun 04 08:18:03.943817 2024] [wsgi:error] [pid 11580:tid 139691342775872] [remote 190.190.1.25:58566]     response = make_response(view(*args, **kwargs))
+[Tue Jun 04 08:18:03.943853 2024] [wsgi:error] [pid 11580:tid 139691342775872] [remote 190.190.1.25:58566]   File "/home/geo/Escritorio/Proyectos/ISO/app/app.py", line 180, in MapadeProcesos_RRHH
+[Tue Jun 04 08:18:03.943891 2024] [wsgi:error] [pid 11580:tid 139691342775872] [remote 190.190.1.25:58566]     return render_template('iso/MapaDeProcesos/RRHH/index.html')
+[Tue Jun 04 08:18:03.943930 2024] [wsgi:error] [pid 11580:tid 139691342775872] [remote 190.190.1.25:58566]   File "/usr/local/lib/python3.10/dist-packages/flask/templating.py", line 150, in render_template
+[Tue Jun 04 08:18:03.943979 2024] [wsgi:error] [pid 11580:tid 139691342775872] [remote 190.190.1.25:58566]     return _render(app, template, context)
+[Tue Jun 04 08:18:03.944019 2024] [wsgi:error] [pid 11580:tid 139691342775872] [remote 190.190.1.25:58566]   File "/usr/local/lib/python3.10/dist-packages/flask/templating.py", line 131, in _render
+[Tue Jun 04 08:18:03.944057 2024] [wsgi:error] [pid 11580:tid 139691342775872] [remote 190.190.1.25:58566]     rv = template.render(context)
+[Tue Jun 04 08:18:03.944096 2024] [wsgi:error] [pid 11580:tid 139691342775872] [remote 190.190.1.25:58566]   File "/usr/local/lib/python3.10/dist-packages/jinja2/environment.py", line 1301, in render
+[Tue Jun 04 08:18:03.944134 2024] [wsgi:error] [pid 11580:tid 139691342775872] [remote 190.190.1.25:58566]     self.environment.handle_exception()
+[Tue Jun 04 08:18:03.944173 2024] [wsgi:error] [pid 11580:tid 139691342775872] [remote 190.190.1.25:58566]   File "/usr/local/lib/python3.10/dist-packages/jinja2/environment.py", line 936, in handle_exception
+[Tue Jun 04 08:18:03.944211 2024] [wsgi:error] [pid 11580:tid 139691342775872] [remote 190.190.1.25:58566]     raise rewrite_traceback_stack(source=source)
+[Tue Jun 04 08:18:03.944249 2024] [wsgi:error] [pid 11580:tid 139691342775872] [remote 190.190.1.25:58566]   File "/home/geo/Escritorio/Proyectos/ISO/app/templates/iso/MapaDeProcesos/RRHH/index.html", line 1, in top-level template code
+[Tue Jun 04 08:18:03.944287 2024] [wsgi:error] [pid 11580:tid 139691342775872] [remote 190.190.1.25:58566]     {% extends 'baseIso.html'%}
+[Tue Jun 04 08:18:03.944326 2024] [wsgi:error] [pid 11580:tid 139691342775872] [remote 190.190.1.25:58566]   File "/home/geo/Escritorio/Proyectos/ISO/app/templates/baseIso.html", line 64, in top-level template code
+[Tue Jun 04 08:18:03.944363 2024] [wsgi:error] [pid 11580:tid 139691342775872] [remote 190.190.1.25:58566]     <section>{%block content%}{%endblock%}</section>
+[Tue Jun 04 08:18:03.944403 2024] [wsgi:error] [pid 11580:tid 139691342775872] [remote 190.190.1.25:58566]   File "/home/geo/Escritorio/Proyectos/ISO/app/templates/iso/MapaDeProcesos/RRHH/index.html", line 9, in block 'content'
+[Tue Jun 04 08:18:03.944440 2024] [wsgi:error] [pid 11580:tid 139691342775872] [remote 190.190.1.25:58566]     {%include 'iso/MapaDeProcesos/RRHH/rrhh.html'%}
+[Tue Jun 04 08:18:03.944479 2024] [wsgi:error] [pid 11580:tid 139691342775872] [remote 190.190.1.25:58566]   File "/home/geo/Escritorio/Proyectos/ISO/app/templates/iso/MapaDeProcesos/RRHH/rrhh.html", line 14, in top-level template code
+[Tue Jun 04 08:18:03.944516 2024] [wsgi:error] [pid 11580:tid 139691342775872] [remote 190.190.1.25:58566]     <a href="{{ url_for('static', filename='doc/pdf/web/viewer.html', t=datetime.datetime.now().timestamp())}}?file=Bonin_ISO/2_Map_Procesos_Procedimiento/Recursos_Humanos/FP-RH-001 Ficha de procesode rrhh.pdf"
+[Tue Jun 04 08:18:03.944555 2024] [wsgi:error] [pid 11580:tid 139691342775872] [remote 190.190.1.25:58566]   File "/usr/local/lib/python3.10/dist-packages/jinja2/environment.py", line 485, in getattr
+[Tue Jun 04 08:18:03.944605 2024] [wsgi:error] [pid 11580:tid 139691342775872] [remote 190.190.1.25:58566]     return getattr(obj, attribute)
+[Tue Jun 04 08:18:03.944657 2024] [wsgi:error] [pid 11580:tid 139691342775872] [remote 190.190.1.25:58566] jinja2.exceptions.UndefinedError: 'datetime' is undefined
+[Tue Jun 04 08:52:22.206508 2024] [wsgi:error] [pid 11803:tid 128610444756544] [remote 190.190.0.207:55940] mod_wsgi (pid=11803): Exception occurred processing WSGI script '/home/geo/Escritorio/Proyectos/ISO/run.wsgi'.
+[Tue Jun 04 08:52:22.207055 2024] [wsgi:error] [pid 11803:tid 128610444756544] [remote 190.190.0.207:55940] Traceback (most recent call last):
+[Tue Jun 04 08:52:22.207104 2024] [wsgi:error] [pid 11803:tid 128610444756544] [remote 190.190.0.207:55940]   File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1488, in __call__
+[Tue Jun 04 08:52:22.207119 2024] [wsgi:error] [pid 11803:tid 128610444756544] [remote 190.190.0.207:55940]     return self.wsgi_app(environ, start_response)
+[Tue Jun 04 08:52:22.207124 2024] [wsgi:error] [pid 11803:tid 128610444756544] [remote 190.190.0.207:55940]   File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1466, in wsgi_app
+[Tue Jun 04 08:52:22.207128 2024] [wsgi:error] [pid 11803:tid 128610444756544] [remote 190.190.0.207:55940]     response = self.handle_exception(e)
+[Tue Jun 04 08:52:22.207132 2024] [wsgi:error] [pid 11803:tid 128610444756544] [remote 190.190.0.207:55940]   File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1463, in wsgi_app
+[Tue Jun 04 08:52:22.207135 2024] [wsgi:error] [pid 11803:tid 128610444756544] [remote 190.190.0.207:55940]     response = self.full_dispatch_request()
+[Tue Jun 04 08:52:22.207157 2024] [wsgi:error] [pid 11803:tid 128610444756544] [remote 190.190.0.207:55940]   File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 872, in full_dispatch_request
+[Tue Jun 04 08:52:22.207162 2024] [wsgi:error] [pid 11803:tid 128610444756544] [remote 190.190.0.207:55940]     rv = self.handle_user_exception(e)
+[Tue Jun 04 08:52:22.207166 2024] [wsgi:error] [pid 11803:tid 128610444756544] [remote 190.190.0.207:55940]   File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 870, in full_dispatch_request
+[Tue Jun 04 08:52:22.207169 2024] [wsgi:error] [pid 11803:tid 128610444756544] [remote 190.190.0.207:55940]     rv = self.dispatch_request()
+[Tue Jun 04 08:52:22.207173 2024] [wsgi:error] [pid 11803:tid 128610444756544] [remote 190.190.0.207:55940]   File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 855, in dispatch_request
+[Tue Jun 04 08:52:22.207177 2024] [wsgi:error] [pid 11803:tid 128610444756544] [remote 190.190.0.207:55940]     return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+[Tue Jun 04 08:52:22.207181 2024] [wsgi:error] [pid 11803:tid 128610444756544] [remote 190.190.0.207:55940]   File "/home/geo/.local/lib/python3.10/site-packages/flask_login/utils.py", line 290, in decorated_view
+[Tue Jun 04 08:52:22.207184 2024] [wsgi:error] [pid 11803:tid 128610444756544] [remote 190.190.0.207:55940]     return current_app.ensure_sync(func)(*args, **kwargs)
+[Tue Jun 04 08:52:22.207189 2024] [wsgi:error] [pid 11803:tid 128610444756544] [remote 190.190.0.207:55940]   File "/home/geo/Escritorio/Proyectos/ISO/app/app.py", line 182, in MapadeProcesos_RRHH
+[Tue Jun 04 08:52:22.207192 2024] [wsgi:error] [pid 11803:tid 128610444756544] [remote 190.190.0.207:55940]     response = add_no_cache_headers(response)
+[Tue Jun 04 08:52:22.207196 2024] [wsgi:error] [pid 11803:tid 128610444756544] [remote 190.190.0.207:55940]   File "/home/geo/Escritorio/Proyectos/ISO/app/app.py", line 27, in add_no_cache_headers
+[Tue Jun 04 08:52:22.207199 2024] [wsgi:error] [pid 11803:tid 128610444756544] [remote 190.190.0.207:55940]     response.headers['Cache-Control'] = 'no-cache, no-store, must-revalidate'
+[Tue Jun 04 08:52:22.207212 2024] [wsgi:error] [pid 11803:tid 128610444756544] [remote 190.190.0.207:55940] AttributeError: 'str' object has no attribute 'headers'
+[Tue Jun 04 08:54:08.049612 2024] [wsgi:error] [pid 11883:tid 123401811355200] [remote 190.190.1.25:59103] mod_wsgi (pid=11883): Exception occurred processing WSGI script '/home/geo/Escritorio/Proyectos/ISO/run.wsgi'.
+[Tue Jun 04 08:54:08.050318 2024] [wsgi:error] [pid 11883:tid 123401811355200] [remote 190.190.1.25:59103] Traceback (most recent call last):
+[Tue Jun 04 08:54:08.050449 2024] [wsgi:error] [pid 11883:tid 123401811355200] [remote 190.190.1.25:59103]   File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1488, in __call__
+[Tue Jun 04 08:54:08.050522 2024] [wsgi:error] [pid 11883:tid 123401811355200] [remote 190.190.1.25:59103]     return self.wsgi_app(environ, start_response)
+[Tue Jun 04 08:54:08.050589 2024] [wsgi:error] [pid 11883:tid 123401811355200] [remote 190.190.1.25:59103]   File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1466, in wsgi_app
+[Tue Jun 04 08:54:08.050667 2024] [wsgi:error] [pid 11883:tid 123401811355200] [remote 190.190.1.25:59103]     response = self.handle_exception(e)
+[Tue Jun 04 08:54:08.050732 2024] [wsgi:error] [pid 11883:tid 123401811355200] [remote 190.190.1.25:59103]   File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1463, in wsgi_app
+[Tue Jun 04 08:54:08.050799 2024] [wsgi:error] [pid 11883:tid 123401811355200] [remote 190.190.1.25:59103]     response = self.full_dispatch_request()
+[Tue Jun 04 08:54:08.050865 2024] [wsgi:error] [pid 11883:tid 123401811355200] [remote 190.190.1.25:59103]   File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 872, in full_dispatch_request
+[Tue Jun 04 08:54:08.050933 2024] [wsgi:error] [pid 11883:tid 123401811355200] [remote 190.190.1.25:59103]     rv = self.handle_user_exception(e)
+[Tue Jun 04 08:54:08.051020 2024] [wsgi:error] [pid 11883:tid 123401811355200] [remote 190.190.1.25:59103]   File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 870, in full_dispatch_request
+[Tue Jun 04 08:54:08.051083 2024] [wsgi:error] [pid 11883:tid 123401811355200] [remote 190.190.1.25:59103]     rv = self.dispatch_request()
+[Tue Jun 04 08:54:08.051152 2024] [wsgi:error] [pid 11883:tid 123401811355200] [remote 190.190.1.25:59103]   File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 855, in dispatch_request
+[Tue Jun 04 08:54:08.051215 2024] [wsgi:error] [pid 11883:tid 123401811355200] [remote 190.190.1.25:59103]     return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+[Tue Jun 04 08:54:08.051285 2024] [wsgi:error] [pid 11883:tid 123401811355200] [remote 190.190.1.25:59103]   File "/home/geo/.local/lib/python3.10/site-packages/flask_login/utils.py", line 290, in decorated_view
+[Tue Jun 04 08:54:08.051348 2024] [wsgi:error] [pid 11883:tid 123401811355200] [remote 190.190.1.25:59103]     return current_app.ensure_sync(func)(*args, **kwargs)
+[Tue Jun 04 08:54:08.051418 2024] [wsgi:error] [pid 11883:tid 123401811355200] [remote 190.190.1.25:59103]   File "/home/geo/Escritorio/Proyectos/ISO/app/app.py", line 182, in MapadeProcesos_RRHH
+[Tue Jun 04 08:54:08.051480 2024] [wsgi:error] [pid 11883:tid 123401811355200] [remote 190.190.1.25:59103]     response = add_no_cache_headers(response)
+[Tue Jun 04 08:54:08.051549 2024] [wsgi:error] [pid 11883:tid 123401811355200] [remote 190.190.1.25:59103]   File "/home/geo/Escritorio/Proyectos/ISO/app/app.py", line 27, in add_no_cache_headers
+[Tue Jun 04 08:54:08.051612 2024] [wsgi:error] [pid 11883:tid 123401811355200] [remote 190.190.1.25:59103]     response.headers['Cache-Control'] = 'no-cache, no-store, must-revalidate'
+[Tue Jun 04 08:54:08.051690 2024] [wsgi:error] [pid 11883:tid 123401811355200] [remote 190.190.1.25:59103] AttributeError: 'str' object has no attribute 'headers'
+[Tue Jun 04 08:56:16.054671 2024] [wsgi:error] [pid 11962:tid 136492854896192] [remote 190.190.1.25:59125] mod_wsgi (pid=11962): Exception occurred processing WSGI script '/home/geo/Escritorio/Proyectos/ISO/run.wsgi'.
+[Tue Jun 04 08:56:16.055444 2024] [wsgi:error] [pid 11962:tid 136492854896192] [remote 190.190.1.25:59125] Traceback (most recent call last):
+[Tue Jun 04 08:56:16.055542 2024] [wsgi:error] [pid 11962:tid 136492854896192] [remote 190.190.1.25:59125]   File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1488, in __call__
+[Tue Jun 04 08:56:16.055579 2024] [wsgi:error] [pid 11962:tid 136492854896192] [remote 190.190.1.25:59125]     return self.wsgi_app(environ, start_response)
+[Tue Jun 04 08:56:16.055617 2024] [wsgi:error] [pid 11962:tid 136492854896192] [remote 190.190.1.25:59125]   File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1466, in wsgi_app
+[Tue Jun 04 08:56:16.055651 2024] [wsgi:error] [pid 11962:tid 136492854896192] [remote 190.190.1.25:59125]     response = self.handle_exception(e)
+[Tue Jun 04 08:56:16.055684 2024] [wsgi:error] [pid 11962:tid 136492854896192] [remote 190.190.1.25:59125]   File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1463, in wsgi_app
+[Tue Jun 04 08:56:16.055726 2024] [wsgi:error] [pid 11962:tid 136492854896192] [remote 190.190.1.25:59125]     response = self.full_dispatch_request()
+[Tue Jun 04 08:56:16.055760 2024] [wsgi:error] [pid 11962:tid 136492854896192] [remote 190.190.1.25:59125]   File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 872, in full_dispatch_request
+[Tue Jun 04 08:56:16.055791 2024] [wsgi:error] [pid 11962:tid 136492854896192] [remote 190.190.1.25:59125]     rv = self.handle_user_exception(e)
+[Tue Jun 04 08:56:16.055823 2024] [wsgi:error] [pid 11962:tid 136492854896192] [remote 190.190.1.25:59125]   File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 870, in full_dispatch_request
+[Tue Jun 04 08:56:16.055855 2024] [wsgi:error] [pid 11962:tid 136492854896192] [remote 190.190.1.25:59125]     rv = self.dispatch_request()
+[Tue Jun 04 08:56:16.055899 2024] [wsgi:error] [pid 11962:tid 136492854896192] [remote 190.190.1.25:59125]   File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 855, in dispatch_request
+[Tue Jun 04 08:56:16.055939 2024] [wsgi:error] [pid 11962:tid 136492854896192] [remote 190.190.1.25:59125]     return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+[Tue Jun 04 08:56:16.055972 2024] [wsgi:error] [pid 11962:tid 136492854896192] [remote 190.190.1.25:59125]   File "/home/geo/.local/lib/python3.10/site-packages/flask_login/utils.py", line 290, in decorated_view
+[Tue Jun 04 08:56:16.056004 2024] [wsgi:error] [pid 11962:tid 136492854896192] [remote 190.190.1.25:59125]     return current_app.ensure_sync(func)(*args, **kwargs)
+[Tue Jun 04 08:56:16.056038 2024] [wsgi:error] [pid 11962:tid 136492854896192] [remote 190.190.1.25:59125]   File "/home/geo/Escritorio/Proyectos/ISO/app/app.py", line 182, in MapadeProcesos_RRHH
+[Tue Jun 04 08:56:16.056069 2024] [wsgi:error] [pid 11962:tid 136492854896192] [remote 190.190.1.25:59125]     response = add_no_cache_headers(response)
+[Tue Jun 04 08:56:16.056101 2024] [wsgi:error] [pid 11962:tid 136492854896192] [remote 190.190.1.25:59125]   File "/home/geo/Escritorio/Proyectos/ISO/app/app.py", line 27, in add_no_cache_headers
+[Tue Jun 04 08:56:16.056132 2024] [wsgi:error] [pid 11962:tid 136492854896192] [remote 190.190.1.25:59125]     response.headers['Cache-Control'] = 'no-cache, no-store, must-revalidate'
+[Tue Jun 04 08:56:16.056173 2024] [wsgi:error] [pid 11962:tid 136492854896192] [remote 190.190.1.25:59125] AttributeError: 'str' object has no attribute 'headers'
+[Tue Jun 04 09:48:51.202195 2024] [wsgi:error] [pid 12042:tid 126385993532992] [remote 190.190.1.191:52449] [2024-06-04 09:48:51,202] ERROR in app: 2024-06-04 09:48:51 | Intento de acceso sin permiso a la pagina Form_Compras        Por el Usuario: operaciones    Desde la IP: 190.190.1.191
+[Tue Jun 04 09:48:57.145825 2024] [wsgi:error] [pid 12042:tid 126386001925696] [remote 190.190.1.191:52450] [2024-06-04 09:48:57,145] ERROR in app: 2024-06-04 09:48:57 | Intento de acceso sin permiso a la pagina Form_RRHH                  Por el Usuario: operaciones    Desde la IP: 190.190.1.191
+[Tue Jun 04 10:17:02.173401 2024] [wsgi:error] [pid 12042:tid 126385993532992] [remote 190.190.1.169:52891] [2024-06-04 10:17:02,173] ERROR in app: 2024-06-04 10:17:02 | Intento de acceso sin permiso a la pagina Form_Formato_Informatica    Por el Usuario: compras    Desde la IP: 190.190.1.169
+[Tue Jun 04 10:20:09.248343 2024] [wsgi:error] [pid 12042:tid 126386001925696] [remote 190.190.1.155:54169] [2024-06-04 10:20:09,248] ERROR in app: 2024-06-04 10:20:09 | Intento de acceso sin permiso a la pagina Form_Informatica           Por el Usuario: iso    Desde la IP: 190.190.1.155
+[Tue Jun 04 10:32:29.465405 2024] [wsgi:error] [pid 12042:tid 126385993532992] [remote 190.190.1.155:54279] [2024-06-04 10:32:29,465] ERROR in app: 2024-06-04 10:32:29 | Intento de acceso sin permiso a la pagina Form_Informatica           Por el Usuario: iso    Desde la IP: 190.190.1.155
+[Tue Jun 04 10:33:01.694449 2024] [wsgi:error] [pid 12042:tid 126386001925696] [remote 190.190.1.169:52987] [2024-06-04 10:33:01,694] ERROR in app: 2024-06-04 10:33:01 | Intento de acceso sin permiso a la pagina Form_GestionCalidad    Por el Usuario: compras    Desde la IP: 190.190.1.169
+[Tue Jun 04 10:33:19.094415 2024] [wsgi:error] [pid 12042:tid 126385993532992] [remote 190.190.1.169:52988] [2024-06-04 10:33:19,094] ERROR in app: 2024-06-04 10:33:19 | Intento de acceso sin permiso a la pagina Form_Geel    Por el Usuario: compras    Desde la IP: 190.190.1.169
+[Tue Jun 04 10:35:57.614811 2024] [wsgi:error] [pid 12042:tid 126386001925696] [remote 190.190.1.155:54410] [2024-06-04 10:35:57,614] ERROR in app: 2024-06-04 10:35:57 | Intento de acceso sin permiso a la pagina Form_Informatica           Por el Usuario: iso    Desde la IP: 190.190.1.155
+[Tue Jun 04 14:41:33.357048 2024] [wsgi:error] [pid 12826:tid 130610802808384] [remote 190.190.1.214:63754] [2024-06-04 14:41:33,356] ERROR in app: 2024-06-04 14:41:33 | Intento de acceso sin permiso a la pagina Form_operaciones        Por el Usuario: compras    Desde la IP: 190.190.1.214
+[Tue Jun 04 14:41:39.541151 2024] [wsgi:error] [pid 12826:tid 130610802808384] [remote 190.190.1.214:63764] [2024-06-04 14:41:39,541] ERROR in app: 2024-06-04 14:41:39 | Intento de acceso sin permiso a la pagina Form_operaciones        Por el Usuario: compras    Desde la IP: 190.190.1.214
+[Tue Jun 04 14:41:50.917655 2024] [wsgi:error] [pid 12826:tid 130610811201088] [remote 190.190.1.214:63765] [2024-06-04 14:41:50,917] ERROR in app: 2024-06-04 14:41:50 | Intento de acceso sin permiso a la pagina Form_operaciones        Por el Usuario: compras    Desde la IP: 190.190.1.214
+[Tue Jun 04 14:52:25.814150 2024] [wsgi:error] [pid 12826:tid 130610802808384] [remote 190.190.1.169:55449] [2024-06-04 14:52:25,814] ERROR in app: 2024-06-04 14:52:25 | Intento de acceso sin permiso a la pagina Form_operaciones        Por el Usuario: compras    Desde la IP: 190.190.1.169
+[Tue Jun 04 16:00:11.137323 2024] [wsgi:error] [pid 12826:tid 130610811201088] [remote 190.190.0.193:61026] [2024-06-04 16:00:11,137] ERROR in app: 2024-06-04 16:00:11 | Intento de acceso sin permiso a la pagina Form_operaciones        Por el Usuario: bpt    Desde la IP: 190.190.0.193
+[Tue Jun 04 16:00:17.711377 2024] [wsgi:error] [pid 12826:tid 130610802808384] [remote 190.190.0.193:61026] [2024-06-04 16:00:17,711] ERROR in app: 2024-06-04 16:00:17 | Intento de acceso sin permiso a la pagina Form_RRHH                  Por el Usuario: bpt    Desde la IP: 190.190.0.193
+[Tue Jun 04 16:00:27.564616 2024] [wsgi:error] [pid 12826:tid 130610811201088] [remote 190.190.0.193:61029] [2024-06-04 16:00:27,564] ERROR in app: 2024-06-04 16:00:27 | Intento de acceso sin permiso a la pagina Form_GestionCalidad    Por el Usuario: bpt    Desde la IP: 190.190.0.193
+[Wed Jun 05 10:05:38.163729 2024] [wsgi:error] [pid 13996:tid 130610802808384] [remote 190.190.1.208:52168] [2024-06-05 10:05:38,163] ERROR in app: 2024-06-05 10:05:38 | Intento de acceso sin permiso a la pagina Form_GestionCalidad    Por el Usuario: prueba    Desde la IP: 190.190.1.208
+[Fri Jun 07 06:43:29.905815 2024] [wsgi:error] [pid 20049:tid 130610802808384] [remote 190.190.1.155:53168] [2024-06-07 06:43:29,905] ERROR in app: 2024-06-07 06:43:29 | Intento de acceso sin permiso a la pagina Form_GestionCalidad    Por el Usuario: iso    Desde la IP: 190.190.1.155
+[Fri Jun 07 07:30:19.401694 2024] [wsgi:error] [pid 20049:tid 130610811201088] [remote 190.190.1.17:50832] [2024-06-07 07:30:19,401] ERROR in app: 2024-06-07 07:30:19 | Intento de acceso sin permiso a la pagina Form_Mercadeo              Por el Usuario: bpt    Desde la IP: 190.190.1.17
+[Fri Jun 07 08:11:14.313197 2024] [wsgi:error] [pid 20049:tid 130610802808384] [remote 190.190.1.192:51599] [2024-06-07 08:11:14,313] ERROR in app: 2024-06-07 08:11:14 | Intento de acceso sin permiso a la pagina Form_Produccion            Por el Usuario: bmp    Desde la IP: 190.190.1.192
+[Fri Jun 07 15:32:18.349829 2024] [wsgi:error] [pid 20049:tid 130610802808384] [remote 190.190.1.134:50647] [2024-06-07 15:32:18,349] ERROR in app: 2024-06-07 15:32:18 | Intento de acceso sin permiso a la pagina Form_GestionCalidad    Por el Usuario: produccion    Desde la IP: 190.190.1.134
+[Fri Jun 07 15:33:02.871321 2024] [wsgi:error] [pid 20049:tid 130610811201088] [remote 190.190.1.134:50664] [2024-06-07 15:33:02,871] ERROR in app: 2024-06-07 15:33:02 | Intento de acceso sin permiso a la pagina Form_Formato_Informatica    Por el Usuario: produccion    Desde la IP: 190.190.1.134
+[Fri Jun 07 15:33:17.198226 2024] [wsgi:error] [pid 20049:tid 130610802808384] [remote 190.190.1.134:50680] [2024-06-07 15:33:17,198] ERROR in app: 2024-06-07 15:33:17 | Intento de acceso sin permiso a la pagina Form_GestionCalidad    Por el Usuario: produccion    Desde la IP: 190.190.1.134
+[Fri Jun 07 15:35:52.798702 2024] [wsgi:error] [pid 20049:tid 130610811201088] [remote 190.190.1.134:50778] [2024-06-07 15:35:52,798] ERROR in app: 2024-06-07 15:35:52 | Intento de acceso sin permiso a la pagina Form_Creditos    Por el Usuario: produccion    Desde la IP: 190.190.1.134
+[Fri Jun 07 15:35:56.392673 2024] [wsgi:error] [pid 20049:tid 130610802808384] [remote 190.190.1.134:50778] [2024-06-07 15:35:56,392] ERROR in app: 2024-06-07 15:35:56 | Intento de acceso sin permiso a la pagina Form_Mercadeo              Por el Usuario: produccion    Desde la IP: 190.190.1.134
+[Fri Jun 07 15:36:00.246165 2024] [wsgi:error] [pid 20049:tid 130610811201088] [remote 190.190.1.134:50778] [2024-06-07 15:36:00,246] ERROR in app: 2024-06-07 15:36:00 | Intento de acceso sin permiso a la pagina Form_operaciones        Por el Usuario: produccion    Desde la IP: 190.190.1.134
+[Mon Jun 10 07:18:31.700795 2024] [wsgi:error] [pid 28495:tid 130610802808384] [remote 190.190.0.168:52909] [2024-06-10 07:18:31,700] ERROR in app: 2024-06-10 07:18:31 | Intento de acceso sin permiso a la pagina Form_Formato_Informatica    Por el Usuario: rrhh    Desde la IP: 190.190.0.168
+[Mon Jun 10 10:01:53.828528 2024] [wsgi:error] [pid 28495:tid 130610811201088] [remote 190.190.0.207:59778] [2024-06-10 10:01:53,828] ERROR in app: 2024-06-10 10:01:53 | Intento de acceso sin permiso a la pagina Form_Informatica           Por el Usuario: prueba    Desde la IP: 190.190.0.207
+[Tue Jun 11 08:13:47.255100 2024] [wsgi:error] [pid 34595:tid 130610802808384] [remote 190.190.1.155:61776] [2024-06-11 08:13:47,254] ERROR in app: 2024-06-11 08:13:47 | Intento de acceso sin permiso a la pagina Form_InfraestructuraEquipo Por el Usuario: aseguramiento    Desde la IP: 190.190.1.155
+[Tue Jun 11 08:18:23.590338 2024] [wsgi:error] [pid 34595:tid 130610811201088] [remote 190.190.1.23:51255] [2024-06-11 08:18:23,590] ERROR in app: 2024-06-11 08:18:23 | Intento de acceso sin permiso a la pagina Form_Formato_Informatica    Por el Usuario: aseguramiento    Desde la IP: 190.190.1.23
+[Tue Jun 11 08:18:33.779991 2024] [wsgi:error] [pid 34595:tid 130610802808384] [remote 190.190.1.26:50978] [2024-06-11 08:18:33,779] ERROR in app: 2024-06-11 08:18:33 | Intento de acceso sin permiso a la pagina Form_Formato_Informatica    Por el Usuario: aseguramiento    Desde la IP: 190.190.1.26
+[Tue Jun 11 08:27:22.977145 2024] [wsgi:error] [pid 34595:tid 130610802808384] [remote 190.190.1.22:59158] [2024-06-11 08:27:22,977] ERROR in app: 2024-06-11 08:27:22 | Intento de acceso sin permiso a la pagina Form_GestionCalidad    Por el Usuario: aseguramiento    Desde la IP: 190.190.1.22
+[Tue Jun 11 08:32:10.199689 2024] [wsgi:error] [pid 34595:tid 130610811201088] [remote 190.190.1.22:59323] [2024-06-11 08:32:10,199] ERROR in app: 2024-06-11 08:32:10 | Intento de acceso sin permiso a la pagina Form_Mercadeo              Por el Usuario: aseguramiento    Desde la IP: 190.190.1.22
+[Tue Jun 11 08:32:23.804873 2024] [wsgi:error] [pid 34595:tid 130610802808384] [remote 190.190.1.22:59325] [2024-06-11 08:32:23,804] ERROR in app: 2024-06-11 08:32:23 | Intento de acceso sin permiso a la pagina Form_Produccion            Por el Usuario: aseguramiento    Desde la IP: 190.190.1.22
+[Tue Jun 11 09:09:02.270414 2024] [wsgi:error] [pid 34595:tid 130610811201088] [remote 190.190.1.208:53152] [2024-06-11 09:09:02,270] ERROR in app: 2024-06-11 09:09:02 | Intento de acceso sin permiso a la pagina Form_RRHH                  Por el Usuario: aseguramiento    Desde la IP: 190.190.1.208
+[Tue Jun 11 09:09:08.629693 2024] [wsgi:error] [pid 34595:tid 130610802808384] [remote 190.190.1.208:53159] [2024-06-11 09:09:08,629] ERROR in app: 2024-06-11 09:09:08 | Intento de acceso sin permiso a la pagina Form_InfraestructuraEquipo Por el Usuario: aseguramiento    Desde la IP: 190.190.1.208
+[Tue Jun 11 09:09:11.462270 2024] [wsgi:error] [pid 34595:tid 130610811201088] [remote 190.190.1.208:53159] [2024-06-11 09:09:11,462] ERROR in app: 2024-06-11 09:09:11 | Intento de acceso sin permiso a la pagina Form_Informatica           Por el Usuario: aseguramiento    Desde la IP: 190.190.1.208
+[Tue Jun 11 09:09:20.596152 2024] [wsgi:error] [pid 34595:tid 130610802808384] [remote 190.190.1.208:53161] [2024-06-11 09:09:20,596] ERROR in app: 2024-06-11 09:09:20 | Intento de acceso sin permiso a la pagina Form_operaciones        Por el Usuario: aseguramiento    Desde la IP: 190.190.1.208
+[Tue Jun 11 14:43:40.114741 2024] [wsgi:error] [pid 37595:tid 134732070245952] [remote 190.190.1.31:56327] [2024-06-11 14:43:40,114] ERROR in app: 2024-06-11 14:43:40 | Intento de acceso sin permiso a la pagina Form_GestionCalidad    Por el Usuario: produccion    Desde la IP: 190.190.1.31
+[Tue Jun 11 15:08:55.641541 2024] [wsgi:error] [pid 37595:tid 134732070245952] [remote 190.190.0.173:49921] [2024-06-11 15:08:55,641] ERROR in app: 2024-06-11 15:08:55 | Intento de acceso sin permiso a la pagina Form_GestionCalidad    Por el Usuario: costos    Desde la IP: 190.190.0.173
+[Tue Jun 11 15:17:55.665140 2024] [wsgi:error] [pid 37595:tid 134732061853248] [remote 190.190.1.208:59148] [2024-06-11 15:17:55,665] ERROR in app: 2024-06-11 15:17:55 | Intento de acceso sin permiso a la pagina Form_operaciones        Por el Usuario: aseguramiento    Desde la IP: 190.190.1.208
+[Wed Jun 12 07:38:59.031027 2024] [wsgi:error] [pid 39069:tid 134732070245952] [remote 190.190.0.169:51226] [2024-06-12 07:38:59,030] ERROR in app: 2024-06-12 07:38:59 | Intento de acceso sin permiso a la pagina Form_Formato_Informatica    Por el Usuario: produccion    Desde la IP: 190.190.0.169
+[Wed Jun 12 09:51:41.910709 2024] [wsgi:error] [pid 39069:tid 134732070245952] [remote 190.190.1.25:62429] [2024-06-12 09:51:41,910] ERROR in app: 2024-06-12 09:51:41 | Intento de acceso sin permiso a la pagina Form_RRHH                  Por el Usuario: jdirectiva    Desde la IP: 190.190.1.25
+[Wed Jun 12 12:38:00.175264 2024] [wsgi:error] [pid 39069:tid 134732070245952] [remote 190.190.0.181:54808] [2024-06-12 12:38:00,175] ERROR in app: 2024-06-12 12:38:00 | Intento de acceso sin permiso a la pagina Form_Formato_Informatica    Por el Usuario: creditos    Desde la IP: 190.190.0.181
+[Wed Jun 12 12:38:32.768440 2024] [wsgi:error] [pid 39069:tid 134732061853248] [remote 190.190.0.181:54841] [2024-06-12 12:38:32,768] ERROR in app: 2024-06-12 12:38:32 | Intento de acceso sin permiso a la pagina Form_Formato_Informatica    Por el Usuario: creditos    Desde la IP: 190.190.0.181
+[Wed Jun 12 12:39:01.737442 2024] [wsgi:error] [pid 39069:tid 134732070245952] [remote 190.190.0.181:54847] [2024-06-12 12:39:01,737] ERROR in app: 2024-06-12 12:39:01 | Intento de acceso sin permiso a la pagina Form_GestionCalidad    Por el Usuario: creditos    Desde la IP: 190.190.0.181
+[Wed Jun 12 12:39:07.116905 2024] [wsgi:error] [pid 39069:tid 134732061853248] [remote 190.190.1.189:63336] [2024-06-12 12:39:07,116] ERROR in app: 2024-06-12 12:39:07 | Intento de acceso sin permiso a la pagina Form_operaciones        Por el Usuario: creditos    Desde la IP: 190.190.1.189
+[Wed Jun 12 12:49:20.255891 2024] [wsgi:error] [pid 39069:tid 134732061853248] [remote 190.190.0.181:55031] [2024-06-12 12:49:20,255] ERROR in app: 2024-06-12 12:49:20 | Intento de acceso sin permiso a la pagina Form_BPT        Por el Usuario: creditos    Desde la IP: 190.190.0.181
+[Wed Jun 12 12:49:30.295688 2024] [wsgi:error] [pid 39069:tid 134732070245952] [remote 190.190.0.181:55034] [2024-06-12 12:49:30,295] ERROR in app: 2024-06-12 12:49:30 | Intento de acceso sin permiso a la pagina Form_Exportaciones         Por el Usuario: creditos    Desde la IP: 190.190.0.181
+[Wed Jun 12 12:49:46.759956 2024] [wsgi:error] [pid 39069:tid 134732061853248] [remote 190.190.1.166:56326] [2024-06-12 12:49:46,759] ERROR in app: 2024-06-12 12:49:46 | Intento de acceso sin permiso a la pagina Form_GestionCalidad    Por el Usuario: creditos    Desde la IP: 190.190.1.166
+[Wed Jun 12 12:49:51.886865 2024] [wsgi:error] [pid 39069:tid 134732070245952] [remote 190.190.0.181:55054] [2024-06-12 12:49:51,886] ERROR in app: 2024-06-12 12:49:51 | Intento de acceso sin permiso a la pagina Form_GestionCalidad    Por el Usuario: creditos    Desde la IP: 190.190.0.181
+[Wed Jun 12 12:50:00.576156 2024] [wsgi:error] [pid 39069:tid 134732061853248] [remote 190.190.0.181:55063] [2024-06-12 12:50:00,576] ERROR in app: 2024-06-12 12:50:00 | Intento de acceso sin permiso a la pagina Form_Finanzas    Por el Usuario: creditos    Desde la IP: 190.190.0.181

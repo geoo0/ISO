@@ -1,0 +1,124 @@
+.organigrama_bonin{
+    padding-top: 3vw;
+
+}
+
+
+.organigrama_bonin h1{
+    text-align: center;
+    position: relative;
+    font-size: 3vw;
+}
+
+.organigrama_bonin a{
+    color: rgb(0, 0, 0);
+    border: 1px solid rgb(0, 81, 255);
+    font-size: 0.8vw;
+    
+    text-align: center;
+    cursor: pointer;
+    position: absolute;
+    align-content: center;
+
+
+    
+}
+.org_general{
+    background-image: url('/static/img/organigrama/org_aseguramiento.png');
+    background-size: 80vw;
+    background-repeat: no-repeat;
+    background-position: absolute;
+    width: 80%;
+    height: 52vw;
+    margin-left: 10vw;
+}
+
+@media (max-width: 1280px) {
+    .org_general {
+        width: 80%;
+        height: 52vw; 
+    }
+}
+
+.hdd {
+    width: 11.9vw;
+    height: 3.55vw; 
+    margin-top:2.85vw;
+}
+
+.cntr{
+    width: 10.5vw;
+    height: 3.55vw;
+}
+
+
+.mid{
+    margin-left:34.1vw;
+
+}
+.box {
+    width: 8.1vw;
+    height: 3.6vw;
+}
+
+.box1 {
+    width: 8vw;
+    height: 3.5vw;
+}
+
+.box2 {
+    width: 6.8vw;
+    height: 3.5vw;
+}
+
+.jump0 a {margin-top:8vw;}
+.jump1 a {margin-top:13.7vw;}
+.jump2 a {margin-top:19.4vw;}
+.jump3 a {margin-top:25.78vw;}
+.jump4 a {margin-top:25.75vw;}
+.jump5 a {margin-top:35.9vw;}
+
+
+.right   {margin-left:14.9vw;}
+.right1  {margin-left:15.25vw;}
+.right2  {margin-left:14.1vw;}
+.right3  {margin-left:57.15vw;}
+.right4  {margin-left:22.51vw;}
+.right5  {margin-left:10.75vw;}
+.right6  {margin-left:1.9vw;}
+.right7  {margin-left:43.95vw;}
+.right8  {margin-left:52.75vw;}
+.right9  {margin-left:61.63vw;}
+.right10  {margin-left:70.50vw;}
+
+
+
+
+.move1   {margin-left:17.1vw;}
+.move2   {margin-left:16.45vw;}
+.move3   {margin-left:17.7vw;}
+.move4   {padding-top:4.42vw;}
+.move5   {padding-top:4.7vw;}
+.move6   {padding-top:4.1vw;}
+.move7   {padding-top:4.45vw;}
+.move8   {padding-top:4.4vw;}
+
+.left{margin-left: 26.5vw;}
+.left1{margin-left: 5.9vw;}
+
+.lft{margin-left: 0.560vw;}
+
+
+.col{margin-left: 11.37vw;}
+.rev{margin-top:3.65vw;}
+.rev1 {margin-top:-17.69vw;}
+.rev2{margin-top:-15.32vw;}
+.rev3{margin-top:-4.4vw;}
+.rev4{margin-top:-22.1vw;}
+.rev5{margin-top:-26.5vw;}
+.rev6{margin-top:-8.85vw;}
+
+.ll{
+    list-style: none;
+    padding: 3.05vw;
+}

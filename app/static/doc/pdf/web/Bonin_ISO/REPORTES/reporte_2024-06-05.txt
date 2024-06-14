@@ -1,0 +1,1 @@
+Coincidencia encontrada: ERROR in app: 2024-06-05 10:05:38 | Intento de acceso sin permiso a la pagina Form_GestionCalidad    Por el Usuario: prueba    Desde la IP: 190.190.1.208

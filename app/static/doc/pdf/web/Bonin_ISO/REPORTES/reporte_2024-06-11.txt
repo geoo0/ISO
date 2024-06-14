@@ -1,0 +1,13 @@
+Coincidencia encontrada: ERROR in app: 2024-06-11 08:13:47 | Intento de acceso sin permiso a la pagina Form_InfraestructuraEquipo Por el Usuario: aseguramiento    Desde la IP: 190.190.1.155
+Coincidencia encontrada: ERROR in app: 2024-06-11 08:18:23 | Intento de acceso sin permiso a la pagina Form_Formato_Informatica    Por el Usuario: aseguramiento    Desde la IP: 190.190.1.23
+Coincidencia encontrada: ERROR in app: 2024-06-11 08:18:33 | Intento de acceso sin permiso a la pagina Form_Formato_Informatica    Por el Usuario: aseguramiento    Desde la IP: 190.190.1.26
+Coincidencia encontrada: ERROR in app: 2024-06-11 08:27:22 | Intento de acceso sin permiso a la pagina Form_GestionCalidad    Por el Usuario: aseguramiento    Desde la IP: 190.190.1.22
+Coincidencia encontrada: ERROR in app: 2024-06-11 08:32:10 | Intento de acceso sin permiso a la pagina Form_Mercadeo              Por el Usuario: aseguramiento    Desde la IP: 190.190.1.22
+Coincidencia encontrada: ERROR in app: 2024-06-11 08:32:23 | Intento de acceso sin permiso a la pagina Form_Produccion            Por el Usuario: aseguramiento    Desde la IP: 190.190.1.22
+Coincidencia encontrada: ERROR in app: 2024-06-11 09:09:02 | Intento de acceso sin permiso a la pagina Form_RRHH                  Por el Usuario: aseguramiento    Desde la IP: 190.190.1.208
+Coincidencia encontrada: ERROR in app: 2024-06-11 09:09:08 | Intento de acceso sin permiso a la pagina Form_InfraestructuraEquipo Por el Usuario: aseguramiento    Desde la IP: 190.190.1.208
+Coincidencia encontrada: ERROR in app: 2024-06-11 09:09:11 | Intento de acceso sin permiso a la pagina Form_Informatica           Por el Usuario: aseguramiento    Desde la IP: 190.190.1.208
+Coincidencia encontrada: ERROR in app: 2024-06-11 09:09:20 | Intento de acceso sin permiso a la pagina Form_operaciones        Por el Usuario: aseguramiento    Desde la IP: 190.190.1.208
+Coincidencia encontrada: ERROR in app: 2024-06-11 14:43:40 | Intento de acceso sin permiso a la pagina Form_GestionCalidad    Por el Usuario: produccion    Desde la IP: 190.190.1.31
+Coincidencia encontrada: ERROR in app: 2024-06-11 15:08:55 | Intento de acceso sin permiso a la pagina Form_GestionCalidad    Por el Usuario: costos    Desde la IP: 190.190.0.173
+Coincidencia encontrada: ERROR in app: 2024-06-11 15:17:55 | Intento de acceso sin permiso a la pagina Form_operaciones        Por el Usuario: aseguramiento    Desde la IP: 190.190.1.208

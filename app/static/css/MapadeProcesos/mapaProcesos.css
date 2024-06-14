@@ -1,0 +1,358 @@
+.mapaProceso {
+    margin-top: 40px;
+}
+.titulo-central h1{
+    margin-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    font-size: 3.5vw;
+
+}
+.containermenu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 7px;
+}
+.left-titles{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 50vw;
+    margin-right: 10vw;
+    margin-left: 2.5vw;
+} 
+.left-titles h2{
+    font-size: 2vw;
+    text-align: left;
+    padding-bottom: 25px;
+    margin-bottom: 2vw;
+
+}
+.right-titles{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 40vw;
+    margin-right: 2.5vw;
+    margin-left: 12vw;
+} 
+.right-titles h2{
+    font-size: 2.25vw;
+    text-align: right;
+
+}
+.circle {
+    
+    position: relative;
+    width: 35vw;
+    height: 35vw;
+    border-radius: 50%;
+    border: 2px solid black;
+    display: flex;
+    flex-shrink: 6;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1vw;
+}
+.containerr{
+    position: relative;
+    width: 28vw;
+    height: 28vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+/*flechas*/
+.arrow-container1 {
+    position: absolute;
+    top: 48%;
+    left: 47%;
+    transform: translate(-50%, -50%);
+} 
+.arrow-container1 img {
+    width: 30vw;
+    height: 30vw;
+    transform: rotate(250deg);
+}   
+.arrow-container5 {
+    position: absolute;
+    top: 50%;
+    left: 32.5%;
+    transform: translate(-50%, -50%);
+} 
+.arrow-container5 img {
+    width: 16vw;
+    height: 0.25vw;
+    transform: rotate(0deg);
+    
+}
+.arrow-container6 {
+    position: absolute;
+    top: 34.5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+} 
+.arrow-container6 img {
+    width: 16vw;
+    height: 0.25vw;
+    transform: rotate(90deg);  
+}
+.arrow-container7 {
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+} 
+.arrow-container7 img {
+    width: 13vw;
+    height: 0.25vw;
+    transform: rotate(0deg);
+}
+.arrow-container8 {
+    position: absolute;
+    top: 67.5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+} 
+.arrow-container8 img {
+    width: 15vw;
+    height: 0.25vw;
+    transform: rotate(90deg);
+}
+.arrow-container9 {
+    position: absolute;
+    top: 50%;
+    left: 113%;
+    transform: translate(-50%, -50%);
+
+} 
+.arrow-container9 img {
+    width: 13vw; 
+    height: 13vw;
+    transform: rotate(0deg);
+}
+
+.arrow-container10 {
+    position: absolute;
+    top: 50%;
+    left: 122%;
+    transform: translate(-50%, -50%);
+} 
+
+.arrow-container10 img {
+    width: 15vw; 
+    height: 13vw;
+    transform: rotate(0deg);
+}
+
+
+
+.boton-arriba {
+    display: flex;
+    align-items: center;
+    height: 7vw;
+}
+  
+.boton-enmedio {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 14vw;
+}
+  
+.boton-abajo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 7vw;
+}
+  
+.button {
+
+    width: 7vw;
+    height: 7vw;
+    border-radius: 80%;
+    display: flex;
+    margin: 3vw;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1vw;
+    z-index: 1;
+}
+.b1{
+    background-color: rgb(55, 196, 55);
+}
+.b4{
+    background-color: rgb(7, 119, 7);
+}
+.b5{
+    background-color: #1d3c74;
+}
+.b2{
+    background-color: #4236b3;
+}
+.b3{
+    background-color: rgb(128, 25, 25);
+}
+
+
+.letras_up{
+    position: absolute;
+    top: 32%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.letras_down{
+    position: absolute;
+    top: 68%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.letras{
+    display: inline-block;
+    font-size: 5vw;
+    font-weight: bold;
+    margin-right: 6vw;
+}
+.letras:last-child {
+    margin-right: 0; /* Eliminar el margen derecho de la última letra */
+}
+
+/*MODAL*/
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+} 
+.modal-content {
+    background-color: #fff;
+    margin: 90px auto;
+    padding: 15px;
+    max-width: 625px;
+    border-radius: 5px;
+}
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 570px;
+}
+@keyframes bounce {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.2);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  .modal-content {
+    animation: bounce 0.3s;
+  }
+/* Estilos adicionales para los enlaces en el modal */
+.titulo-centrado{
+    text-align: center;
+}
+.modal-content div ul{
+    padding-right: 40px;
+    list-style: none;
+    text-align: center;
+}
+.apoyo li{
+    border: 1px solid rgb(255, 0, 0);
+    background-color: #1051c9;
+    margin-bottom: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.apoyo li a{
+    display: inline-block;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+    text-decoration: none !important;
+}
+.operacion li{
+    border: 1px solid rgb(255, 0, 0);
+    background-color: #1051c9;
+    margin-bottom: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.operacion li a{
+    display: inline-block;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+    text-decoration: none !important;
+}
+.operacion li.separado{
+    border: none;
+    background-color: white;
+}
+.fieldset5050 {
+    border: 1px solid #000000;
+    padding: 5px;
+    margin: 15px 0; /* Añadir margen para separar los fieldsets */
+    position: relative; /* Asegura que el fieldset sea un contenedor relativo */
+}
+legend {
+    font-weight: bold;
+    font-size: 13px;
+    position: absolute;
+    top:-10px;
+    float: left;
+    background-color: #fff;
+    width: auto;
+    margin-bottom: 0%;
+
+}
+
+/* Estilo adicional para la línea del fieldset */
+fieldset {
+    border-width: 1px; /* Ancho de la línea */
+    border-style: solid; /* Tipo de línea */
+    border-color: #ccc; /* Color de la línea */
+}
+.separado a{
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-left: 15.5px;
+    padding-right: 15.5px;
+    border: 1px solid rgb(255, 0, 0);
+    background-color: #1051c9;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    cursor: pointer;
+    text-decoration: none !important;
+}
+.modal a {
+    color: #000;
+    text-decoration: none;
+}
+.modal a:hover {
+    text-decoration: underline;
+}
+.boton_a{
+    padding: 0px 170px;
+}

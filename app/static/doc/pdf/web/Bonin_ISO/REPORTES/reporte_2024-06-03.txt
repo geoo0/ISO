@@ -1,0 +1,6 @@
+Coincidencia encontrada: ERROR in app: 2024-06-03 07:19:22 | Intento de acceso sin permiso a la pagina Form_Mercadeo              Por el Usuario: bpt    Desde la IP: 190.190.1.25
+Coincidencia encontrada: ERROR in app: 2024-06-03 08:22:02 | Intento de acceso sin permiso a la pagina Form_Informatica           Por el Usuario: iso    Desde la IP: 190.190.1.155
+Coincidencia encontrada: ERROR in app: 2024-06-03 08:22:05 | Intento de acceso sin permiso a la pagina Form_Informatica           Por el Usuario: iso    Desde la IP: 190.190.1.155
+Coincidencia encontrada: ERROR in app: 2024-06-03 13:01:12 | Intento de acceso sin permiso a la pagina Form_GestionCalidad    Por el Usuario: prueba    Desde la IP: 190.190.1.16
+Coincidencia encontrada: ERROR in app: 2024-06-03 15:30:08 | Intento de acceso sin permiso a la pagina Form_Informatica           Por el Usuario: iso    Desde la IP: 190.190.1.155
+Coincidencia encontrada: ERROR in app: 2024-06-03 15:30:16 | Intento de acceso sin permiso a la pagina Form_Informatica           Por el Usuario: iso    Desde la IP: 190.190.1.155

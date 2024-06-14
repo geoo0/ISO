@@ -1,0 +1,32 @@
+{% extends 'baseIso.html'%}
+{%block title%}
+ISO
+{%endblock%}
+
+{%block content%}
+<link rel="stylesheet" href="{{url_for('static', filename='css/MapadeProcesos/basehome.css')}}">
+<link rel="stylesheet" href="{{url_for('static', filename='css/home/slider.css')}}">
+
+{% with messages = get_flashed_messages(with_categories=true) %}
+{% if messages %}
+{% for category, message in messages %}
+<div class="alert alert-{{ category }} text-center" role="alert" onclick="cerrarMensaje(this);">
+    {{ message }}
+    <span class="alert-close">&times;</span>
+</div>
+{% endfor %}
+{% endif %}
+{% endwith %}
+
+{% include 'iso/home/bloque1.html'%}
+{% include 'iso/home/bloque2.html'%}
+{% include 'iso/home/bloque3.html'%}
+{% include 'iso/home/bloque4.html'%}
+
+<script>
+    function cerrarMensaje(elemento) {
+      elemento.style.display = 'none';
+    }
+  </script>
+<script src="../static/js/home/slider.js"></script>
+{%endblock%}

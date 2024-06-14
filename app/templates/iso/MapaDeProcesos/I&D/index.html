@@ -1,0 +1,11 @@
+{% extends 'baseIso.html'%}
+
+{%block title%}
+Formulario | Informatica
+{%endblock%}
+
+{%block content%}
+<link rel="stylesheet" href="{{url_for('static', filename='css/MapadeProcesos/estilos/informatica.css')}}">
+{%include 'iso/MapaDeProcesos/I&D/I&D.html'%}
+<script src="../../static/js/MapadeProcesos/programa/base.js"></script>
+{%endblock%}

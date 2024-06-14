@@ -1,0 +1,101 @@
+<div class="proInformatica">
+    <h1>Heel</h1>
+    <div class="hrth"><hr></div>
+    <div class="busqueda">
+        <input type="text" id="busqueda" placeholder="Buscar" oninput="buscarEnlaces()">
+        <div class="btn-lupa">
+            <img id="lupa" src="../../../static/img/pag2/lupa.png">
+        </div>
+    </div>
+    <div class="centrar-3">
+      <div class="left-3">
+        <nav>
+            <ul class="menu" id="menu">
+              <li class="menu__item">
+                <a href="{{ url_for('static', filename='doc/pdf/web/viewer.html')}}?file=Bonin_ISO/2_Map_Procesos_Procedimiento/IT/FP-IT-001 Ficha de proceso informatica.pdf" id="pdfLink" class="menu_contenido menu_item menu_busqueda" >Ficha de proceso</a>
+              </li>
+              <li class="menu__item container-submenu">
+                <a href="" class="menu_link submenu-btn">Procedimientos ▼</a>
+                <ul class="submenu">
+                  <li class="menu_item">
+                  </li>
+                  <li class="menu_item">
+                    <a href="{{ url_for('static', filename='doc/pdf/web/viewer.html')}}?file=Bonin_ISO/2_Map_Procesos_Procedimiento/IT/PEO-IT-002 Desarrollo de aplicaciones informaticas a la medida.pdf" class="menu_contenido menu_busqueda">PEO-IT-002 Desarrollo de aplicaciones informaticas a la medida</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="menu__item container-submenu">
+                <a href="" class="menu_link submenu-btn">Instructivos ▼</a>
+                <ul class="submenu">
+                  <li class="menu_item">
+                    <a href="{{ url_for('static', filename='doc/pdf/web/viewer.html')}}?file=Bonin_ISO/2_Map_Procesos_Procedimiento/IT/IN-IT-001 Mantenimiento de equipo informatico 1.pdf" class="menu_contenido menu_busqueda">IN-IT-001 Mantenimiento del equipo informático y auditori de archivos informaticos</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="menu__item container-submenu">
+                <a href="" class="menu_link submenu-btn">Políticas ▼</a>
+                <ul class="submenu">
+                  <li class="menu_item">
+                    <a href="{{ url_for('static', filename='doc/pdf/web/viewer.html')}}?file=Bonin_ISO/2_Map_Procesos_Procedimiento/IT/PT-IT-01 Politica de uso de sistemas.pdf" class="menu_contenido menu_busqueda">PT-IT-001 Uso de sistemas de computación</a>
+                  </li>
+                  <li class="menu_item">
+                    <a href="{{ url_for('static', filename='doc/pdf/web/viewer.html')}}?file=Bonin_ISO/2_Map_Procesos_Procedimiento/IT/PT-IT-02 Politica sobre el uso de internet.pdf" class="menu_contenido menu_busqueda">PT-IT-002 Acuerdo y política sobre uso internet</a>
+                  </li>
+                  <li class="menu_item">
+                    <a href="{{ url_for('static', filename='doc/pdf/web/viewer.html')}}?file=Bonin_ISO/2_Map_Procesos_Procedimiento/IT/PT-IT-03 Politica sobre uso de correo electronico.pdf" class="menu_contenido menu_busqueda">PT-IT-003 Acuerdo y política uso correo electrónico</a>
+                  </li>
+                  <li class="menu_item">
+                    <a href="{{ url_for('static', filename='doc/pdf/web/viewer.html')}}?file=Bonin_ISO/2_Map_Procesos_Procedimiento/IT/PT-IT-04 Uso de dispositivos moviles sf.pdf" class="menu_contenido menu_busqueda">PT-IT-004 Dispositivos móviles</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="menu__item container-submenu">
+                <a href="" class="menu_link submenu-btn">Formatos ▼</a>
+                <ul class="submenu">
+                  <li class="menu_item">
+                    <a href="../../../static/doc/pdf/web/informatica/FO-IT-01 Tarjeta de Responsabilidad.xls"  class="menu_contenidoo menu_busqueda">FO-IT-001 Tarjeta de responsabilidad de entrega y/o sustitución de activos</a>
+                  </li>
+                  <li class="menu_item">
+                    <a href="../../../static/doc/pdf/web/informatica/FO-IE-002 HOJA SERVICIO MANTENIMIENTO PREVENTIVO.xlsx"  class="menu_contenidoo menu_busqueda">FO-IT-002 Hoja de servicio de mantenimiento</a>
+                  </li>
+                  <li class="menu_item">
+                    <a href="../../../static/doc/pdf/web/informatica/FO-IT-003 HOJA DE AUDITORIA SOFTWARE.xlsx"  class="menu_contenidoo menu_busqueda">FO-IT-003 Hoja de auditoria software</a>
+                  </li>
+                  <li class="menu_item">
+                    <a href="../../../static/doc/pdf/web/informatica/FO-IT-04 HOJA DE RESPONSABILIDAD ACCCESO SPC.xlsx"  class="menu_contenidoo menu_busqueda">FO-IT-004 Hoja de responsabilidad acceso SPC</a>
+                  </li>
+                  <li class="menu_item">
+                    <a href="../../../static/doc/pdf/web/informatica/FO-IT-06 CAPACITACIÓN PROYECTOS.docx"  class="menu_contenidoo menu_busqueda">FO-IT-006 Capacitación proyectos</a>
+                  </li>
+                  <li class="menu_item">
+                    <a href="../../../static/doc/pdf/web/informatica/FO-IT-07 TARJETA RESPONSABILIDAD BAJA ACTIVOS.xlsx"  class="menu_contenidoo menu_busqueda">FO-IT-007 Tarjeta de responsabilidad baja de activos</a>
+                  </li>
+                  <li class="menu_item">
+                    <a href="../../../static/doc/pdf/web/informatica/FO-IT-009 Requerimiento de Licencia.xlsx"  class="menu_contenidoo menu_busqueda">FO-IT-009 Requerimiento de Licencias</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="menu__item container-submenu">
+                <a href="" class="menu_link submenu-btn">Anexos ▼</a>
+                <ul class="submenu">
+                  <li class="menu__item">
+                    <a href="{{ url_for('static', filename='doc/pdf/web/viewer.html')}}?file=Bonin_ISO/2_Map_Procesos_Procedimiento/IT/A01-IT-002 Anexo nomenclatura para el control de equipo.pdf" class="menu_contenido menu_busqueda">A01-IT-002 Anexo Nomenclatura control de equipo</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+        </nav>
+      </div>
+      <div class="right-3">
+        <img src="../../../static/img/pag2/heel.png">
+      </div>
+    </div>
+  </div>
+  <!--------------------MODAL-------------------->
+  <button id="open-modal" style="display: none;"></button> <!-- Botón oculto para activar el modal -->
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <div id="pdf-container"></div>
+    </div>
+  </div>

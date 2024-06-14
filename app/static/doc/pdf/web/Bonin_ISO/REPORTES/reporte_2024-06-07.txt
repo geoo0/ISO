@@ -1,0 +1,9 @@
+Coincidencia encontrada: ERROR in app: 2024-06-07 06:43:29 | Intento de acceso sin permiso a la pagina Form_GestionCalidad    Por el Usuario: iso    Desde la IP: 190.190.1.155
+Coincidencia encontrada: ERROR in app: 2024-06-07 07:30:19 | Intento de acceso sin permiso a la pagina Form_Mercadeo              Por el Usuario: bpt    Desde la IP: 190.190.1.17
+Coincidencia encontrada: ERROR in app: 2024-06-07 08:11:14 | Intento de acceso sin permiso a la pagina Form_Producci\xc3\xb3n            Por el Usuario: bmp    Desde la IP: 190.190.1.192
+Coincidencia encontrada: ERROR in app: 2024-06-07 15:32:18 | Intento de acceso sin permiso a la pagina Form_GestionCalidad    Por el Usuario: produccion    Desde la IP: 190.190.1.134
+Coincidencia encontrada: ERROR in app: 2024-06-07 15:33:02 | Intento de acceso sin permiso a la pagina Form_Formato_Informatica    Por el Usuario: produccion    Desde la IP: 190.190.1.134
+Coincidencia encontrada: ERROR in app: 2024-06-07 15:33:17 | Intento de acceso sin permiso a la pagina Form_GestionCalidad    Por el Usuario: produccion    Desde la IP: 190.190.1.134
+Coincidencia encontrada: ERROR in app: 2024-06-07 15:35:52 | Intento de acceso sin permiso a la pagina Form_Creditos    Por el Usuario: produccion    Desde la IP: 190.190.1.134
+Coincidencia encontrada: ERROR in app: 2024-06-07 15:35:56 | Intento de acceso sin permiso a la pagina Form_Mercadeo              Por el Usuario: produccion    Desde la IP: 190.190.1.134
+Coincidencia encontrada: ERROR in app: 2024-06-07 15:36:00 | Intento de acceso sin permiso a la pagina Form_operaciones        Por el Usuario: produccion    Desde la IP: 190.190.1.134

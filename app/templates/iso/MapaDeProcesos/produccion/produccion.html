@@ -1,0 +1,744 @@
+<div class="proInformatica">
+  <h1>Procesos Producción</h1>
+  <div class="hrth"><hr></div>
+  <div class="busqueda">
+    <input type="text" id="busqueda" placeholder="Buscar" oninput="buscarEnlaces()">
+    <div class="btn-lupa">
+      <img id="lupa" src="../../../static/img/pag2/lupa.png">
+    </div>
+  </div>
+  <div class="centrar-3">
+    <div class="left-3">
+      <nav>
+        <ul class="menu" id="menu">
+          <li class="menu__item">
+            <a href="{{ url_for('static', filename='doc/pdf/web/viewer.html')}}?file=Bonin_ISO/2_Map_Procesos_Procedimiento/Produccion/FO-PD-001 Ficha proceso Produccion.pdf"
+              id="pdfLink" class="menu_contenido menu_item menu_busqueda">Ficha de proceso</a>
+          </li>
+          <li class="menu__item container-submenu">
+            <a href="" class="menu_link submenu-btn">Procedimientos ▼</a>
+            <ul class="submenu">
+              <li class="menu_item">
+                <a href="{{ url_for('static', filename='doc/pdf/web/viewer.html')}}?file=Bonin_ISO/2_Map_Procesos_Procedimiento/Produccion/Procedimientos/PEO-PD-002 Temperatura y humedad.pdf"
+                  class="menu_contenido menu_busqueda">PEO-PD-002 Temperatura y humedad</a>
+              </li>
+              <li class="menu_item">
+                <a href="{{ url_for('static', filename='doc/pdf/web/viewer.html')}}?file=Bonin_ISO/2_Map_Procesos_Procedimiento/Produccion/Procedimientos/PEO-PD-003 Limpieza y desinfeccion de areas.pdf"
+                  class="menu_contenido menu_busqueda">PEO-PD-003 Limpieza y desinfección de áreas</a>
+              </li>
+              <li class="menu_item">
+                <a href="{{ url_for('static', filename='doc/pdf/web/viewer.html')}}?file=Bonin_ISO/2_Map_Procesos_Procedimiento/Produccion/Procedimientos/PEO-PD-004  Sistema filtracion ampollas.pdf"
+                  class="menu_contenido menu_busqueda">PEO-PD-004 Sistema de filtración de ampollas</a>
+              </li>
+              <li class="menu_item">
+                <a href="{{ url_for('static', filename='doc/pdf/web/viewer.html')}}?file=Bonin_ISO/2_Map_Procesos_Procedimiento/Produccion/Procedimientos/PEO-PD-005 Llenadora viales.pdf"
+                  class="menu_contenido menu_busqueda">PEO-PD-005 Llenadora de viales</a>
+              </li>
+              <li class="menu_item">
+                <a href="{{ url_for('static', filename='doc/pdf/web/viewer.html')}}?file=Bonin_ISO/2_Map_Procesos_Procedimiento/Produccion/Procedimientos/PEO-PD-006 Tanque preparacion de ampollas y viales.pdf"
+                  class="menu_contenido menu_busqueda">PEO-PD-006 Tanque preparación de ampollas y viales</a>
+              </li>
+              <li class="menu_item">
+                <a href="{{ url_for('static', filename='doc/pdf/web/viewer.html')}}?file=Bonin_ISO/2_Map_Procesos_Procedimiento/Produccion/Procedimientos/PEO-PD-007 Proceso de despirogenizacion ampollas y viales.pdf"
+                  class="menu_contenido menu_busqueda">PEO-PD-007 Proceso de despirogenización ampollas y viales</a>
+              </li>
+              <li class="menu_item">
+                <a href="{{ url_for('static', filename='doc/pdf/web/viewer.html')}}?file=Bonin_ISO/2_Map_Procesos_Procedimiento/Produccion/Procedimientos/PEO-PD-008 Operacion autoclave de ampollas.pdf"
+                  class="menu_contenido menu_busqueda">PEO-PD-008 Operación autoclave de ampollas</a>
+              </li>
+              <li class="menu_item">
+                <a href="{{ url_for('static', filename='doc/pdf/web/viewer.html')}}?file=Bonin_ISO/2_Map_Procesos_Procedimiento/Produccion/Procedimientos/PEO-PD-009 Llenadora de ampollas.pdf"
+                  class="menu_contenido menu_busqueda">PEO-PD-009 Llenadora de ampollas</a>
+              </li>
+              <li class="menu_item">
+                <a href="{{ url_for('static', filename='doc/pdf/web/viewer.html')}}?file=Bonin_ISO/2_Map_Procesos_Procedimiento/Produccion/Procedimientos/PEO-PD-010 Operacion encapsuladora viales 2.pdf"
+                  class="menu_contenido menu_busqueda">PEO-PD-010 Operacion encapsuladora viales 2</a>
+              </li>
+              <li class="menu_item">
+                <a href="{{ url_for('static', filename='doc/pdf/web/viewer.html')}}?file=Bonin_ISO/2_Map_Procesos_Procedimiento/Produccion/Procedimientos/PEO-PD-011 Lavadora de viales.pdf"
+                  class="menu_contenido menu_busqueda">PEO-PD-011 Lavadora de viales</a>
+              </li>
+              <li class="menu_item">
+                <a href="{{ url_for('static', filename='doc/pdf/web/viewer.html')}}?file=Bonin_ISO/2_Map_Procesos_Procedimiento/Produccion/Procedimientos/PEO-PD-012 Limpieza area equipo inyectables.pdf"
+                  class="menu_contenido menu_busqueda">PEO-PD-012 Limpieza área equipo inyectables</a>
+              </li>
+              <li class="menu_item">
+                <a href="{{ url_for('static', filename='doc/pdf/web/viewer.html')}}?file=Bonin_ISO/2_Map_Procesos_Procedimiento/Produccion/Procedimientos/PEO-PD-013 Manejo productos quimicos de limpieza.pdf"
+                  class="menu_contenido menu_busqueda">PEO-PD-013 Manejo productos químicos de limpieza</a>
+              </li>
+              <li class="menu_item">
+                <a href="{{ url_for('static', filename='doc/pdf/web/viewer.html')}}?file=Bonin_ISO/2_Map_Procesos_Procedimiento/Produccion/Procedimientos/PEO-PD-014 Empaque ampollas y viales.pdf"
+                  class="menu_contenido menu_busqueda">PEO-PD-014 Empaque ampollas y viales</a>
+              </li>
+              <li class="menu_item">
+                <a href="{{ url_for('static', filename='doc/pdf/web/viewer.html')}}?file=Bonin_ISO/2_Map_Procesos_Procedimiento/Produccion/Procedimientos/PEO-PD-015 Manejo de empaque primario.pdf"
+                  class="menu_contenido menu_busqueda">PEO-PD-015 Manejo de empaque primario</a>
+              </li>
+              <li class="menu_item">
+                <a href="{{ url_for('static', filename='doc/pdf/web/viewer.html')}}?file=Bonin_ISO/2_Map_Procesos_Procedimiento/Produccion/Procedimientos/PEO-PD-016 Lavado de frasco liquidos.pdf"
+                  class="menu_contenido menu_busqueda">PEO-PD-016 Lavado de frasco líquidos</a>
+              </li>
+              <li class="menu_item">
+                <a href="{{ url_for('static', filename='doc/pdf/web/viewer.html')}}?file=Bonin_ISO/2_Map_Procesos_Procedimiento/Produccion/Procedimientos/PEO-PD-017 Tanque de preparacion y trasiego.pdf"
+                  class="menu_contenido menu_busqueda">PEO-PD-017 Tanque de preparación y trasiego</a>
+              </li>
+              <li class="menu_item">
+                <a href="{{ url_for('static', filename='doc/pdf/web/viewer.html')}}?file=Bonin_ISO/2_Map_Procesos_Procedimiento/Produccion/Procedimientos/PEO-PD-018 Operacion unidad de filtracion.pdf"
+                  class="menu_contenido menu_busqueda">PEO-PD-018  Operación unidad de filtración</a>
+              </li>
+              <li class="menu_item">
+                <a href="{{ url_for('static', filename='doc/pdf/web/viewer.html')}}?file=Bonin_ISO/2_Map_Procesos_Procedimiento/Produccion/Procedimientos/PEO-PD-019 Llenadora electrorales liquidos.pdf"
+                  class="menu_contenido menu_busqueda">PEO-PD-019 Llenadora eléctrorales líquidos</a>
+              </li>
+              <li class="menu_item">
+                <a href="{{ url_for('static', filename='doc/pdf/web/viewer.html')}}?file=Bonin_ISO/2_Map_Procesos_Procedimiento/Produccion/Procedimientos/PEO-PD-022 Sueros autoclave de lama.pdf"
+                  class="menu_contenido menu_busqueda">PEO-PD-022 Sueros autoclave de lama</a>
+              </li>
+              <li class="menu_item">
+                <a href="{{ url_for('static', filename='doc/pdf/web/viewer.html')}}?file=Bonin_ISO/2_Map_Procesos_Procedimiento/Produccion/Procedimientos/PEO-PD-023 Limpieza maquinaria area de sueros.pdf"
+                  class="menu_contenido menu_busqueda">PEO-PD-023 Limpieza maquinaria área de sueros</a>
+              </li>
+              <li class="menu_item">
+                <a href="{{ url_for('static', filename='doc/pdf/web/viewer.html')}}?file=Bonin_ISO/2_Map_Procesos_Procedimiento/Produccion/Procedimientos/PEO-PD-024 Empaque area de sueros.pdf"
+                  class="menu_contenido menu_busqueda">PEO-PD-024 Empaque área de sueros</a>
+              </li>
+              <li class="menu_item">
+                <a href="{{ url_for('static', filename='doc/pdf/web/viewer.html')}}?file=Bonin_ISO/2_Map_Procesos_Procedimiento/Produccion/Procedimientos/PEO-PD-025 Liq. marmita 50L operacion.pdf"
+                  class="menu_contenido menu_busqueda">PEO-PD-025 Liq. marmita 50L operacion</a>
+              </li>
+              <li class="menu_item">
+                <a href="{{ url_for('static', filename='doc/pdf/web/viewer.html')}}?file=Bonin_ISO/2_Map_Procesos_Procedimiento/Produccion/Procedimientos/PEO-PD-026 Liq. marmita hamilton operacion.pdf"
+                  class="menu_contenido menu_busqueda">PEO-PD-026 Liq. marmita hamilton operación</a>
+              </li>
+              <li class="menu_item">
+                <a href="{{ url_for('static', filename='doc/pdf/web/viewer.html')}}?file=Bonin_ISO/2_Map_Procesos_Procedimiento/Produccion/Procedimientos/PEO-PD-027 Limpieza liquidos marmita.pdf"
+                  class="menu_contenido menu_busqueda">PEO-PD-027 Limpieza líquidos marmita</a>
+              </li>
+              <li class="menu_item">
+                <a href="{{ url_for('static', filename='doc/pdf/web/viewer.html')}}?file=Bonin_ISO/2_Map_Procesos_Procedimiento/Produccion/Procedimientos/PEO-PD-028 Limpieza marmita hamilton.pdf"
+                  class="menu_contenido menu_busqueda">PEO-PD-028 Limpieza marmita hamilton</a>
+              </li>
+              <li class="menu_item">
+                <a href="{{ url_for('static', filename='doc/pdf/web/viewer.html')}}?file=Bonin_ISO/2_Map_Procesos_Procedimiento/Produccion/Procedimientos/PEO-PD-029 Liq. tanque pequeno.pdf"
+                  class="menu_contenido menu_busqueda">PEO-PD-029 Liq. tanque pequeño</a>
+              </li>
+              <li class="menu_item">
+                <a href="{{ url_for('static', filename='doc/pdf/web/viewer.html')}}?file=Bonin_ISO/2_Map_Procesos_Procedimiento/Produccion/Procedimientos/PEO-PD-030 Limpieza liquidos tanque pequeno.pdf"
+                  class="menu_contenido menu_busqueda">PEO-PD-030 Limpieza líquidos tanque pequeño</a>
+              </li>
+              <li class="menu_item">
+                <a href="{{ url_for('static', filename='doc/pdf/web/viewer.html')}}?file=Bonin_ISO/2_Map_Procesos_Procedimiento/Produccion/Procedimientos/PEO-PD-031 Liq. reactor op.pdf"
+                  class="menu_contenido menu_busqueda">PEO-PD-031 Liq. reactor op</a>
+              </li>
+              <li class="menu_item">
+                <a href="{{ url_for('static', filename='doc/pdf/web/viewer.html')}}?file=Bonin_ISO/2_Map_Procesos_Procedimiento/Produccion/Procedimientos/PEO-PD-032 Limpieza liquidos reactor.pdf"
+                  class="menu_contenido menu_busqueda">PEO-PD-032 Limpieza líquidos reactor</a>
+              </li>
+              <li class="menu_item">
+                <a href="{{ url_for('static', filename='doc/pdf/web/viewer.html')}}?file=Bonin_ISO/2_Map_Procesos_Procedimiento/Produccion/Procedimientos/PEO-PD-033 Homogenizador orales.pdf"
+                  class="menu_contenido menu_busqueda">PEO-PD-033 Homogenizador orales</a>
+              </li>
+              <li class="menu_item">
+                <a href="{{ url_for('static', filename='doc/pdf/web/viewer.html')}}?file=Bonin_ISO/2_Map_Procesos_Procedimiento/Produccion/Procedimientos/PEO-PD-034 Llenadora de orales.pdf"
+                  class="menu_contenido menu_busqueda">PEO-PD-034 Llenadora de orales</a>
+              </li>
+              <li class="menu_item">
+                <a href="{{ url_for('static', filename='doc/pdf/web/viewer.html')}}?file=Bonin_ISO/2_Map_Procesos_Procedimiento/Produccion/Procedimientos/PEO-PD-036 Limpieza liquidos llenadora.pdf"
+                  class="menu_contenido menu_busqueda">PEO-PD-036 Limpieza líquidos llenadora</a>
+              </li>
+              <li class="menu_item">
+                <a href="{{ url_for('static', filename='doc/pdf/web/viewer.html')}}?file=Bonin_ISO/2_Map_Procesos_Procedimiento/Produccion/Procedimientos/PEO-PD-037 Liq. taponadora.pdf"
+                  class="menu_contenido menu_busqueda">PEO-PD-037 Liq. taponadora</a>
+              </li>
+              <li class="menu_item">
+                <a href="{{ url_for('static', filename='doc/pdf/web/viewer.html')}}?file=Bonin_ISO/2_Map_Procesos_Procedimiento/Produccion/Procedimientos/PEO-PD-038 Limpieza liquidos taponadora.pdf"
+                  class="menu_contenido menu_busqueda">PEO-PD-038 Limpieza líquidos taponadora</a>
+              </li>
+              <li class="menu_item">
+                <a href="{{ url_for('static', filename='doc/pdf/web/viewer.html')}}?file=Bonin_ISO/2_Map_Procesos_Procedimiento/Produccion/Procedimientos/PEO-PD-039 Empaque area de liquidos y semisolidos.pdf"
+                  class="menu_contenido menu_busqueda">PEO-PD-039 Empaque área de líquidos y semisólidos</a>
+              </li>
+              <li class="menu_item">
+                <a href="{{ url_for('static', filename='doc/pdf/web/viewer.html')}}?file=Bonin_ISO/2_Map_Procesos_Procedimiento/Produccion/Procedimientos/PEO-PD-040 Preparacion de comprimidos molino fitzaire.pdf"
+                  class="menu_contenido menu_busqueda">PEO-PD-040 Preparación de comprimidos molino fitzaire</a>
+              </li>
+              <li class="menu_item">
+                <a href="{{ url_for('static', filename='doc/pdf/web/viewer.html')}}?file=Bonin_ISO/2_Map_Procesos_Procedimiento/Produccion/Procedimientos/PEO-PD-041 Molino fitzaire.pdf"
+                  class="menu_contenido menu_busqueda">PEO-PD-041 Molino fitzaire</a>
+              </li>
+              <li class="menu_item">
+                <a href="{{ url_for('static', filename='doc/pdf/web/viewer.html')}}?file=Bonin_ISO/2_Map_Procesos_Procedimiento/Produccion/Procedimientos/PEO-PD-042 Operacion mezclador stokes.pdf"
+                  class="menu_contenido menu_busqueda">PEO-PD-042 Operación mezclador stokes</a>
+              </li>
+              <li class="menu_item">
+                <a href="{{ url_for('static', filename='doc/pdf/web/viewer.html')}}?file=Bonin_ISO/2_Map_Procesos_Procedimiento/Produccion/Procedimientos/PEO-PD-043 Mezclador stokes.pdf"
+                  class="menu_contenido menu_busqueda">PEO-PD-043 Mezclador stokes</a>
+              </li>
+              <li class="menu_item">
+                <a href="{{ url_for('static', filename='doc/pdf/web/viewer.html')}}?file=Bonin_ISO/2_Map_Procesos_Procedimiento/Produccion/Procedimientos/PEO-PD-044 Lavad y secado de ampollas y viales.pdf"
+                  class="menu_contenido menu_busqueda">PEO-PD-044 Lavad y secado de ampollas y viales</a>
+              </li>
+              <li class="menu_item">
+                <a href="{{ url_for('static', filename='doc/pdf/web/viewer.html')}}?file=Bonin_ISO/2_Map_Procesos_Procedimiento/Produccion/Procedimientos/PEO-PD-046 Operacion preparacion comprimidos.pdf"
+                  class="menu_contenido menu_busqueda">PEO-PD-046 Operación preparación comprimidos</a>
+              </li>
+              <li class="menu_item">
+                <a href="{{ url_for('static', filename='doc/pdf/web/viewer.html')}}?file=Bonin_ISO/2_Map_Procesos_Procedimiento/Produccion/Procedimientos/PEO-PD-047 Molino stokes.pdf"
+                  class="menu_contenido menu_busqueda">PEO-PD-047 Molino stokes</a>
+              </li>
+              <li class="menu_item">
+                <a href="{{ url_for('static', filename='doc/pdf/web/viewer.html')}}?file=Bonin_ISO/2_Map_Procesos_Procedimiento/Produccion/Procedimientos/PEO-PD-048 Operacion horno fitzaire.pdf"
+                  class="menu_contenido menu_busqueda">PEO-PD-048 Operación horno fitzaire</a>
+              </li>
+              <li class="menu_item">
+                <a href="{{ url_for('static', filename='doc/pdf/web/viewer.html')}}?file=Bonin_ISO/2_Map_Procesos_Procedimiento/Produccion/Procedimientos/PEO-PD-049 Horno fitzaire.pdf"
+                  class="menu_contenido menu_busqueda">PEO-PD-049 Horno fitzaire</a>
+              </li>
+              <li class="menu_item">
+                <a href="{{ url_for('static', filename='doc/pdf/web/viewer.html')}}?file=Bonin_ISO/2_Map_Procesos_Procedimiento/Produccion/Procedimientos/PEO-PD-052 Operacion tableteadora stokes.pdf"
+                  class="menu_contenido menu_busqueda">PEO-PD-052 Operación tableteadora stokes</a>
+              </li>
+              <li class="menu_item">
+                <a href="{{ url_for('static', filename='doc/pdf/web/viewer.html')}}?file=Bonin_ISO/2_Map_Procesos_Procedimiento/Produccion/Procedimientos/PEO-PD-053 Tabletadora stokes.pdf"
+                  class="menu_contenido menu_busqueda">PEO-PD-053 Tabletadora stokes</a>
+              </li>
+              <li class="menu_item">
+                <a href="{{ url_for('static', filename='doc/pdf/web/viewer.html')}}?file=Bonin_ISO/2_Map_Procesos_Procedimiento/Produccion/Procedimientos/PEO-PD-054 Operacion rama cota.pdf"
+                  class="menu_contenido menu_busqueda">PEO-PD-054 Operación rama cota</a>
+              </li>
+              <li class="menu_item">
+                <a href="{{ url_for('static', filename='doc/pdf/web/viewer.html')}}?file=Bonin_ISO/2_Map_Procesos_Procedimiento/Produccion/Procedimientos/PEO-PD-055 Ramacota.pdf"
+                  class="menu_contenido menu_busqueda">PEO-PD-055 Ramacota</a>
+              </li>
+              <li class="menu_item">
+                <a href="{{ url_for('static', filename='doc/pdf/web/viewer.html')}}?file=Bonin_ISO/2_Map_Procesos_Procedimiento/Produccion/Procedimientos/PEO-PD-058 Operacion blister uhlmann.pdf"
+                  class="menu_contenido menu_busqueda">PEO-PD-058 Operacion blister uhlmann</a>
+              </li>
+              <li class="menu_item">
+                <a href="{{ url_for('static', filename='doc/pdf/web/viewer.html')}}?file=Bonin_ISO/2_Map_Procesos_Procedimiento/Produccion/Procedimientos/PEO-PD-059 Blister.pdf"
+                  class="menu_contenido menu_busqueda">PEO-PD-059 Blister</a>
+              </li>
+              <li class="menu_item">
+                <a href="{{ url_for('static', filename='doc/pdf/web/viewer.html')}}?file=Bonin_ISO/2_Map_Procesos_Procedimiento/Produccion/Procedimientos/PEO-PD-060 Empaque area de comprimidos.pdf"
+                  class="menu_contenido menu_busqueda">PEO-PD-060 Empaque area de comprimidos</a>
+              </li>
+              <li class="menu_item">
+                <a href="{{ url_for('static', filename='doc/pdf/web/viewer.html')}}?file=Bonin_ISO/2_Map_Procesos_Procedimiento/Produccion/Procedimientos/PEO-PD-061 Entrega productos a bpt.pdf"
+                  class="menu_contenido menu_busqueda">PEO-PD-061 Entrega productos a bpt</a>
+              </li>
+              <li class="menu_item">
+                <a href="{{ url_for('static', filename='doc/pdf/web/viewer.html')}}?file=Bonin_ISO/2_Map_Procesos_Procedimiento/Produccion/Procedimientos/PEO-PD-062 Extraccion de desechos de produccion.pdf"
+                  class="menu_contenido menu_busqueda">PEO-PD-062 Extracción de desechos de producción</a>
+              </li>
+              <li class="menu_item">
+                <a href="{{ url_for('static', filename='doc/pdf/web/viewer.html')}}?file=Bonin_ISO/2_Map_Procesos_Procedimiento/Produccion/Procedimientos/PEO-PD-063 Ingreso a planta.pdf"
+                  class="menu_contenido menu_busqueda">PEO-PD-063 Ingreso a planta</a>
+              </li>
+              <li class="menu_item">
+                <a href="{{ url_for('static', filename='doc/pdf/web/viewer.html')}}?file=Bonin_ISO/2_Map_Procesos_Procedimiento/Produccion/Procedimientos/PEO-PD-064 Limpieza area de empaque y area gris.pdf"
+                  class="menu_contenido menu_busqueda">PEO-PD-064 Limpieza area de empaque y area gris</a>
+              </li>
+              <li class="menu_item">
+                <a href="{{ url_for('static', filename='doc/pdf/web/viewer.html')}}?file=Bonin_ISO/2_Map_Procesos_Procedimiento/Produccion/Procedimientos/PEO-PD-065 Lavado de uniforme.pdf"
+                  class="menu_contenido menu_busqueda">PEO-PD-065 Lavado de uniforme</a>
+              </li>
+              <li class="menu_item">
+                <a href="{{ url_for('static', filename='doc/pdf/web/viewer.html')}}?file=Bonin_ISO/2_Map_Procesos_Procedimiento/Produccion/Procedimientos/PEO-PD-066 Operacion y limpieza de marcado de lotes.pdf"
+                  class="menu_contenido menu_busqueda">PEO-PD-066 Operación y limpieza de marcado de lotes</a>
+              </li>
+              <li class="menu_item">
+                <a href="{{ url_for('static', filename='doc/pdf/web/viewer.html')}}?file=Bonin_ISO/2_Map_Procesos_Procedimiento/Produccion/Procedimientos/PEO-PD-067 Operacion y limpieza maquina etiquetadora anker.pdf"
+                  class="menu_contenido menu_busqueda">PEO-PD-067 Operación y limpieza maquina etiquetadora anker</a>
+              </li>
+              <li class="menu_item">
+                <a href="{{ url_for('static', filename='doc/pdf/web/viewer.html')}}?file=Bonin_ISO/2_Map_Procesos_Procedimiento/Produccion/Procedimientos/PEO-PD-068 Sueros selladora y codificadora.pdf"
+                  class="menu_contenido menu_busqueda">PEO-PD-068 Sueros selladora y codificadora</a>
+              </li>
+              <li class="menu_item">
+                <a href="{{ url_for('static', filename='doc/pdf/web/viewer.html')}}?file=Bonin_ISO/2_Map_Procesos_Procedimiento/Produccion/Procedimientos/PEO-PD-069 Sueros bomba elimatic succionadora de goma.pdf"
+                  class="menu_contenido menu_busqueda">PEO-PD-069 Sueros bomba elimatic succionadora de goma</a>
+              </li>
+              <li class="menu_item">
+                <a href="{{ url_for('static', filename='doc/pdf/web/viewer.html')}}?file=Bonin_ISO/2_Map_Procesos_Procedimiento/Produccion/Procedimientos/PEO-PD-070  Elaboracion de egresos y reingresos rev.pdf"
+                  class="menu_contenido menu_busqueda">PEO-PD-070  Elaboracion de egresos y reingresos rev</a>
+              </li>
+              <li class="menu_item">
+                <a href="{{ url_for('static', filename='doc/pdf/web/viewer.html')}}?file=Bonin_ISO/2_Map_Procesos_Procedimiento/Produccion/Procedimientos/PEO-PD-071 Sueros inspeccion visual.pdf"
+                  class="menu_contenido menu_busqueda">PEO-PD-071 Sueros inspección visual</a>
+              </li>
+              <li class="menu_item">
+                <a href="{{ url_for('static', filename='doc/pdf/web/viewer.html')}}?file=Bonin_ISO/2_Map_Procesos_Procedimiento/Produccion/Procedimientos/PEO-PD-072 Revision optica de ampollas y viales.pdf"
+                  class="menu_contenido menu_busqueda">PEO-PD-072 Revision optica de ampollas y viales</a>
+              </li>
+              <li class="menu_item">
+                <a href="{{ url_for('static', filename='doc/pdf/web/viewer.html')}}?file=Bonin_ISO/2_Map_Procesos_Procedimiento/Produccion/Procedimientos/PEO-PD-073 Prueba de burbuja.pdf"
+                  class="menu_contenido menu_busqueda">PEO-PD-073 Prueba de burbuja</a>
+              </li>
+              <li class="menu_item">
+                <a href="{{ url_for('static', filename='doc/pdf/web/viewer.html')}}?file=Bonin_ISO/2_Map_Procesos_Procedimiento/Produccion/Procedimientos/PEO-PD-075 Limpieza utensilios.pdf"
+                  class="menu_contenido menu_busqueda">PEO-PD-075 Limpieza utensilios</a>
+              </li>
+              <li class="menu_item">
+                <a href="{{ url_for('static', filename='doc/pdf/web/viewer.html')}}?file=Bonin_ISO/2_Map_Procesos_Procedimiento/Produccion/Procedimientos/PEO-PD-076 Recepcion y traslado mp y es bmpi a pd.pdf"
+                  class="menu_contenido menu_busqueda">PEO-PD-076 Recepción y traslado mp y es bmpi a pd</a>
+              </li>
+              <li class="menu_item">
+                <a href="{{ url_for('static', filename='doc/pdf/web/viewer.html')}}?file=Bonin_ISO/2_Map_Procesos_Procedimiento/Produccion/Procedimientos/PEO-PD-077 Sueros autoclave de equipo.pdf"
+                  class="menu_contenido menu_busqueda">PEO-PD-077 Sueros autoclave de equipo</a>
+              </li>
+              <li class="menu_item">
+                <a href="{{ url_for('static', filename='doc/pdf/web/viewer.html')}}?file=Bonin_ISO/2_Map_Procesos_Procedimiento/Produccion/Procedimientos/PEO-PD-078 Identificacion del estatus de areas.pdf"
+                  class="menu_contenido menu_busqueda">PEO-PD-078 Identificación del estatus de areas</a>
+              </li>
+              <li class="menu_item">
+                <a href="{{ url_for('static', filename='doc/pdf/web/viewer.html')}}?file=Bonin_ISO/2_Map_Procesos_Procedimiento/Produccion/Procedimientos/PEO-PD-079 Desviaciones en areas productivas.pdf"
+                  class="menu_contenido menu_busqueda">PEO-PD-079 Desviaciones en áreas productivas</a>
+              </li>
+              <li class="menu_item">
+                <a href="{{ url_for('static', filename='doc/pdf/web/viewer.html')}}?file=Bonin_ISO/2_Map_Procesos_Procedimiento/Produccion/Procedimientos/PEO-PD-080 Operacion y limpieza etiquetadora manual.pdf"
+                  class="menu_contenido menu_busqueda">PEO-PD-080 Operación y limpieza etiquetadora manual</a>
+              </li>
+              <li class="menu_item">
+                <a href="{{ url_for('static', filename='doc/pdf/web/viewer.html')}}?file=Bonin_ISO/2_Map_Procesos_Procedimiento/Produccion/Procedimientos/PEO-PD-081 Medidas generales para evitar contaminacion cruzada.pdf"
+                  class="menu_contenido menu_busqueda">PEO-PD-081 Medidas generales para evitar contaminación cruzada</a>
+              </li>
+              <li class="menu_item">
+                <a href="{{ url_for('static', filename='doc/pdf/web/viewer.html')}}?file=Bonin_ISO/2_Map_Procesos_Procedimiento/Produccion/Procedimientos/PEO-PD-082 Operacion y limpieza maquina domino etiquetas.pdf"
+                  class="menu_contenido menu_busqueda">PEO-PD-082 Operación y limpieza máquina domino etiquetas</a>
+              </li>
+              <li class="menu_item">
+                <a href="{{ url_for('static', filename='doc/pdf/web/viewer.html')}}?file=Bonin_ISO/2_Map_Procesos_Procedimiento/Produccion/Procedimientos/PEO-PD-083 Tiempos permisos entre preparacion.pdf"
+                  class="menu_contenido menu_busqueda">PEO-PD-083 Tiempos permisos entre preparación
+              <li class="menu_item">
+                <a href="{{ url_for('static', filename='doc/pdf/web/viewer.html')}}?file=Bonin_ISO/2_Map_Procesos_Procedimiento/Produccion/Procedimientos/PEO-PD-084 Cuidados y precauciones en areas asepticas.pdf"
+                  class="menu_contenido menu_busqueda">PEO-PD-084 Cuidados y precauciones en áreas asépticas</a>
+              </li>
+              <li class="menu_item">
+                <a href="{{ url_for('static', filename='doc/pdf/web/viewer.html')}}?file=Bonin_ISO/2_Map_Procesos_Procedimiento/Produccion/Procedimientos/PEO-PD-085 Reproceso de producto.pdf"
+                  class="menu_contenido menu_busqueda">PEO-PD-085 Reproceso de producto</a>
+              </li>
+              <li class="menu_item">
+                <a href="{{ url_for('static', filename='doc/pdf/web/viewer.html')}}?file=Bonin_ISO/2_Map_Procesos_Procedimiento/Produccion/Procedimientos/PEO-PD-086 Manejo adecuado de mangueras.pdf"
+                  class="menu_contenido menu_busqueda">PEO-PD-086 Manejo adecuado de mangueras</a>
+              </li>
+              <li class="menu_item">
+                <a href="{{ url_for('static', filename='doc/pdf/web/viewer.html')}}?file=Bonin_ISO/2_Map_Procesos_Procedimiento/Produccion/Procedimientos/PEO-PD-087 Sanitizacion de paños para limpieza.pdf"
+                  class="menu_contenido menu_busqueda">PEO-PD-087 Sanitización de paños para limpieza</a>
+              </li>
+              <li class="menu_item">
+                <a href="{{ url_for('static', filename='doc/pdf/web/viewer.html')}}?file=Bonin_ISO/2_Map_Procesos_Procedimiento/Produccion/Procedimientos/PEO-PD-088 Manejo y esterilizacion de ampollas y viales.pdf"
+                  class="menu_contenido menu_busqueda">PEO-PD-088 Manejo y esterilización de ampollas y viales</a>
+              </li>
+              <li class="menu_item">
+                <a href="{{ url_for('static', filename='doc/pdf/web/viewer.html')}}?file=Bonin_ISO/2_Map_Procesos_Procedimiento/Produccion/Procedimientos/PEO-PD-089 Cuidado y mantenimiento de instalaciones.pdf"
+                  class="menu_contenido menu_busqueda">PEO-PD-089 Cuidado y mantenimiento de instalaciones</a>
+              </li>
+              <li class="menu_item">
+                <a href="{{ url_for('static', filename='doc/pdf/web/viewer.html')}}?file=Bonin_ISO/2_Map_Procesos_Procedimiento/Produccion/Procedimientos/PEO-PD-090 Controles en procesos productivos.pdf"
+                  class="menu_contenido menu_busqueda">PEO-PD-090 Controles en procesos productivos</a>
+              </li>
+              <li class="menu_item">
+                <a href="{{ url_for('static', filename='doc/pdf/web/viewer.html')}}?file=Bonin_ISO/2_Map_Procesos_Procedimiento/Produccion/Procedimientos/PEO-PD-091 Filtracion de desinfectantes.pdf"
+                  class="menu_contenido menu_busqueda">PEO-PD-091 Filtración de desinfectantes</a>
+              </li>
+              <li class="menu_item">
+                <a href="{{ url_for('static', filename='doc/pdf/web/viewer.html')}}?file=Bonin_ISO/2_Map_Procesos_Procedimiento/Produccion/Procedimientos/PEO-PD-092 Empaques especiales.pdf"
+                  class="menu_contenido menu_busqueda">PEO-PD-092 Empaques especiales</a>
+              </li>
+              <li class="menu_item">
+                <a href="{{ url_for('static', filename='doc/pdf/web/viewer.html')}}?file=Bonin_ISO/2_Map_Procesos_Procedimiento/Produccion/Procedimientos/PEO-PD-093 Verificacion de aforo de sueros.pdf"
+                  class="menu_contenido menu_busqueda">PEO-PD-093 Verificación de aforo de sueros</a>
+              </li>
+              <li class="menu_item">
+                <a href="{{ url_for('static', filename='doc/pdf/web/viewer.html')}}?file=Bonin_ISO/2_Map_Procesos_Procedimiento/Produccion/Procedimientos/PEO-PD-094 Sueros 2 autoclave de lama.pdf"
+                  class="menu_contenido menu_busqueda">PEO-PD-094 Sueros 2 autoclave de lama</a>
+              </li>
+              <li class="menu_item">
+                <a href="{{ url_for('static', filename='doc/pdf/web/viewer.html')}}?file=Bonin_ISO/2_Map_Procesos_Procedimiento/Produccion/Procedimientos/PEO-PD-095 Termometro infrarrojo laser.pdf"
+                  class="menu_contenido menu_busqueda">PEO-PD-095 Termometro infrarrojo láser</a>
+              </li>
+              <li class="menu_item">
+                <a href="{{ url_for('static', filename='doc/pdf/web/viewer.html')}}?file=Bonin_ISO/2_Map_Procesos_Procedimiento/Produccion/Procedimientos/PEO-PD-096 Llenadora bonapace.pdf"
+                  class="menu_contenido menu_busqueda">PEO-PD-096 Llenadora bonapace</a>
+              </li>
+              <li class="menu_item">
+                <a href="{{ url_for('static', filename='doc/pdf/web/viewer.html')}}?file=Bonin_ISO/2_Map_Procesos_Procedimiento/Produccion/Procedimientos/PEO-PD-097 Limpieza de llenadora bonapace.pdf"
+                  class="menu_contenido menu_busqueda">PEO-PD-097 Limpieza de llenadora bonapace</a>
+              </li>
+              <li class="menu_item">
+                <a href="{{ url_for('static', filename='doc/pdf/web/viewer.html')}}?file=Bonin_ISO/2_Map_Procesos_Procedimiento/Produccion/Procedimientos/PEO-PD-098 Proceso llenado simulado media fill.pdf"
+                  class="menu_contenido menu_busqueda">PEO-PD-098 Proceso llenado simulado media fill</a>
+              </li>
+              <li class="menu_item">
+                <a href="{{ url_for('static', filename='doc/pdf/web/viewer.html')}}?file=Bonin_ISO/2_Map_Procesos_Procedimiento/Produccion/Procedimientos/PEO-PD-099 Llenadora dara sueros 2.pdf"
+                  class="menu_contenido menu_busqueda">PEO-PD-099 Llenadora dara sueros 2</a>
+              </li>
+              <li class="menu_item">
+                <a href="{{ url_for('static', filename='doc/pdf/web/viewer.html')}}?file=Bonin_ISO/2_Map_Procesos_Procedimiento/Produccion/Procedimientos/PEO-PD-100 Soplado de frascos sueros 2.pdf"
+                  class="menu_contenido menu_busqueda">PEO-PD-100 Soplado de frascos sueros 2</a>
+              </li>
+              <li class="menu_item">
+                <a href="{{ url_for('static', filename='doc/pdf/web/viewer.html')}}?file=Bonin_ISO/2_Map_Procesos_Procedimiento/Produccion/Procedimientos/PEO-PD-101 Manejo de empaque primario parenterales sueros 2.pdf"
+                  class="menu_contenido menu_busqueda">PEO-PD-101 Manejo de empaque primario parenterales sueros 2</a>
+              </li>
+              <li class="menu_item">
+                <a href="{{ url_for('static', filename='doc/pdf/web/viewer.html')}}?file=Bonin_ISO/2_Map_Procesos_Procedimiento/Produccion/Procedimientos/PEO-PD-103 Autoclave delama ampollas y viales operacion y limpieza.pdf"
+                  class="menu_contenido menu_busqueda">PEO-PD-103 Autoclave delama ampollas y viales operacion y limpieza</a>
+              </li>
+              <li class="menu_item">
+                <a href="{{ url_for('static', filename='doc/pdf/web/viewer.html')}}?file=Bonin_ISO/2_Map_Procesos_Procedimiento/Produccion/Procedimientos/PEO-PD-104 Primeros auxilios y emergencias.pdf"
+                  class="menu_contenido menu_busqueda">PEO-PD-104 Primeros auxilios y emergencias</a>
+              </li>
+              <li class="menu_item">
+                <a href="{{ url_for('static', filename='doc/pdf/web/viewer.html')}}?file=Bonin_ISO/2_Map_Procesos_Procedimiento/Produccion/Procedimientos/PEO-PD-106 Etiquetadora de ampollas cvc.pdf"
+                  class="menu_contenido menu_busqueda">PEO-PD-106 Etiquetadora de ampollas cvc</a>
+              </li>
+              <li class="menu_item">
+                <a href="{{ url_for('static', filename='doc/pdf/web/viewer.html')}}?file=Bonin_ISO/2_Map_Procesos_Procedimiento/Produccion/Procedimientos/PEO-PD-107 Etiquetadora autoadhesiva tecnipack.pdf"
+                  class="menu_contenido menu_busqueda">PEO-PD-107 Etiquetadora autoadhesiva tecnipack</a>
+              </li>
+              <li class="menu_item">
+                <a href="{{ url_for('static', filename='doc/pdf/web/viewer.html')}}?file=Bonin_ISO/2_Map_Procesos_Procedimiento/Produccion/Procedimientos/PEO-PD-108 Codificadora videojet operacion y limpieza.pdf"
+                  class="menu_contenido menu_busqueda">PEO-PD-108 Codificadora videojet operación y limpieza</a>
+              </li>
+              <li class="menu_item">
+                <a href="{{ url_for('static', filename='doc/pdf/web/viewer.html')}}?file=Bonin_ISO/2_Map_Procesos_Procedimiento/Produccion/Procedimientos/PEO-PD-109 Higiene y seguridad industrial planta de produccion.pdf"
+                  class="menu_contenido menu_busqueda">PEO-PD-109 Higiene y seguridad industrial planta de producción</a>
+              </li>
+              <li class="menu_item">
+                <a href="{{ url_for('static', filename='doc/pdf/web/viewer.html')}}?file=Bonin_ISO/2_Map_Procesos_Procedimiento/Produccion/Procedimientos/PEO-PD-111 Codificadora domino.pdf"
+                  class="menu_contenido menu_busqueda">PEO-PD-111 Codificadora domino</a>
+              </li>
+              <li class="menu_item">
+                <a href="{{ url_for('static', filename='doc/pdf/web/viewer.html')}}?file=Bonin_ISO/2_Map_Procesos_Procedimiento/Produccion/Procedimientos/PEO-PD-112 Llenadora de ampollas 2.pdf"
+                  class="menu_contenido menu_busqueda">PEO-PD-112 Llenadora de ampollas 2</a>
+              </li>
+              <li class="menu_item">
+                <a href="{{ url_for('static', filename='doc/pdf/web/viewer.html')}}?file=Bonin_ISO/2_Map_Procesos_Procedimiento/Produccion/Procedimientos/PEO-PD-113 Llenadora de viales dara.pdf"
+                  class="menu_contenido menu_busqueda">PEO-PD-113 Llenadora de viales dara</a>
+              </li>
+              <li class="menu_item">
+                <a href="{{ url_for('static', filename='doc/pdf/web/viewer.html')}}?file=Bonin_ISO/2_Map_Procesos_Procedimiento/Produccion/Procedimientos/PEO-PD-114 Preparación de solucion salina balanceada.pdf"
+                  class="menu_contenido menu_busqueda">PEO-PD-114 Preparación de solución salina balanceada</a>
+              </li>
+              <li class="menu_item">
+                <a href="{{ url_for('static', filename='doc/pdf/web/viewer.html')}}?file=Bonin_ISO/2_Map_Procesos_Procedimiento/Produccion/Procedimientos/PEO-PD-115 Limpieza maquilaria area de sueros 2.pdf"
+                  class="menu_contenido menu_busqueda">PEO-PD-115 Limpieza maquinaria área de sueros 2</a>
+              </li>
+              <li class="menu_item">
+                <a href="{{ url_for('static', filename='doc/pdf/web/viewer.html')}}?file=Bonin_ISO/2_Map_Procesos_Procedimiento/Produccion/Procedimientos/PEO-PD-116 Sueros inspeccion visual.pdf"
+                  class="menu_contenido menu_busqueda">PEO-PD-116 Sueros inspección visual</a>
+              </li>
+              <li class="menu_item">
+                <a href="{{ url_for('static', filename='doc/pdf/web/viewer.html')}}?file=Bonin_ISO/2_Map_Procesos_Procedimiento/Produccion/Procedimientos/PEO-PD-117 Sueros autoclave de equipo.pdf"
+                  class="menu_contenido menu_busqueda">PEO-PD-117 Sueros autoclave de equipo</a>
+              </li>
+              <li class="menu_item">
+                <a href="{{ url_for('static', filename='doc/pdf/web/viewer.html')}}?file=Bonin_ISO/2_Map_Procesos_Procedimiento/Produccion/Procedimientos/PEO-PD-118 Soplado de frascos sueros 2.pdf"
+                  class="menu_contenido menu_busqueda">PEO-PD-118 Soplado de frascos - sueros 2</a>
+              </li>
+            </ul>
+          </li>
+          <li class="menu__item container-submenu">
+            <a href="" class="menu_link submenu-btn">Instructivos ▼</a>
+            <ul class="submenu">
+              <li class="menu_item">
+                <a href="{{ url_for('static', filename='doc/pdf/web/viewer.html')}}?file=Bonin_ISO/2_Map_Procesos_Procedimiento/Produccion/Instructivos/IN-PD-001 Intructivo calibracion potenciometro ph3210.pdf"
+                  class="menu_contenido menu_busqueda">IN-PD-001 Intructivo calibración potenciometro PH3210</a>
+              </li>
+            </ul>
+          </li>
+          <li class="menu__item container-submenu">
+            <a href="" class="menu_link submenu-btn">Formatos ▼</a>
+            <ul class="submenu">
+              <li class="menu_item">
+                <a href="/../../../static/doc/pdf/web/Bonin_ISO/2_Map_Procesos_Procedimiento/Produccion/Formatos/FO-01-PEO-016 Control de utilizacion de filtros sueros pal.xlsx"
+                  class="menu_contenidoo menu_busqueda">FO-01-PEO-016 Control de utilización de filtros sueros pal</a>
+              </li>
+              <li class="menu_item">
+                <a href="/../../../static/doc/pdf/web/Bonin_ISO/2_Map_Procesos_Procedimiento/Produccion/Formatos/FO-PD-001 Control de limpieza de equipo.xlsx"
+                  class="menu_contenidoo menu_busqueda">FO-PD-001 Control de limpieza de equipo</a>
+              </li>
+              <li class="menu_item">
+                <a href="../../../static/doc/pdf/web/Bonin_ISO/2_Map_Procesos_Procedimiento/Produccion/Formatos/FO-PD-002 Control uso de equipo.xlsx"
+                  class="menu_contenidoo menu_busqueda">FO-PD-002 Control uso de equipo</a>
+              </li>
+              <li class="menu_item">
+                <a href="../../../static/doc/pdf/web/Bonin_ISO/2_Map_Procesos_Procedimiento/Produccion/Formatos/FO-PD-003 Control de limpiezas traje.xlsx"
+                  class="menu_contenidoo menu_busqueda">FO-PD-003 Control de limpiezas traje</a>
+              </li>
+              <li class="menu_item">
+                <a href="../../../static/doc/pdf/web/Bonin_ISO/2_Map_Procesos_Procedimiento/Produccion/Formatos/FO-PD-004 Conciliacion de firmas.xls"
+                  class="menu_contenidoo menu_busqueda">FO-PD-004 Conciliación de firmas</a>
+              </li>
+              <li class="menu_item">
+                <a href="../../../static/doc/pdf/web/Bonin_ISO/2_Map_Procesos_Procedimiento/Produccion/Formatos/FO-PD-005 Control diario empaques.xlsx"
+                  class="menu_contenidoo menu_busqueda">FO-PD-005 Control diario empaques</a>
+              </li>
+              <li class="menu_item">
+                <a href="../../../static/doc/pdf/web/Bonin_ISO/2_Map_Procesos_Procedimiento/Produccion/Formatos/FO-PD-006 Hoja record de revision de ampollas y viales.docx"
+                  class="menu_contenidoo menu_busqueda">FO-PD-006 Hoja record de revisión de ampollas y viales</a>
+              </li>
+              <li class="menu_item">
+                <a href="../../../static/doc/pdf/web/Bonin_ISO/2_Map_Procesos_Procedimiento/Produccion/Formatos/FO-PD-007 Autoclave lama.xlsx"
+                  class="menu_contenidoo menu_busqueda">FO-PD-007 Autoclave lama</a>
+              </li>
+              <li class="menu_item">
+                <a href="../../../static/doc/pdf/web/Bonin_ISO/2_Map_Procesos_Procedimiento/Produccion/Formatos/FO-PD-008 Reporte de calibracion de potenciometro.xlsx"
+                  class="menu_contenidoo menu_busqueda">FO-PD-008 Reporte de calibracion de potenciometro</a>
+              </li>
+              <li class="menu_item">
+                <a href="../../../static/doc/pdf/web/Bonin_ISO/2_Map_Procesos_Procedimiento/Produccion/Formatos/FO-PD-010 Area limpia.xlsx"
+                  class="menu_contenidoo menu_busqueda">FO-PD-010 Área limpia</a>
+              </li>
+              <li class="menu_item">
+                <a href="../../../static/doc/pdf/web/Bonin_ISO/2_Map_Procesos_Procedimiento/Produccion/Formatos/FO-PD-011 Equipo utensilio.xlsx"
+                  class="menu_contenidoo menu_busqueda">FO-PD-011 Equipo utensilio</a>
+              </li>
+              <li class="menu_item">
+                <a href="../../../static/doc/pdf/web/Bonin_ISO/2_Map_Procesos_Procedimiento/Produccion/Formatos/FO-PD-012 Ingreso a bodega producto terminado vr3.docx"
+                  class="menu_contenidoo menu_busqueda">FO-PD-012 Ingreso a bodega producto terminado vr3</a>
+              </li>
+              <li class="menu_item">
+                <a href="../../../static/doc/pdf/web/Bonin_ISO/2_Map_Procesos_Procedimiento/Produccion/Formatos/FO-PD-013 Control de proceso productivo ampollas y viales.docx"
+                  class="menu_contenidoo menu_busqueda">FO-PD-013 Control de proceso productivo ampollas y viales</a>
+              </li>
+              <li class="menu_item">
+                <a href="../../../static/doc/pdf/web/Bonin_ISO/2_Map_Procesos_Procedimiento/Produccion/Formatos/FO-PD-013 Control temperatura y tiempo.docx"
+                  class="menu_contenidoo menu_busqueda">FO-PD-013 Control temperatura y tiempo</a>
+              </li>
+              <li class="menu_item">
+                <a href="../../../static/doc/pdf/web/Bonin_ISO/2_Map_Procesos_Procedimiento/Produccion/Formatos/FO-PD-014 Control ingresos areas lavado comprimidos-liquidos.docx"
+                  class="menu_contenidoo menu_busqueda">FO-PD-014 Control ingresos areas lavado comprimidos-liquidos</a>
+              </li>
+              <li class="menu_item">
+                <a href="../../../static/doc/pdf/web/Bonin_ISO/2_Map_Procesos_Procedimiento/Produccion/Formatos/FO-PD-015 Control de desviaciones.docx"
+                  class="menu_contenidoo menu_busqueda">FO-PD-015 Control de desviaciones</a>
+              </li>
+              <li class="menu_item">
+                <a href="../../../static/doc/pdf/web/Bonin_ISO/2_Map_Procesos_Procedimiento/Produccion/Formatos/FO-PD-016 Formato de registros para reproceso.docx"
+                  class="menu_contenidoo menu_busqueda">FO-PD-016 Formato de registros para reproceso</a>
+              </li>
+              <li class="menu_item">
+                <a href="../../../static/doc/pdf/web/Bonin_ISO/2_Map_Procesos_Procedimiento/Produccion/Formatos/FO-PD-017 Rotacion de personal en revision de ampollas y viales.xlsx"
+                  class="menu_contenidoo menu_busqueda">FO-PD-017 Rotación de personal en revision de ampollas y viales</a>
+              </li>
+              <li class="menu_item">
+                <a href="../../../static/doc/pdf/web/Bonin_ISO/2_Map_Procesos_Procedimiento/Produccion/Formatos/FO-PD-018 Mantenimiento de equipo.xlsx"
+                  class="menu_contenidoo menu_busqueda">FO-PD-018 Mantenimiento de equipo</a>
+              </li>
+              <li class="menu_item">
+                <a href="../../../static/doc/pdf/web/Bonin_ISO/2_Map_Procesos_Procedimiento/Produccion/Formatos/FO-PD-019 Control de filtracion de desinfectantes.xlsx"
+                  class="menu_contenidoo menu_busqueda">FO-PD-019 Control de filtración de desinfectantes</a>
+              </li>
+              <li class="menu_item">
+                <a href="../../../static/doc/pdf/web/Bonin_ISO/2_Map_Procesos_Procedimiento/Produccion/Formatos/FO-PD-020 Verificación tamices.docx"
+                  class="menu_contenidoo menu_busqueda">FO-PD-020 Verificación tamices</a>
+              </li>
+              <li class="menu_item">
+                <a href="../../../static/doc/pdf/web/Bonin_ISO/2_Map_Procesos_Procedimiento/Produccion/Formatos/FO-PD-021 Control tiempo empaque generales 1.xlsx"
+                  class="menu_contenidoo menu_busqueda">FO-PD-021 Control tiempo empaque generales 1</a>
+              </li>
+              <li class="menu_item">
+                <a href="../../../static/doc/pdf/web/Bonin_ISO/2_Map_Procesos_Procedimiento/Produccion/Formatos/FO-PD-022 Control cumplimiento productividad.xlsx"
+                  class="menu_contenidoo menu_busqueda">FO-PD-022 Control cumplimiento productividad</a>
+              </li>
+              <li class="menu_item">
+                <a href="../../../static/doc/pdf/web/Bonin_ISO/2_Map_Procesos_Procedimiento/Produccion/Formatos/FO-PD-023 Cumplimiento procedimiento ingreso a planta.docx"
+                  class="menu_contenidoo menu_busqueda">FO-PD-023 Cumplimiento procedimiento ingreso a planta</a>
+              </li>
+              <li class="menu_item">
+                <a href="../../../static/doc/pdf/web/Bonin_ISO/2_Map_Procesos_Procedimiento/Produccion/Formatos/FO-PD-024 Listado de personal suplencias personal operativo.docx"
+                  class="menu_contenidoo menu_busqueda">FO-PD-024 Listado de personal suplencias personal operativo</a>
+              </li>
+              <li class="menu_item">
+                <a href="../../../static/doc/pdf/web/Bonin_ISO/2_Map_Procesos_Procedimiento/Produccion/Formatos/FO-PD-025 Listado de telefonos de emergencia y hospital de traslado.xlsx"
+                  class="menu_contenidoo menu_busqueda">FO-PD-025 Listado de telefonos de emergencia y hospital de traslado</a>
+              </li>
+              <li class="menu_item">
+                <a href="../../../static/doc/pdf/web/Bonin_ISO/2_Map_Procesos_Procedimiento/Produccion/Formatos/FO-PD-026 Inspeccion seguridad industrial.xlsx"
+                  class="menu_contenidoo menu_busqueda">FO-PD-026 Inspección seguridad industrial</a>
+              </li>
+              <li class="menu_item">
+                <a href="../../../static/doc/pdf/web/Bonin_ISO/2_Map_Procesos_Procedimiento/Produccion/Formatos/FO-PD-027 Control de tiempo de filtrado ampollas y viales.xlsx"
+                  class="menu_contenidoo menu_busqueda">FO-PD-027 Control de tiempo de filtrado ampollas y viales</a>
+              </li>
+              <li class="menu_item">
+                <a href="../../../static/doc/pdf/web/Bonin_ISO/2_Map_Procesos_Procedimiento/Produccion/Formatos/FO-PD-028 Control de funcionamiento lampara uv.xlsx"
+                  class="menu_contenidoo menu_busqueda">FO-PD-028 Control de funcionamiento lampara uv</a>
+              </li>
+              <li class="menu_item">
+                <a href="../../../static/doc/pdf/web/Bonin_ISO/2_Map_Procesos_Procedimiento/Produccion/Formatos/FO-PD-029 Control de concentración de desinfectantes.xlsx"
+                  class="menu_contenidoo menu_busqueda">FO-PD-029 Control de concentración de desinfectantes</a>
+              </li>
+              <li class="menu_item">
+                <a href="../../../static/doc/pdf/web/Bonin_ISO/2_Map_Procesos_Procedimiento/Produccion/Formatos/FO-PD-030 Trazabilidad personal-covid19.xlsx"
+                  class="menu_contenidoo menu_busqueda">FO-PD-030 Trazabilidad personal-covid19</a>
+              </li>
+              <li class="menu_item">
+                <a href="../../../static/doc/pdf/web/Bonin_ISO/2_Map_Procesos_Procedimiento/Produccion/Formatos/FO-PD-031 Monitoreo temperatura.xlsx"
+                  class="menu_contenidoo menu_busqueda">FO-PD-031 Monitoreo temperatura</a>
+              </li>
+              <li class="menu_item">
+                <a href="../../../static/doc/pdf/web/Bonin_ISO/2_Map_Procesos_Procedimiento/Produccion/Formatos/FO-PD-032 Alcohol y desinfectantes 1.xls"
+                  class="menu_contenidoo menu_busqueda">FO-PD-032 Alcohol y desinfectantes 1</a>
+              </li>
+              <li class="menu_item">
+                <a href="../../../static/doc/pdf/web/Bonin_ISO/2_Map_Procesos_Procedimiento/Produccion/Formatos/FO-PD-033 Reporte de daños sf.xls"
+                  class="menu_contenidoo menu_busqueda">FO-PD-033 Reporte de daños sf</a>
+              </li>
+              <li class="menu_item">
+                <a href="../../../static/doc/pdf/web/Bonin_ISO/2_Map_Procesos_Procedimiento/Produccion/Formatos/FO-PD-034 Registro de inspeccion de lote knapp.xlsx"
+                  class="menu_contenidoo menu_busqueda">FO-PD-034 Registro de inspección de lote knapp</a>
+              </li>
+              <li class="menu_item">
+                <a href="../../../static/doc/pdf/web/Bonin_ISO/2_Map_Procesos_Procedimiento/Produccion/Formatos/FO-PEO 002 Control de registro de temperatura y humedad.xlsx"
+                  class="menu_contenidoo menu_busqueda">FO-PEO 002 Control de registro de temperatura y humedad</a>
+              </li>
+              <li class="menu_item">
+                <a href="../../../static/doc/pdf/web/Bonin_ISO/2_Map_Procesos_Procedimiento/Produccion/Formatos/FO-PEO-003 Control de limpieza y desinfeccion de areas.docx"
+                  class="menu_contenidoo menu_busqueda">FO-PEO-003 Control de limpieza y desinfección de áreas</a>
+              </li>
+              <li class="menu_item">
+                <a href="../../../static/doc/pdf/web/Bonin_ISO/2_Map_Procesos_Procedimiento/Produccion/Formatos/FO-PEO-013 Formato control temperatura y tiempo horno despirogenizador.docx"
+                  class="menu_contenidoo menu_busqueda">FO-PEO-013 Formato control temperatura y tiempo horno despirogenizador</a>
+              </li>
+            </ul>
+          </li>
+          <li class="menu__item container-submenu">
+            <a href="" class="menu_link submenu-btn">Anexos ▼</a>
+            <ul class="submenu">
+              <li class="menu_item">
+                <a href="../../../static/doc/pdf/web/Bonin_ISO/2_Map_Procesos_Procedimiento/Produccion/Anexos/A01-PEO-PD-078 Etiqueta fabricacion.docx"
+                  class="menu_contenidoo menu_busqueda">A001-PEO-PD-078 Etiqueta fabricación</a>
+              </li>
+              <li class="menu_item">
+                <a href="../../../static/doc/pdf/web/Bonin_ISO/2_Map_Procesos_Procedimiento/Produccion/Anexos/A02-PEO-PD-078 Identificacion de linea empaque.xlsx"
+                  class="menu_contenidoo menu_busqueda">A002-PEO-PD-078 Identificación de linea empaque</a>
+              </li>
+              <li class="menu_item">
+                <a href="../../../static/doc/pdf/web/Bonin_ISO/2_Map_Procesos_Procedimiento/Produccion/Anexos/A03-PEO-078 Pendiente esterilizacion.docx"
+                  class="menu_contenidoo menu_busqueda">A003-PEO-078 Pendiente esterilización</a>
+              </li>
+              <li class="menu_item">
+                <a href="../../../static/doc/pdf/web/Bonin_ISO/2_Map_Procesos_Procedimiento/Produccion/Anexos/A04-PEO-078 Esterilizado.docx"
+                  class="menu_contenidoo menu_busqueda">A004-PEO-078 Esterilizado</a>
+              </li>
+              <li class="menu_item">
+                <a href="../../../static/doc/pdf/web/Bonin_ISO/2_Map_Procesos_Procedimiento/Produccion/Anexos/A05-PEO-078 Identificacion producto en proceso.docx"
+                  class="menu_contenidoo menu_busqueda">A005-PEO-078 Identificación producto en proceso</a>
+              </li>
+              <li class="menu_item">
+                <a href="../../../static/doc/pdf/web/Bonin_ISO/2_Map_Procesos_Procedimiento/Produccion/Anexos/A05-PEO-PD-078-01 Identificacion de producto.xlsx"
+                  class="menu_contenidoo menu_busqueda">A005-PEO-PD-078-01 Identificación de producto</a>
+              </li>
+              <li class="menu_item">
+                <a href="../../../static/doc/pdf/web/Bonin_ISO/2_Map_Procesos_Procedimiento/Produccion/Anexos/A06-PEO-078 Cuarentena.docx"
+                  class="menu_contenidoo menu_busqueda">A006-PEO-078 Cuarentena</a>
+              </li>
+              <li class="menu_item">
+                <a href="../../../static/doc/pdf/web/Bonin_ISO/2_Map_Procesos_Procedimiento/Produccion/Anexos/A07-PEO-078 Identificacion carrozas sueros.docx"
+                  class="menu_contenidoo menu_busqueda">A007-PEO-078 Identificación carrozas sueros</a>
+              </li>
+              <li class="menu_item">
+                <a href="../../../static/doc/pdf/web/Bonin_ISO/2_Map_Procesos_Procedimiento/Produccion/Anexos/A08-PEO-078 Pendiente aprobado.docx"
+                  class="menu_contenidoo menu_busqueda">A008-PEO-078 Pendiente aprobado</a>
+              </li>
+              <li class="menu_item">
+                <a href="../../../static/doc/pdf/web/Bonin_ISO/2_Map_Procesos_Procedimiento/Produccion/Anexos/A010-PEO-078 Rechazo.docx"
+                  class="menu_contenidoo menu_busqueda">A010-PEO-078 Rechazo</a>
+              </li>
+              <li class="menu_item">
+                <a href="../../../static/doc/pdf/web/Bonin_ISO/2_Map_Procesos_Procedimiento/Produccion/Anexos/A011-PEO-PD-078 Identificacion solidos.docx"
+                  class="menu_contenidoo menu_busqueda">A011-PEO-PD-078 Identificación sólidos</a>
+              </li>
+              <li class="menu_item">
+                <a href="../../../static/doc/pdf/web/Bonin_ISO/2_Map_Procesos_Procedimiento/Produccion/Anexos/A012-PEO-078 Identificacion tarimas.docx"
+                  class="menu_contenidoo menu_busqueda">A012-PEO-078 Identificación tarimas</a>
+              </li>
+              <li class="menu_item">
+                <a href="../../../static/doc/pdf/web/Bonin_ISO/2_Map_Procesos_Procedimiento/Produccion/Anexos/Anexos_fabricación_y_empaque/A001-PD-01 Anexo consolidacion de orden de produccion sueros 1.doc"
+                  class="menu_contenidoo menu_busqueda">A001-PD-01 Anexo consolidación de orden de producción sueros 1</a>
+              </li>
+              <li class="menu_item">
+                <a href="../../../static/doc/pdf/web/Bonin_ISO/2_Map_Procesos_Procedimiento/Produccion/Anexos/Anexos_fabricación_y_empaque/A002-PD-01 A consolidacion de orden de produccion -ampollas-viales- manufactura con madre 1.doc"
+                  class="menu_contenidoo menu_busqueda">A002-PD-01 A consolidación de orden de producción -ampollas-viales- manufactura con madre 1</a>
+              </li>
+              <li class="menu_item">
+                <a href="../../../static/doc/pdf/web/Bonin_ISO/2_Map_Procesos_Procedimiento/Produccion/Anexos/Anexos_fabricación_y_empaque/A002-PD-01 B consolidacion de orden de produccion -ampollas-viales- manufactura.doc"
+                  class="menu_contenidoo menu_busqueda">A002-PD-01 B consolidación de orden de producción -ampollas-viales- manufactura</a>
+              </li>
+              <li class="menu_item">
+                <a href="../../../static/doc/pdf/web/Bonin_ISO/2_Map_Procesos_Procedimiento/Produccion/Anexos/Anexos_fabricación_y_empaque/A002-PD-01 C consolidacion de orden de produccion -ampollas-viales-.doc"
+                  class="menu_contenidoo menu_busqueda">A002-PD-01 C consolidación de orden de producción -ampollas-viales-</a>
+              </li>
+              <li class="menu_item">
+                <a href="../../../static/doc/pdf/web/Bonin_ISO/2_Map_Procesos_Procedimiento/Produccion/Anexos/Anexos_fabricación_y_empaque/A003-PD-01 A consolidacion de orden de produccion -orales- manufactura madre.doc"
+                  class="menu_contenidoo menu_busqueda">A003-PD-01 A consolidación de orden de producción -orales- manufactura madre</a>
+              </li>
+              <li class="menu_item">
+                <a href="../../../static/doc/pdf/web/Bonin_ISO/2_Map_Procesos_Procedimiento/Produccion/Anexos/Anexos_fabricación_y_empaque/A003-PD-01 Anexo consolidacion de orden de produccion -orales- manufactura madre.doc"
+                  class="menu_contenidoo menu_busqueda">A003-PD-01 Anexo consolidación de orden de producción -orales- manufactura madre</a>
+              </li>
+              <li class="menu_item">
+                <a href="../../../static/doc/pdf/web/Bonin_ISO/2_Map_Procesos_Procedimiento/Produccion/Anexos/Anexos_fabricación_y_empaque/A003-PD-01 B consolidacion de orden de produccion -orales- manufactura.doc"
+                  class="menu_contenidoo menu_busqueda">A003-PD-01 B consolidación de orden de producción -orales- manufactura</a>
+              </li>
+              <li class="menu_item">
+                <a href="../../../static/doc/pdf/web/Bonin_ISO/2_Map_Procesos_Procedimiento/Produccion/Anexos/Anexos_fabricación_y_empaque/A003-PD-01 Consolidacion de orden de produccion -orales- manufactura.doc"
+                  class="menu_contenidoo menu_busqueda">A003-PD-01 Consolidación de orden de producción -orales- manufactura</a>
+              </li>
+              <li class="menu_item">
+                <a href="../../../static/doc/pdf/web/Bonin_ISO/2_Map_Procesos_Procedimiento/Produccion/Anexos/Anexos_fabricación_y_empaque/A003-PD-01 Consolidacion de orden de produccion -orales-.doc"
+                  class="menu_contenidoo menu_busqueda">A003-PD-01 Consolidación de orden de producción -orales-</a>
+              </li>
+              <li class="menu_item">
+                <a href="../../../static/doc/pdf/web/Bonin_ISO/2_Map_Procesos_Procedimiento/Produccion/Anexos/Anexos_fabricación_y_empaque/A004-PD-01 A anexo consolidacion de orden de produccion -comprimidos- manufactura con madre.doc"
+                  class="menu_contenidoo menu_busqueda">A004-PD-01 A anexo consolidación de orden de producción -comprimidos- manufactura con madre</a>
+              </li>
+              <li class="menu_item">
+                <a href="../../../static/doc/pdf/web/Bonin_ISO/2_Map_Procesos_Procedimiento/Produccion/Anexos/Anexos_fabricación_y_empaque/A004-PD-01 C consolidacion de orden de produccion -comprimidos-.doc"
+                  class="menu_contenidoo menu_busqueda">A004-PD-01 C consolidación de orden de producción -comprimidos-</a>
+              </li>
+              <li class="menu_item">
+                <a href="../../../static/doc/pdf/web/Bonin_ISO/2_Map_Procesos_Procedimiento/Produccion/Anexos/Anexos_fabricación_y_empaque/A004-PD-01 D consolidacion de orden de produccion -semisolidos- manufactura.doc"
+                  class="menu_contenidoo menu_busqueda">A004-PD-01 D consolidación de orden de producción -semisólidos- manufactura</a>
+              </li>
+              <li class="menu_item">
+                <a href="../../../static/doc/pdf/web/Bonin_ISO/2_Map_Procesos_Procedimiento/Produccion/Anexos/Anexos_fabricación_y_empaque/A004-PD-01 B consolidacion de orden de produccion -comprimidos- manufactura.doc"
+                  class="menu_contenidoo menu_busqueda">A004-PD-01 B consolidación de orden de producción -comprimidos- manufactura</a>
+              </li>
+              <li class="menu_item">
+                <a href="../../../static/doc/pdf/web/Bonin_ISO/2_Map_Procesos_Procedimiento/Produccion/Anexos/Anexos_fabricación_y_empaque/A005-PD-01 Consolidacion de orden de produccion -sueros-.doc"
+                  class="menu_contenidoo menu_busqueda">A005-PD-01 Consolidación de orden de producción -sueros-</a>
+              </li>
+              <li class="menu_item">
+                <a href="../../../static/doc/pdf/web/Bonin_ISO/2_Map_Procesos_Procedimiento/Produccion/Anexos/Anexos_fabricación_y_empaque/A006-PD-01 E consolidacion de orden de produccion -semisolidos- manufactura.doc"
+                  class="menu_contenidoo menu_busqueda">A006-PD-01 E consolidación de orden de producción -semisólidos- manufactura</a>
+              </li>
+              <li class="menu_item">
+                <a href="../../../static/doc/pdf/web/Bonin_ISO/2_Map_Procesos_Procedimiento/Produccion/Anexos/Anexos_fabricación_y_empaque/A006-PD-01 F consolidacion de orden de produccion -semisolidos-.doc"
+                  class="menu_contenidoo menu_busqueda">A006-PD-01 F consolidación de orden de producción -semisólidos-</a>
+              </li>
+              <li class="menu_item">
+                <a href="../../../static/doc/pdf/web/Bonin_ISO/2_Map_Procesos_Procedimiento/Produccion/Anexos/Anexos_fabricación_y_empaque/A006-PD-01 G consolidacion de orden de produccion -semisolidos-.doc"
+                  class="menu_contenidoo menu_busqueda">A006-PD-01 G consolidación de orden de producción -semisólidos-</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="right-3">
+      <img src="../../../static/img/pag2/produccion.png">
+    </div>
+  </div>
+</div>
+<!--------------------MODAL-------------------->
+<button id="open-modal" style="display: none;"></button> <!-- Botón oculto para activar el modal -->
+<div id="modal" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <div id="pdf-container"></div>
+  </div>
+</div>
